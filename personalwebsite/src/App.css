@@ -7,7 +7,31 @@
 
 .headerelems {
   display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding-left: 10px;
+}
 
+.link {
+  text-decoration: none;
+}
+
+/* unvisited link */
+.link:link {
+  color: red;
+}
+
+
+/* mouse over link */
+.link:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+.link:active {
+  color: blue;
+  text-decoration: underline;
 }
 
 .headerlinks {
