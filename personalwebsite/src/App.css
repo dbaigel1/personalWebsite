@@ -1,0 +1,15 @@
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerelems {
+  display: flex;
+
+}
+
+.headerlinks {
+  display: flex;
+}
