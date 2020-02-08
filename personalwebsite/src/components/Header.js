@@ -33,10 +33,23 @@ function Header() {
                  
 
                 <h1>Daniel</h1>
+
                 <div className="headerlinks">
-                    <HeaderLink/>
-                    <HeaderLink/>
-                    <HeaderLink/>
+                    <HeaderLink 
+                        //source="linkedin.png" 
+                        link="https://www.linkedin.com/in/daniel-baigel-98723588/"
+                        text="Linkedin"
+                    />
+                    <HeaderLink
+                        //source="linkedin.png"
+                        link="https://github.com/dbaigel1"
+                        text="Github"
+                    />
+                    <HeaderLink
+                        //source="linkedin.png"
+                        link="mailto: dbaigel1@gmail.com"
+                        text="Email"
+                    />
                 </div>
             </div>
             <Switch>

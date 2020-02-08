@@ -1,9 +1,9 @@
 import React from "react"
 
-function HeaderLink(){
+function HeaderLink(props){
     return (
         <div>
-            Header Link
+            <a href={props.link}> {props.text} </a>
         </div>
     )
 }
