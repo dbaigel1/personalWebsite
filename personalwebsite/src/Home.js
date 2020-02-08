@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 function Home(){
     return (
         <div className="homeContainer">
+            
             <h1 className="mainText">
                 Welcome, I'm Daniel. An aspiring software developer, 
                 avid traveler, and attempting to be a gym enthusiast.
