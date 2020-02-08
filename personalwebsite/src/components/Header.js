@@ -19,8 +19,9 @@ function Header() {
     return (
         <Router>
             <div className="header">
-                
                 <div className="headerelems">
+                
+                    
                     <Link to="/" className="link">home</Link>
                     
                     <Link to="/about" className="link">about</Link>
@@ -28,27 +29,31 @@ function Header() {
                     <Link to="/blog" className="link">blog</Link>
                     
                     <Link to="/resume" className="link">resume</Link>
-                   
+                    
+                
                 </div>
                  
 
-                <h1>Daniel</h1>
+                <h1 className="title">Daniel</h1>
 
                 <div className="headerlinks">
                     <HeaderLink 
                         //source="linkedin.png" 
                         link="https://www.linkedin.com/in/daniel-baigel-98723588/"
                         text="Linkedin"
+                        
                     />
                     <HeaderLink
                         //source="linkedin.png"
                         link="https://github.com/dbaigel1"
                         text="Github"
+                        
                     />
                     <HeaderLink
                         //source="linkedin.png"
                         link="mailto: dbaigel1@gmail.com"
                         text="Email"
+                        
                     />
                 </div>
             </div>
