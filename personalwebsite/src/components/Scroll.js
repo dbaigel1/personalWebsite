@@ -3,7 +3,7 @@ import React from "react"
 function Scroll() {
     return (
         <div>
-            <a href="#projects">v</a>
+            <a href="#projects" className="scroll">v</a>
         </div>
     )
 }

@@ -1,6 +1,8 @@
 import React from "react"
 import Scroll from "./components/Scroll"
 import Project from "./components/Project"
+import BlankSpace from "./components/BlankSpace"
+import Footer from "./components/Footer"
 
 function Home(){
     return (
@@ -16,11 +18,30 @@ function Home(){
                 valuable experience everywhere I've been. Now I'm ready to sink my teeth
                 into a career as a software developer, problem solver, and team player.
             </h4>
+            <BlankSpace />
             <Scroll />
+            <BlankSpace />
+            <BlankSpace />
             
+            <div id="projects"></div> {/* landmark for scroll button */}
+            
+            <div className = "projectContainer">
+                <Project title="Trust Tracker"/>
+                <Project title="Jumbocode" />
+            </div>
 
-            <Project />
-            <Project />
+            <BlankSpace />
+            
+            <div className = "projectContainer">
+                <Project title="Curtis"/>
+                <Project title="Meme Generator"/>
+            </div>
+            
+            <BlankSpace />
+
+            <Footer/>
+
+            
         </div>
     )
 }

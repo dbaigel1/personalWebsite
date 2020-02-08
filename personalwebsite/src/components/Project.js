@@ -1,9 +1,14 @@
 import React from "react"
 
-function Project() {
+function Project(props) {
+    function handleClick() {
+        /* check props.title and
+           navigate to new page */
+    }
+    
     return (
-        <div id="projects">
-            hi
+        <div className="project" onClick={handleClick}>
+            <h1>{props.title}</h1>
         </div>
     )
 }
