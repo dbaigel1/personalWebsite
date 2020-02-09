@@ -9,7 +9,7 @@ import {
   } from "react-router-dom"
   import About from "../About"
   import Blog from "../Blog"
-  import Resume from "../Resume"
+//   import Resume from "../Resume"
   import Home from "../Home"
 
 
@@ -28,7 +28,7 @@ function Header() {
                     
                     <Link to="/blog" className="link">blog</Link>
                     
-                    <Link to="/resume" className="link">resume</Link>
+                    <Link to="/Resume2020.pdf" target="_blank" className="link">resume</Link>
                     
                 
                 </div>
@@ -65,10 +65,6 @@ function Header() {
                 <Route path="/blog">
                     
                     <Blog />
-                </Route>
-                <Route path="/resume">
-                    
-                    <Resume />
                 </Route>
                 <Route path="/">
                     <Home />

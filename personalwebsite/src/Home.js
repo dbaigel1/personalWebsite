@@ -3,11 +3,12 @@ import Scroll from "./components/Scroll"
 import Project from "./components/Project"
 import BlankSpace from "./components/BlankSpace"
 import Footer from "./components/Footer"
+import Weather from "./components/Weather"
 
 function Home(){
     return (
         <div className="homeContainer">
-            
+            <Weather/>
             <h1 className="mainText">
                 Welcome, I'm Daniel. An aspiring software developer, 
                 avid traveler, and attempting to be a gym enthusiast.
@@ -23,6 +24,7 @@ function Home(){
             <Scroll />
             <BlankSpace />
             <BlankSpace />
+            
             
             <div id="projects"></div> {/* landmark for scroll button */}
             
