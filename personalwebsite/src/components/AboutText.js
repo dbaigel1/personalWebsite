@@ -5,14 +5,25 @@ function AboutText() {
     return (
         <div className="abouttext">
             <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis luctus ligula, sit amet faucibus mi. Nulla dapibus ante vitae vehicula sollicitudin. Integer arcu tortor, malesuada nec diam a, porta dapibus nibh. In hac habitasse platea dictumst. Donec feugiat laoreet gravida. Fusce in tempor dolor. Vivamus commodo maximus dignissim. Pellentesque mattis aliquet semper. Mauris sapien ligula, molestie nec auctor vel, sagittis luctus nulla.
+            <p>
+                Hey there, my name is Daniel Baigel, an ex-consultant ex-teacher aspiring
+                software developer based in New York.
             </p>
             <p>
-            Maecenas interdum tempor eros, a consectetur metus blandit sit amet. Vivamus sagittis quam ex, nec dapibus nunc consectetur non. Aenean tortor mi, molestie in fermentum sit amet, tristique sit amet augue. Morbi pulvinar erat nec risus facilisis accumsan. Fusce ut gravida est. Aenean tempor libero id metus pellentesque maximus. Pellentesque posuere blandit purus, nec auctor turpis aliquet non. Nullam luctus elementum velit, et facilisis ipsum fringilla id. Aliquam nec fringilla justo.
-
+                After graduating from Tufts University in 2017, I worked as a data consultant 
+                at <a href="https://www.keyrus.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="pageLink">
+                          Keyrus 
+                    </a>&nbsp;building data visualizations for clients using Tableau.
+            <p>
+                I then spent a year working as an English teacher in Shenzhen, China. (Make sure 
+                to check out my <a href="/blog" className="pageLink">blog</a> about my experience there!)
+            </p>
             </p>
             <p>
-            Pellentesque vulputate orci mi, sed tincidunt quam accumsan at. Integer ullamcorper lorem neque. Praesent a sollicitudin massa, non ullamcorper mauris. Phasellus viverra lorem at metus gravida, a scelerisque odio pretium. Quisque posuere faucibus malesuada. Cras efficitur cursus congue. Maecenas lacinia lectus ante, quis rutrum magna blandit quis. Nullam quis feugiat ipsum. Proin molestie elit et auctor fringilla. Cras ex quam, viverra eu pellentesque ut, semper a lectus. Sed turpis eros, semper nec mattis lobortis, blandit sit amet nisi. Vestibulum quis sagittis nisi. Vivamus rhoncus, erat eu laoreet venenatis, nisl mi imperdiet massa, vulputate egestas leo est vel ex. Quisque et ultricies ex, malesuada vulputate orci. Nullam et erat ex.
+                More stuff about me. pls hire me...
             </p>
 
             <Joke />

@@ -28,7 +28,7 @@ function Header() {
                     
                     <Link to="/blog" className="link">blog</Link>
                     
-                    <Link to="/Resume2020.pdf" target="_blank" className="link">resume</Link>
+                    <Link to="/Resume2020.pdf" target="_blank" rel="noopener noreferrer" className="link">resume</Link>
                     
                 
                 </div>

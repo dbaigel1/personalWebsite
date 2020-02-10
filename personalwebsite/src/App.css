@@ -170,3 +170,13 @@ html {
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
+
+.pageLink {
+  text-decoration: none;
+  color: #E85A4F;
+}
+
+.pageLink:hover {
+  color: #8E8D8A;
+  text-decoration: underline;
+}
