@@ -81,11 +81,22 @@ html {
   color: #E85A4F;
 }
 
+.weather {
+  float:right;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  text-align: center;
+  background-color: #E98074;
+}
+
 .scroll {
   font-size: 60px;
   text-decoration: none;
   color: #E85A4F;
 }
+
+/* Projects */
 .projectContainer {
   display: flex;
   align-content: space-between;
@@ -94,13 +105,99 @@ html {
   width: 100%;
 }
 
-.project {
+.projectText {
+  margin:auto;
+  vertical-align:middle;
+}
+
+.projectTrustTracker {
   display: flex;
-  background-color: #E98074;
+  /*background-color: #E98074;*/
   width: 40%;
   height: 400px;
   border: solid black 3px;
+  background-image: url(images/trusttracker.png);
+  background-size: 100% 100%;
+  text-align: center;
+}
 
+.projectTrustTracker:hover {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-color: #E85A4F;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
+  
+}
+
+.projectCurtis {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-image: url(images/curtis.jpeg);
+  background-size: 100% 100%;
+}
+
+.projectCurtis:hover {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-color: #E85A4F;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
+}
+
+.projectJumbocode {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-image: url(images/jumbocode.png);
+  background-size: 100% 100%;
+}
+
+.projectJumbocode:hover {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-color: #E85A4F;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
+}
+
+.projectMemeGenerator {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-image: url(images/memegenerator.png);
+  background-size: 100% 100%;
+}
+
+.projectMemeGenerator:hover {
+  display: flex;
+  /*background-color: #E98074;*/
+  width: 40%;
+  height: 400px;
+  border: solid black 3px;
+  background-color: #E85A4F;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
 }
 
 .footer {
@@ -115,14 +212,7 @@ html {
   display: flex;
 }
 
-.weather {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 3px solid black;
-  text-align: center;
-  background-color: #E98074;
-}
+
 
 .aboutContainer {
   display: flex;
@@ -180,3 +270,4 @@ html {
   color: #8E8D8A;
   text-decoration: underline;
 }
+
