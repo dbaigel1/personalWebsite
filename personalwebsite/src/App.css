@@ -123,3 +123,50 @@ html {
   text-align: center;
   background-color: #E98074;
 }
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutImage {
+  width: 35%;
+  height: 700px;
+  margin-top: 20px;
+  
+}
+
+.abouttext {
+  width: 35%;
+  font-size: 20px;
+}
+
+.jokebutton {
+  background-color: #E98074;
+  border: none;
+  color: #EAE7DC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+  margin-bottom: 10px;
+}
+.jokebutton:hover {
+  background-color: #EAE7DC; 
+  color: #E85A4F;
+}
+
+.joketext {
+  background-color: #E85A4F;
+  color:#EAE7DC;
+  font-size: 20px;
+  text-align: left;
+  border: 2px solid black;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
