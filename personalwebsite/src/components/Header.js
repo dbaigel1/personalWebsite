@@ -7,9 +7,11 @@ import {
     Route,
     Link
   } from "react-router-dom"
-  import About from "../About"
-  import Blog from "../Blog"
-  import Home from "../Home"
+import About from "../About"
+import Blog from "../Blog"
+import Home from "../Home"
+import Jumbocode from "../Jumbocode"
+import Curtis from "../Curtis"
 
 
 
@@ -57,16 +59,22 @@ function Header() {
                 </div>
             </div>
             <Switch>
-                <Route path="/about">
+                <Route path="/about" exact>
                     
                     <About />
                 </Route>
-                <Route path="/blog">
+                <Route path="/blog" exact>
                     
                     <Blog />
                 </Route>
-                <Route path="/">
+                <Route path="/" exact>
                     <Home />
+                </Route>
+                <Route path="/jumbocode" exact>
+                    <Jumbocode />
+                </Route>
+                <Route path="/curtis" exact>
+                    <Curtis />
                 </Route>
                 
             </Switch> 

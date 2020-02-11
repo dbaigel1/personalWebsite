@@ -4,14 +4,6 @@ import Project from "./components/Project"
 import BlankSpace from "./components/BlankSpace"
 import Footer from "./components/Footer"
 
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link,
-//     useRouteMatch
-//   } from "react-router-dom"
-
 function Home(){
     
     return (
@@ -36,15 +28,16 @@ function Home(){
             <div id="projects"></div> {/* landmark for scroll button */}
             
                 <div className = "projectContainer">
+                    
                     <Project title="TrustTracker" link="https://trusttracker.now.sh"/>
-                    <Project title="Jumbocode" />
+                    <Project title="Jumbocode" page="/jumbocode"/>
                 </div>
            
 
                 <BlankSpace />
                 
                 <div className = "projectContainer">
-                    <Project title="Curtis"/>
+                    <Project title="Curtis" page="/curtis"/>
                     <Project title="MemeGenerator" link="https://github.com/dbaigel1/ReactMemeGenerator"/>
                 </div>
             
