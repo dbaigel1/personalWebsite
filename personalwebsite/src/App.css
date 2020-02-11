@@ -198,6 +198,48 @@ html {
   text-align: center;
 }
 
+.projectChina {
+  display: flex;
+  background-color: #E98074;
+  width: 40%;
+  height: 400px;
+  border: solid #8E8D8A 3px;
+  background-image: url(images/china.jpeg);
+  background-size: 100% 100%;
+}
+
+.projectChina:hover {
+  display: flex;
+  width: 40%;
+  height: 400px;
+  border: solid #8E8D8A 3px;
+  background-color: #EAE7DC;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
+}
+
+.projectPoems {
+  display: flex;
+  background-color: #E98074;
+  width: 40%;
+  height: 400px;
+  border: solid #8E8D8A 3px;
+  background-image: url(images/poems.jpeg);
+  background-size: 100% 100%;
+}
+
+.projectPoems:hover {
+  display: flex;
+  width: 40%;
+  height: 400px;
+  border: solid #8E8D8A 3px;
+  background-color: #EAE7DC;
+  background-image: none;
+  transition-duration: 0.8s;
+  text-align: center;
+}
+
 .footer {
   display: flex;
   background-color: #E98074;
@@ -269,3 +311,18 @@ html {
   text-decoration: underline;
 }
 
+/* poems */
+.poemContainer {
+  background-color: lightskyblue;
+  text-align: center;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  border: 1px solid gray;
+
+}
+
+.poemText {
+  font-size: 30px;
+}

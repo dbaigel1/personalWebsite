@@ -12,6 +12,8 @@ import Blog from "../Blog"
 import Home from "../Home"
 import Jumbocode from "../Jumbocode"
 import Curtis from "../Curtis"
+import China from "../China"
+import Poems from "../Poems"
 
 
 
@@ -75,6 +77,12 @@ function Header() {
                 </Route>
                 <Route path="/curtis" exact>
                     <Curtis />
+                </Route>
+                <Route path="/china" exact>
+                    <China />
+                </Route>
+                <Route path="/poems" exact>
+                    <Poems />
                 </Route>
                 
             </Switch> 

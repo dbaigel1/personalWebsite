@@ -6,10 +6,6 @@ import {
 
 } from "react-router-dom"
 
-
-    
-
-
 function Project(props) {
     const [hovering, setHovering] = useState(false)
     const [external, setExternal] = useState(false)
