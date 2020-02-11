@@ -4,9 +4,17 @@ import Project from "./components/Project"
 import BlankSpace from "./components/BlankSpace"
 import Footer from "./components/Footer"
 
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link,
+//     useRouteMatch
+//   } from "react-router-dom"
+
 function Home(){
+    
     return (
-       
        <div className="homeContainer">
            <BlankSpace />
             <h1 className="mainText">
@@ -27,18 +35,20 @@ function Home(){
             
             <div id="projects"></div> {/* landmark for scroll button */}
             
-            <div className = "projectContainer">
-                <Project title="TrustTracker"/>
-                <Project title="Jumbocode" />
-            </div>
+                <div className = "projectContainer">
+                    <Project title="TrustTracker" link="https://trusttracker.now.sh"/>
+                    <Project title="Jumbocode" />
+                </div>
+           
 
-            <BlankSpace />
+                <BlankSpace />
+                
+                <div className = "projectContainer">
+                    <Project title="Curtis"/>
+                    <Project title="MemeGenerator" link="https://github.com/dbaigel1/ReactMemeGenerator"/>
+                </div>
             
-            <div className = "projectContainer">
-                <Project title="Curtis"/>
-                <Project title="MemeGenerator"/>
-            </div>
-            
+
             <BlankSpace />
 
             <Footer/>

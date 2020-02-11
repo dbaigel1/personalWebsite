@@ -9,7 +9,6 @@ import {
   } from "react-router-dom"
   import About from "../About"
   import Blog from "../Blog"
-//   import Resume from "../Resume"
   import Home from "../Home"
 
 

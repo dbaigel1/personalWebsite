@@ -109,6 +109,7 @@ html {
   margin:auto;
   vertical-align:middle;
   color: #E98074;
+  text-decoration: none;
 }
 
 .projectTrustTracker {
@@ -116,7 +117,7 @@ html {
   background-color: #E98074;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-image: url(images/trusttracker.png);
   background-size: 100% 100%;
   text-align: center;
@@ -126,7 +127,7 @@ html {
   display: flex;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-color: #EAE7DC;
   background-image: none;
   transition-duration: .8s;
@@ -139,7 +140,7 @@ html {
   background-color: #E98074;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-image: url(images/curtis.jpeg);
   background-size: 100% 100%;
 }
@@ -148,7 +149,7 @@ html {
   display: flex;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-color: #EAE7DC;
   background-image: none;
   transition-duration: 0.8s;
@@ -160,7 +161,7 @@ html {
   background-color: #E98074;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-image: url(images/jumbocode.png);
   background-size: 100% 100%;
 }
@@ -169,7 +170,7 @@ html {
   display: flex;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-color: #EAE7DC;
   background-image: none;
   transition-duration: 0.8s;
@@ -181,7 +182,7 @@ html {
   background-color: #E98074;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-image: url(images/memegenerator.png);
   background-size: 100% 100%;
 }
@@ -190,7 +191,7 @@ html {
   display: flex;
   width: 40%;
   height: 400px;
-  border: solid black 3px;
+  border: solid #8E8D8A 3px;
   background-color: #EAE7DC;
   background-image: none;
   transition-duration: 0.8s;
