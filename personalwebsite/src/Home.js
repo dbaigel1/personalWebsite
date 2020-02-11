@@ -6,7 +6,9 @@ import Footer from "./components/Footer"
 
 function Home(){
     return (
-        <div className="homeContainer">
+       
+       <div className="homeContainer">
+           <BlankSpace />
             <h1 className="mainText">
                 Welcome, I'm Daniel. An aspiring software developer, 
                 avid traveler, and attempting to be a gym enthusiast.
@@ -18,7 +20,6 @@ function Home(){
                 valuable experience everywhere I've been. Now I'm ready to sink my teeth
                 into a career as a software developer, problem solver, and team player.
             </h4>
-            <BlankSpace />
             <Scroll />
             <BlankSpace />
             <BlankSpace />
