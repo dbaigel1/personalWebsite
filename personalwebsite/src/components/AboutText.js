@@ -17,11 +17,12 @@ function AboutText() {
                       className="pageLink">
                           Keyrus 
                     </a>&nbsp;building data visualizations for clients using Tableau.
+            </p>
             <p>
                 I then spent a year working as an English teacher in Shenzhen, China. (Make sure 
                 to check out my <a href="/china" className="pageLink">blog</a> about my experience there!)
             </p>
-            </p>
+            
             <p>
                 More stuff about me. pls hire me...
             </p>
