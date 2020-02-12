@@ -6,11 +6,15 @@ import Poem from "./components/Poem"
 function Poems() {
     return (
         <div className="poemsContainer">
-            <BlankSpace/>
-            <h1 className="mainText">The following poems are a collection of
-                haiku I wrote while traveling Japan
-                in the Summer of 2019.</h1>
             
+            <div className="poemHeader">
+                <BlankSpace/>
+                <h1 className="topPoemText">The following poems are a collection of
+                    haiku I wrote while traveling Japan
+                    in the Summer of 2019.</h1>
+                
+                <BlankSpace/>
+            </div>
             <BlankSpace/>
             <Poem 
                 date="7/28/19" 

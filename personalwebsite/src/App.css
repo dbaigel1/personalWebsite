@@ -322,6 +322,23 @@ html {
   background-size: 100%;
 }
 
+.poemHeader{
+  width: 100%;
+  background-color: #EAE7DC;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.topPoemText {
+  display: flex;
+  text-align: center;
+  font-size: 60px;
+  width: 70%;
+  color: #E85A4F;
+  
+}
+
 /*individual poem*/
 .poemContainer {
   background-color: #E98074;
@@ -330,7 +347,7 @@ html {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 30px;
-  border: 1px solid gray;
+  border: 1px solid #EAE7DC;
 
 }
 
