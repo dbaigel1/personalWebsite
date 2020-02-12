@@ -426,3 +426,32 @@ html {
   border: 1px solid gray;
 
 }
+
+/* china blog */
+
+.blogContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-between;
+  height: 1000px;
+}
+
+.entryContainer {
+  width: 40%;
+  height: 100px;
+  background-color: #E98074;
+  border: 2px solid #E85A4F;
+  text-decoration: none;
+  color: #EAE7DC;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+}

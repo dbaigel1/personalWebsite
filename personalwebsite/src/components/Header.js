@@ -14,11 +14,13 @@ import Jumbocode from "../Jumbocode"
 import Curtis from "../Curtis"
 import China from "../China"
 import Poems from "../Poems"
+import Journal from "./Journal"
+import BlogText from "./BlogText"
 
 
 
 function Header() {
-    
+
     return (
         <Router>
             <div className="header">
@@ -83,6 +85,37 @@ function Header() {
                 </Route>
                 <Route path="/poems" exact>
                     <Poems />
+                </Route>
+
+                <Route path="/china/entry1" exact>
+                    <Journal content={BlogText(1)}/>
+                </Route>
+                <Route path="/china/entry2" exact>
+                    <Journal content={BlogText(2)}/>
+                </Route>
+                <Route path="/china/entry3" exact>
+                    <Journal content={BlogText(3)}/>
+                </Route>
+                <Route path="/china/entry4" exact>
+                    <Journal content={BlogText(4)}/>
+                </Route>
+                <Route path="/china/entry5" exact>
+                    <Journal content={BlogText(5)}/>
+                </Route>
+                <Route path="/china/entry6" exact>
+                    <Journal content={BlogText(6)}/>
+                </Route>
+                <Route path="/china/entry7" exact>
+                    <Journal content={BlogText(7)}/>
+                </Route>
+                <Route path="/china/entry8" exact>
+                    <Journal content={BlogText(8)}/>
+                </Route>
+                <Route path="/china/entry9" exact>
+                    <Journal content={BlogText(9)}/>
+                </Route>
+                <Route path="/china/entry10" exact>
+                    <Journal content={BlogText(10)}/>
                 </Route>
                 
             </Switch> 
