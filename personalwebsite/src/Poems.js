@@ -5,7 +5,7 @@ import Poem from "./components/Poem"
 
 function Poems() {
     return (
-        <div className="homeContainer">
+        <div className="poemsContainer">
             <BlankSpace/>
             <h1 className="mainText">The following poems are a collection of
                 haiku I wrote while traveling Japan

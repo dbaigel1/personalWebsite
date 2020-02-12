@@ -14,6 +14,7 @@ function Blog(){
                 <Project title="China" page="/china"/>
                 <Project title="Poems" page="/poems"/>
             </div>
+            <BlankSpace />
 
         </div>
     )
