@@ -88,34 +88,34 @@ function Header() {
                 </Route>
 
                 <Route path="/china/entry1" exact>
-                    <Journal content={BlogText(1)}/>
+                    <Journal title="Arrival" content={BlogText(1)}/>
                 </Route>
                 <Route path="/china/entry2" exact>
-                    <Journal content={BlogText(2)}/>
+                    <Journal title="Yunnan" content={BlogText(2)}/>
                 </Route>
                 <Route path="/china/entry3" exact>
-                    <Journal content={BlogText(3)}/>
+                    <Journal title="To be a Teacher" content={BlogText(3)}/>
                 </Route>
                 <Route path="/china/entry4" exact>
-                    <Journal content={BlogText(4)}/>
+                    <Journal title="Vietnam" content={BlogText(4)}/>
                 </Route>
                 <Route path="/china/entry5" exact>
-                    <Journal content={BlogText(5)}/>
+                    <Journal title="First Visitors" content={BlogText(5)}/>
                 </Route>
                 <Route path="/china/entry6" exact>
-                    <Journal content={BlogText(6)}/>
+                    <Journal title="Winter Travels" content={BlogText(6)}/>
                 </Route>
                 <Route path="/china/entry7" exact>
-                    <Journal content={BlogText(7)}/>
+                    <Journal title="More Visitors and Camping" content={BlogText(7)}/>
                 </Route>
                 <Route path="/china/entry8" exact>
-                    <Journal content={BlogText(8)}/>
+                    <Journal title="Activities Around Shenzhen" content={BlogText(8)}/>
                 </Route>
                 <Route path="/china/entry9" exact>
-                    <Journal content={BlogText(9)}/>
+                    <Journal title="Final Days in China" content={BlogText(9)}/>
                 </Route>
                 <Route path="/china/entry10" exact>
-                    <Journal content={BlogText(10)}/>
+                    <Journal title="Japan" content={BlogText(10)}/>
                 </Route>
                 
             </Switch> 
