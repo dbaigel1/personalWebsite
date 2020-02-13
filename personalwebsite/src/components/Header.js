@@ -64,11 +64,9 @@ function Header() {
             </div>
             <Switch>
                 <Route path="/about" exact>
-                    
                     <About />
                 </Route>
-                <Route path="/blog" exact>
-                    
+                <Route path="/blog" exact> 
                     <Blog />
                 </Route>
                 <Route path="/" exact>
@@ -86,7 +84,20 @@ function Header() {
                 <Route path="/poems" exact>
                     <Poems />
                 </Route>
+                <Route path="/trusttracker" component={() => { 
+                    window.location.href = 'https://trusttracker.now.sh'; 
+                    return null
+                }}
+                >
+                </Route>
+                <Route path="/memegenerator" component={() => {
+                    window.location.href = "https://github.com/dbaigel1/ReactMemeGenerator"
+                    return null
+                }}
+                >
 
+                </Route>
+        
                 <Route path="/china/entry1" exact>
                     <Journal title="Arrival" content={BlogText(1)}/>
                 </Route>

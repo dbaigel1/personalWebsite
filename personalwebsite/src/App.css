@@ -110,6 +110,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  
 }
 
 .projectText {
@@ -117,7 +118,16 @@ html {
   vertical-align:middle;
   color: var(--color2);
   text-decoration: none;
+
 }
+
+.projectContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 
 .projectTrustTracker {
   display: flex;
@@ -128,6 +138,8 @@ html {
   background-image: url(images/trusttracker.png);
   background-size: 100% 100%;
   text-align: center;
+  color: var(--color2);
+  text-decoration: none;
 }
 
 .projectTrustTracker:hover {
@@ -139,6 +151,8 @@ html {
   background-image: none;
   transition-duration: .8s;
   text-align: center;
+  color: var(--color2);
+  text-decoration: none;
   
 }
 
@@ -150,6 +164,8 @@ html {
   border: solid #8E8D8A 3px;
   background-image: url(images/curtis.jpeg);
   background-size: 100% 100%;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectCurtis:hover {
@@ -161,6 +177,8 @@ html {
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectJumbocode {
@@ -171,6 +189,8 @@ html {
   border: solid #8E8D8A 3px;
   background-image: url(images/jumbocode.png);
   background-size: 100% 100%;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectJumbocode:hover {
@@ -182,6 +202,8 @@ html {
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectMemeGenerator {
@@ -192,6 +214,8 @@ html {
   border: solid #8E8D8A 3px;
   background-image: url(images/memegenerator.png);
   background-size: 100% 100%;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectMemeGenerator:hover {
@@ -203,6 +227,8 @@ html {
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectChina {
@@ -213,6 +239,8 @@ html {
   border: solid #8E8D8A 3px;
   background-image: url(images/china.jpeg);
   background-size: 100% 100%;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectChina:hover {
@@ -224,6 +252,8 @@ html {
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectPoems {
@@ -234,6 +264,8 @@ html {
   border: solid #8E8D8A 3px;
   background-image: url(images/poems.jpeg);
   background-size: 100% 100%;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .projectPoems:hover {
@@ -245,6 +277,8 @@ html {
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .footer {

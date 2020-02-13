@@ -29,7 +29,7 @@ function Home(){
             
                 <div className = "projectContainer">
                     
-                    <Project title="TrustTracker" link="https://trusttracker.now.sh"/>
+                    <Project title="TrustTracker" link="/trusttracker"/>
                     <Project title="Jumbocode" page="/jumbocode"/>
                 </div>
            
@@ -38,7 +38,7 @@ function Home(){
                 
                 <div className = "projectContainer">
                     <Project title="Curtis" page="/curtis"/>
-                    <Project title="MemeGenerator" link="https://github.com/dbaigel1/ReactMemeGenerator"/>
+                    <Project title="MemeGenerator" link="/memegenerator"/>
                 </div>
             
 
