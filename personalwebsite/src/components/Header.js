@@ -16,6 +16,7 @@ import China from "../China"
 import Poems from "../Poems"
 import Journal from "./Journal"
 import BlogText from "./BlogText"
+import ScrollToTop from "./ScrollToTop"
 
 
 
@@ -23,6 +24,7 @@ function Header() {
 
     return (
         <Router>
+            <ScrollToTop />
             <div className="header">
                 <div className="headerelems">
                 
