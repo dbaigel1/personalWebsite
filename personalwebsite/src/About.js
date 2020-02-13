@@ -1,15 +1,26 @@
 import React from 'react'
 import AboutText from "./components/AboutText"
+import BlankSpace from "./components/BlankSpace"
+import Footer from "./components/Footer"
 
 function About() {
   return (
-    <div className="aboutContainer">
+   <div>
+   <div className="aboutContainer">
       <AboutText />
       
-      
-      <img className="aboutImage" src="Daniel2.jpg" alt="A pic of me should be here..."/>
+       <figure className="aboutFigure"> 
+          <img className="aboutImage" src="Daniel2.jpg" alt="A pic of me should be here..."/>
+          <figcaption>
+            A few years ago, before my hairline began to recede.
+          </figcaption>
+      </figure> 
 
     </div>
+    <BlankSpace/>
+    <Footer/>
+    </div>
+    
   )
 }
 

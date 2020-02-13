@@ -64,6 +64,7 @@ html {
   
 }
 
+/* home page */
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -259,16 +260,24 @@ html {
 }
 
 
-
+/* about page */
 .aboutContainer {
   display: flex;
   justify-content: space-around;
+  
 }
 
-.aboutImage {
+.aboutFigure {
+  /* display: flex; */
+  background-color: green;
   width: 35%;
   height: 700px;
   margin-top: 20px;
+}
+
+.aboutImage {
+  width: 100%;
+  height: 100%;
   
 }
 
