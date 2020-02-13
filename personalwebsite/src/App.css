@@ -1,5 +1,11 @@
+:root {
+  --color1: #EAE7DC;
+  --color2: #e98074;
+  --color3: #E85A4F;
+}
+
 body {
-  background-color: #EAE7DC;
+  background-color: var(--color1);
 }
 
 html {
@@ -11,14 +17,14 @@ html {
 }
 
 .header {
-  background-color: #E98074;
+  background-color: var(--color2);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .title {
-  color: #EAE7DC;
+  color: var(--color1);
 }
 
 .headerelems {
@@ -30,7 +36,7 @@ html {
 }
 
 .link {
-  color: #EAE7DC;
+  color: var(--color1);
 }
 
 /* unvisited link */
@@ -69,7 +75,7 @@ html {
   text-align: center;
   font-size: 60px;
   width: 70%;
-  color: #E85A4F;
+  color: var(--color3);
 }
 
 .altText {
@@ -78,7 +84,7 @@ html {
   font-size: 20px;
   width: 80%;
   font-style: italic; 
-  color: #E85A4F;
+  color: var(--color3);
 }
 
 .weather {
@@ -87,13 +93,13 @@ html {
   height: 200px;
   border: 3px solid black;
   text-align: center;
-  background-color: #E98074;
+  background-color: var(--color2);
 }
 
 .scroll {
   font-size: 60px;
   text-decoration: none;
-  color: #E85A4F;
+  color: var(--color3);
 }
 
 /* Projects */
@@ -108,13 +114,13 @@ html {
 .projectText {
   margin:auto;
   vertical-align:middle;
-  color: #E98074;
+  color: var(--color2);
   text-decoration: none;
 }
 
 .projectTrustTracker {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -128,7 +134,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: .8s;
   text-align: center;
@@ -137,7 +143,7 @@ html {
 
 .projectCurtis {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -150,7 +156,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
@@ -158,7 +164,7 @@ html {
 
 .projectJumbocode {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -171,7 +177,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
@@ -179,7 +185,7 @@ html {
 
 .projectMemeGenerator {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -192,7 +198,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
@@ -200,7 +206,7 @@ html {
 
 .projectChina {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -213,7 +219,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
@@ -221,7 +227,7 @@ html {
 
 .projectPoems {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
@@ -234,7 +240,7 @@ html {
   width: 40%;
   height: 400px;
   border: solid #8E8D8A 3px;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   background-image: none;
   transition-duration: 0.8s;
   text-align: center;
@@ -242,7 +248,7 @@ html {
 
 .footer {
   display: flex;
-  background-color: #E98074;
+  background-color: var(--color2);
   width: 100%;
   height: 70px;
   justify-content: center;
@@ -272,9 +278,9 @@ html {
 }
 
 .jokebutton {
-  background-color: #E98074;
+  background-color: var(--color2);
   border: none;
-  color: #EAE7DC;
+  color: var(--color1);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -285,13 +291,13 @@ html {
   margin-bottom: 10px;
 }
 .jokebutton:hover {
-  background-color: #EAE7DC; 
-  color: #E85A4F;
+  background-color: var(--color1); 
+  color: var(--color3);
 }
 
 .joketext {
-  background-color: #E85A4F;
-  color:#EAE7DC;
+  background-color: var(--color3);
+  color:var(--color1);
   font-size: 20px;
   text-align: left;
   border: 2px solid black;
@@ -303,7 +309,7 @@ html {
 
 .pageLink {
   text-decoration: none;
-  color: #E85A4F;
+  color: var(--color3);
 }
 
 .pageLink:hover {
@@ -324,7 +330,7 @@ html {
 
 .poemHeader{
   width: 100%;
-  background-color: #EAE7DC;
+  background-color: var(--color1);
   display: flex;
   justify-content: center;
   
@@ -335,31 +341,31 @@ html {
   text-align: center;
   font-size: 60px;
   width: 70%;
-  color: #E85A4F;
+  color: var(--color3);
   
 }
 
 /*individual poem*/
 .poemContainer {
-  background-color: #E98074;
+  background-color: var(--color2);
   text-align: center;
   margin: auto;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 30px;
-  border: 1px solid #EAE7DC;
+  border: 1px solid var(--color1);
 
 }
 
 .poemText {
   font-size: 30px;
-  color: #EAE7DC;
+  color: var(--color1);
 }
 
 /* curtis */
 .spotifyButton {
-  background-color: #E98074;
-  color: #EAE7DC;
+  background-color: var(--color2);
+  color: var(--color1);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -370,8 +376,8 @@ html {
   
 }
 .spotifyButton:hover {
-  background-color: #EAE7DC; 
-  color: #E85A4F;
+  background-color: var(--color1); 
+  color: var(--color3);
 }
 .curtisImageContainer {
   display: flex;
@@ -392,12 +398,12 @@ html {
 .curtisText {
   text-align: center;
   font-size: 25px;
-  color: #E85A4F;
+  color: var(--color3);
   width: 80%;
 }
 
 .imageCaption {
-  color: #E85A4F;
+  color: var(--color3);
 }
 
 /* jumbocode */
@@ -405,7 +411,7 @@ html {
 .jcText {
   text-align: center;
   font-size: 40px;
-  color: #E85A4F;
+  color: var(--color3);
   width: 80%;
 }
 
@@ -417,9 +423,9 @@ html {
 .jcColumn {
   width: 30%;
   font-size: 30px;
-  background-color: #E98074;
+  background-color: var(--color2);
   text-align: center;
-  color: #EAE7DC;
+  color: var(--color1);
   padding-left: 5px;
   padding-right: 5px;
   align-items: center;
@@ -441,10 +447,10 @@ html {
 .entryContainer {
   width: 40%;
   height: 100px;
-  background-color: #E98074;
-  border: 2px solid #E85A4F;
+  background-color: var(--color2);
+  border: 2px solid var(--color3);
   text-decoration: none;
-  color: #EAE7DC;
+  color: var(--color1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -460,7 +466,7 @@ html {
 .journalContainer {
   text-align: center;
   font-size: 30px;
-  color: #EAE7DC;
+  color: var(--color1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,7 +479,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #E85A4F;
+  background-color: var(--color3);
   margin-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
