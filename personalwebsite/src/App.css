@@ -2,6 +2,7 @@
   --color1: #EAE7DC;
   --color2: #e98074;
   --color3: #E85A4F;
+  --color4: black;
 }
 
 body {
@@ -47,7 +48,7 @@ html {
 
 /* mouse over link */
 .link:hover {
-  color: #8E8D8A;
+  color: var(--color4);
   text-decoration: underline;
 }
 
@@ -101,6 +102,12 @@ html {
   font-size: 60px;
   text-decoration: none;
   color: var(--color3);
+}
+.back {
+  font-size: 60px;
+  text-decoration: none;
+  color: var(--color3);
+  margin-left:10px;
 }
 
 /* Projects */
@@ -511,9 +518,10 @@ html {
   color: var(--color1);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   
 }
+
 
 .journalText {
   width: 70%;
@@ -523,8 +531,49 @@ html {
   align-items: center;
   background-color: var(--color3);
   margin-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.lineBreak {
+  border: 1px solid var(--color1);
+  width: 100%;
+
+}
+
+.blogFigure {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blogPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogImage {
+  border: 1px solid var(--color1);
+}
+.blogCaption {
+  font-size: 20px;
+}
+
+.blogLink {
+  text-decoration: none;
+  color: var(--color4);
+}
+.blogLink:hover {
+  text-decoration: underline;
+  color: var(--color1);
+}
+
+.leftText {
+  text-align: left;
 }

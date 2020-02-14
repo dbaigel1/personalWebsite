@@ -1,11 +1,14 @@
 import React from "react"
-/* function to display the html of each blogpost */
+/* function to display the html of each blogpost 
+    psa: get ready for a wall of text
+*/
+
 
 function Bloghtml(value) {
     let html = ""
     if (value === 1){
         html = 
-        <div>
+        <div className="blogPost">
             <p>Hi everyone! Here is the first update email about my life in China. 
                 This update is being sent to all different kinds of people in my life: 
                 family, friends, ex-co-workers, etc. so I will try to write this in a way 
@@ -21,7 +24,10 @@ function Bloghtml(value) {
             Hong Kong with 30,000 people living in it, but now boasts a population 
             of almost 13 million people. To put it in perspective that’s 1.5 times 
             bigger than the biggest city in the US, NYC. Why am I here you might be 
-            wondering? To be completely honest I am not entirely sure what I am doing.
+            wondering? 
+            </p>
+            <p>
+            To be completely honest I am not entirely sure what I am doing.
              I left what people call “the greatest city in the world” where I had 
              friends, a job I legitimately enjoyed, and family, to come to a city I 
              had never heard of 6 months ago where I don’t know anyone (except for my 
@@ -39,8 +45,11 @@ function Bloghtml(value) {
                 for me to tell you that I start sweating as soon as I leave any air conditioned 
                 space. I have arrived in SZ during the middle of the rainy season and I’m told 
                 that by Winter the heat, humidity, and rainfall will all die down. 
-                Sorry mosquitos. In terms of public transportation SZ is pretty remarkable. 
-                It has an extensive metro system with 11(?) different lines traversing the 
+                Sorry mosquitos.
+                </p> 
+                <p>
+                In terms of public transportation SZ is pretty remarkable. 
+                It has an extensive metro system with 11 different lines traversing the 
                 entire city. On top of that they come every 2 minutes or so, something you 
                 definitely cannot say about the outdated metro system of NYC. The subway 
                 stations are clean, air conditioned (thank god), and are in Mandarin, 
@@ -50,9 +59,9 @@ function Bloghtml(value) {
                 city. In NY, I could go weeks without laying eyes on a single tree.
             </p>
         
-            <figure>
-                <img src="images/blogimages/outsideapt.jpeg" alt="outside apartment" height="400em" width="300em" /> 
-                 <figcaption>Image 1: Outside my apartment. Check out those trees.
+            <figure className="blogFigure">
+                <img src="../../blogimages/outsideapt.jpeg" alt="outside apartment" height="400em" width="300em" style={{border: "1px solid var(--color1)"}}/> 
+                 <figcaption style={{fontSize: "20px"}}>Image 1: Outside my apartment. Check out those trees.
                 </figcaption>
             </figure>
                 
@@ -62,7 +71,10 @@ function Bloghtml(value) {
         </p>
         <p>
         
-        Actually I lied, there’s an even bigger difference between Shenzhen and the US in general. Shenzhen is extremely technologically ahead of the curve. I haven’t even begun to tap into all the things I can do here since I don’t have a bank account yet but Will (my lord and savior who I owe my soul to at this point for covering all my costs so far) has shown me some pretty cool things you can do here with technology. First of all, WeChat is an all-encompassing mobile app in China acts not only as your messaging hub for you and your friends, but also allows you to connect to any shop or business out there. For example, I haven’t seen a restaurant, clothing store, supermarket, etc. accept a credit card. Credit cards don’t seem to be a thing here. In fact, people chuckle when I pay in cash here, which I have to do since I don’t have a bank account I can connect to WeChat. WeChat is generally how everyone pays for everything. Want to order a bubble tea? Just scan the store’s QR code and pay on your phone. Want to pay rent for your apartment? Just open the building’s app through WeChat and pay there. Want to order food? WeChat. Buy a metro card? WeChat. It’s amazing. There are other applications too such as the ones that host the bike sharing economy here but they operate on the same scanning principle.
+        Actually I lied, there’s an even bigger difference between Shenzhen and the US in general. Shenzhen is extremely technologically ahead of the curve. I haven’t even begun to tap into all the things I can do here since I don’t have a bank account yet but Will (my lord and savior who I owe my soul to at this point for covering all my costs so far) has shown me some pretty cool things you can do here with technology. First of all, WeChat is an all-encompassing mobile app in China acts not only as your messaging hub for you and your friends, but also allows you to connect to any shop or business out there. 
+        </p>
+        <p>
+        For example, I haven’t seen a restaurant, clothing store, supermarket, etc. accept a credit card. Credit cards don’t seem to be a thing here. In fact, people chuckle when I pay in cash here, which I have to do since I don’t have a bank account I can connect to WeChat. WeChat is generally how everyone pays for everything. Want to order a bubble tea? Just scan the store’s QR code and pay on your phone. Want to pay rent for your apartment? Just open the building’s app through WeChat and pay there. Want to order food? WeChat. Buy a metro card? WeChat. It’s amazing. There are other applications too such as the ones that host the bike sharing economy here but they operate on the same scanning principle.
         </p>
         <p>
         That’s the basic overview of SZ, so now I’ll update you on what I’ve actually been up to and how I feel about living here.
@@ -70,36 +82,57 @@ function Bloghtml(value) {
         I landed on Wednesday, July 25th and was met at the airport by a woman named Ruby. I am currently employed to be a part-time English teacher for a public school and Ruby works for the company that places me at the school. She has great English (actually she has been the only person I have been able to communicate with other than Will so any English is great English) and brought me to the hotel where I met with my friend from Tufts, Will. We stayed in a hotel for 5ish days before we were able to get an apartment, but that’s a story I will tell in a bit. The first couple days were a real whirlwind for me as I was super jet lagged and in an entirely new place. During that time I learned how to navigate the public transportation (which was quite easy), got a phone plan so I could communicate without wi-fi, and registered with the police to gain a residence permit. One of the things I had to do was go through a wildly long and comprehensive health exam where six different doctors conducted multiple tests on me including blood tests, urine tests, EKGs, eye exams, you name it.
         </p>
         <p>
-        The next period of my settling in was dominated by exploring the city and hunting for an apartment to live in. Shenzhen can be thought of as the Silicon Valley of China, or at least I think that’s what China wants it to be known as. However, instead of a software focus SZ is a playground for hardware. In an area of Shenzhen called Futian there is a massive warehouse where you can buy anything electronic from the smallest capacitor or circuitboard, to microphones to electronic musical instruments. Here’s a video of it since I forgot to take pictures while I was there. <a href = 'https://www.youtube.com/watch?v=BL0OvdTqzBs&t=168s'>link</a>
+        The next period of my settling in was dominated by exploring the city and hunting for an apartment to live in. Shenzhen can be thought of as the Silicon Valley of China, or at least I think that’s what China wants it to be known as. However, instead of a software focus SZ is a playground for hardware. In an area of Shenzhen called Futian there is a massive warehouse where you can buy anything electronic from the smallest capacitor or circuitboard, to microphones to electronic musical instruments. Here’s a <a href = 'https://www.youtube.com/watch?v=BL0OvdTqzBs&t=168s' className="blogLink">video</a> of it since I forgot to take pictures while I was there.
         </p>
         <p>
         Bike sharing is also a big part of everyday life here so one morning Will and I hopped on some bikes and pedaled through the parks on the East coast of the city overlooking Shenzhen Bay. Man did we pick the wrong day to bike though as it was scorching hot with infinite humidity. We ended up taking a breather in a mall by the Hong Kong - Shenzhen border. Oh yeah, Shenzhen has toooons of malls. On top of their love for electronics, they also seem to be very into shopping.
         </p>
         <p>
-        Finding an apartment in Shenzhen has been quite the experience. I would equate it to being a mouse in a maze trying to find a block of cheese for the first time. Everywhere we looked we kept running into walls. To find apartments we used a few different approaches such as scrolling through the ‘Craigslist’ of SZ called Shenzhen party. After talking to a few different agents and seeing a couple different apartments, we got a tour of an apartment that we decided would fit our needs and was in our price range. Since SZ is so high-tech, we were told that we could do the entire signing of the lease and paying rent on our phones. That night we attempted to sign the lease but man was it a struggle. First of all the entire thing is in Mandarin, and while Will is amazing at Chinese for having only been in China for a year, he wasn’t super up-to-date on renting an apartment vocabulary. We managed to slowly make our way through the application translating as we went, and after finishing, went to bed. The application took 24 hours to process so we checked the next night to see if we had been approved but apparently we were denied since the photo of our passport wasn’t correct. After explaining the situation to Ruby she told us that we needed to upload a photo of me holding up the passport next to my face, rather than just uploading a photo of my passport. She also put us in touch with one of her friends who is an apartment agent in case we needed more help. After taking and uploading the correct photograph, we were allowed to move forward with the application. This involved us having to fill out a whole bunch of information about ourselves like our education backgrounds and current jobs. 
+        Finding an apartment in Shenzhen has been quite the experience. I would equate it to being a mouse in a maze trying to find a block of cheese for the first time. Everywhere we looked we kept running into walls. To find apartments we used a few different approaches such as scrolling through the ‘Craigslist’ of SZ called Shenzhen party. After talking to a few different agents and seeing a couple different apartments, we got a tour of an apartment that we decided would fit our needs and was in our price range. 
+        </p>
+        <p>
+        Since SZ is so high-tech, we were told that we could do the entire signing of the lease and paying rent on our phones. That night we attempted to sign the lease but man was it a struggle. First of all the entire thing is in Mandarin, and while Will is amazing at Chinese for having only been in China for a year, he wasn’t super up-to-date on renting an apartment vocabulary. We managed to slowly make our way through the application translating as we went, and after finishing, went to bed. The application took 24 hours to process so we checked the next night to see if we had been approved but apparently we were denied since the photo of our passport wasn’t correct. 
+        </p>
+        <p>
+        After explaining the situation to Ruby she told us that we needed to upload a photo of me holding up the passport next to my face, rather than just uploading a photo of my passport. She also put us in touch with one of her friends who is an apartment agent in case we needed more help. After taking and uploading the correct photograph, we were allowed to move forward with the application. This involved us having to fill out a whole bunch of information about ourselves like our education backgrounds and current jobs. 
         
-        Once we had filled out all the information and we tried to move on to pay, we got a message saying we couldn’t rent the apartment since I didn’t have a high enough social credit score. Here’s an article briefly explaining what that means: <a href = 'https://newyork.cbslocal.com/2018/04/24/china-assigns-every-citizen-a-social-credit-score-to-identify-who-is-and-isnt-trustworthy/'>article</a>. Basically, each person in China is given a score and if your score gets too low, you can’t do basic tasks such as in this case, renting an apartment. To rent an apartment you need a score of 70 or above, and after filling in all my information I boasted a score of 60 points. After doing some research, Will and I figured out that you could raise your social score by creating a profile on the Chinese version of LinkedIn. Creating a profile on a Chinese website entirely in Chinese is no easy feat but after a bit of struggling we made it through. I even added a bunch of random people as my “friends” in a hope that that would increase my score. After this whole ordeal we checked back on my social score and it had only increased to a whopping 65! Still not enough to rent an apartment. As my jet-lag started to get the best of me we decided to message Sharon (the agent Ruby put us in touch with in case we needed help) and dozed off. I’m not sure to this day what magic Sharon did but the next morning she said we should be good and when we checked my social score, it had raised to 70. I am officially the lowest possible form of acceptable human living in China! However, when we attempted to move forward to pay (we owed 3 months of rent each plus a security deposit each plus an agent fee), it said that Will’s bank account couldn’t withdraw that much money from his account at once.
+        Once we had filled out all the information and we tried to move on to pay, we got a message saying we couldn’t rent the apartment since I didn’t have a high enough social credit score. Here’s an <a href = 'https://newyork.cbslocal.com/2018/04/24/china-assigns-every-citizen-a-social-credit-score-to-identify-who-is-and-isnt-trustworthy/' className="blogLink">article</a> briefly explaining what that means. 
+        </p>
+        <p>
+        Basically, each person in China is given a score and if your score gets too low, you can’t do basic tasks such as in this case, renting an apartment. To rent an apartment you need a score of 70 or above, and after filling in all my information I boasted a score of 60 points. After doing some research, Will and I figured out that you could raise your social score by creating a profile on the Chinese version of LinkedIn. Creating a profile on a Chinese website entirely in Chinese is no easy feat but after a bit of struggling we made it through. I even added a bunch of random people as my “friends” in a hope that that would increase my score. 
+        </p>
+        <p>
+        After this whole ordeal we checked back on my social score and it had only increased to a whopping 65! Still not enough to rent an apartment. As my jet-lag started to get the best of me we decided to message Sharon (the agent Ruby put us in touch with in case we needed help) and dozed off. I’m not sure to this day what magic Sharon did but the next morning she said we should be good and when we checked my social score, it had raised to 70. I am officially the lowest possible form of acceptable human living in China! However, when we attempted to move forward to pay (we owed 3 months of rent each plus a security deposit each plus an agent fee), it said that Will’s bank account couldn’t withdraw that much money from his account at once.
         </p>
 
-        <figure>
-            <img src="images/blogimages/socialscore.jpeg" alt="credit score app" height="400em" width="300em" /> 
-            <figcaption>Image 2: Social credit score before renting an apartment in China.
+        <figure className="blogFigure">
+            <img src="../../blogimages/socialscore.jpeg" alt="credit score app" height="400em" width="300em" className="blogImage"/> 
+            <figcaption className="blogCaption">Image 2: Social credit score before renting an apartment in China.
             </figcaption>
             
         </figure>
         
         <p>
-        At this point we decided that seeing Sharon in person might help us get the job done faster. We spent some time at her office and eventually figured out that we could do multiple deposits of smaller amounts of money. We finally successfully put down a deposit on an apartment! Sharon took us to the place to sign some documents and a government official met us to seal the deal. The apartment was ours! To celebrate after Sharon left, Will and I stood on our new balcony overlooking the city. We had a pretty cool view (I’ll attach some photos in this email). When we tried to get back inside, we realized we had locked ourselves on the balcony…It turns out the doors automatically lock when they are closed. With nobody else in the apartment and no phones on us, we had no ideal options. The only two options we could think of were kicking through the glass, or forcibly tearing the door off the wall. We decided to try to pull the door off, since neither of us wanted to deal with broken glass (Also to think that I could break through thick balcony glass is pretty laughable). After some serious effort we managed to tear out the sliding door from the wall, nails and all. Lastly, and I know this story has dragged on for quite a while, both the original agent who showed us the house and Sharon apparently worked for different companies and wanted to claim the agent fee. Will and I sort of got out of dealing with it by sending them each others contacts and having them deal with it. 
-        
+        At this point we decided that seeing Sharon in person might help us get the job done faster. We spent some time at her office and eventually figured out that we could do multiple deposits of smaller amounts of money. We finally successfully put down a deposit on an apartment! Sharon took us to the place to sign some documents and a government official met us to seal the deal. The apartment was ours! To celebrate after Sharon left, Will and I stood on our new balcony overlooking the city. We had a pretty cool view (I’ll attach some photos in this email). When we tried to get back inside, we realized we had locked ourselves on the balcony…It turns out the doors automatically lock when they are closed. With nobody else in the apartment and no phones on us, we had no ideal options. The only two options we could think of were kicking through the glass, or forcibly tearing the door off the wall. 
+        </p>
+        <p>
+        We decided to try to pull the door off, since neither of us wanted to deal with broken glass (Also to think that I could break through thick balcony glass is pretty laughable). After some serious effort we managed to tear out the sliding door from the wall, nails and all. Lastly, and I know this story has dragged on for quite a while, both the original agent who showed us the house and Sharon apparently worked for different companies and wanted to claim the agent fee. Will and I sort of got out of dealing with it by sending them each others contacts and having them deal with it. 
+        </p>
+        <p>
         Finally, Will and I leave for a 2-week backpacking trip to Yunnan Province in Western China on Friday. When I get back from that and maybe once I start my actual job I’ll be sure to send out another email.
-        
+        </p>
+        <p>
         I hope you all are well wherever in the world you are! If you’d like to reach me directly you can either email me, message me on Facebook, or download WeChat and add me there (daniel_baigel).
-        
+        <br></br>
+        <br></br>
         Thanks for tuning in,
-        
+        <br></br>
+        <br></br>
         Baigs
-        
-        TLDR: I live in Shenzhen, China now. It is super high-tech and the cost of living is a dream compared to NY. I landed in Shenzhen safely and spent a few days searching for an apartment, which took more time than expected because I don’t have a very high social credit score. I settled into a place and have been furnishing and exploring the city with Will. Chinese is extremely overwhelming to learn. We leave for a 2-week backpacking trip in Yunnan province on Friday. </p>
+        </p>
+        <p>
+        TLDR: I live in Shenzhen, China now. It is super high-tech and the cost of living is a dream compared to NY. I landed in Shenzhen safely and spent a few days searching for an apartment, which took more time than expected because I don’t have a very high social credit score. I settled into a place and have been furnishing and exploring the city with Will. Chinese is extremely overwhelming to learn. We leave for a 2-week backpacking trip in Yunnan province on Friday. 
+        </p>
         </div>
     }
     else if (value === 2){
@@ -421,7 +454,7 @@ Our time in Hong Kong came to an end and we all took the train to Shenzhen. I st
 <p>
 Another highlight of our time in Shenzhen was at the Dafen oil painting village. I had never been here before as it’s nearly two hours away from where I live, but I had heard good things so we went to go see it one day after school. Upon leaving the metro station however, I realized I had no idea how to find it. I had underestimated how good at hiding an entire village could be. 
 
-We wandered around for quite a while, stopped for some lunch, wandered around some more and eventually stopped to consult the internet. While all staring down at our phones, an older man approached us and asked if we needed help. Miraculously he spoke pretty good English and also knew exactly how to get where we wanted to go to. We walked along for 20 minutes (we had been walking in the total opposite direction) and eventually we found it tucked behind a massive construction area. There’s no chance I would have found it without him. We spent some time walking around the village, which had small cobblestone streets lined with small open-faced houses where artists were painting away. If you’ve ever bought generic oil paintings on Amazon to add some atmosphere to your dorm room (like I have), then you might be interested to hear that this village is where they are made. I literally saw multiple copies of a monkey wearing headphones painting that I have bought on Amazon before. Just type in ‘oil painting wall decoration’ into Amazon and everything that pops up is made there. <a href="https://www.amazon.com/DVQ-Art-Framed-Painting-Headphone-16x24inch/dp/B01MZXFUZG/ref=sr_1_5?ie=UTF8&qid=1545980499&sr=8-5&keywords=monkey+oil+painting">Monkey link.</a>  
+We wandered around for quite a while, stopped for some lunch, wandered around some more and eventually stopped to consult the internet. While all staring down at our phones, an older man approached us and asked if we needed help. Miraculously he spoke pretty good English and also knew exactly how to get where we wanted to go to. We walked along for 20 minutes (we had been walking in the total opposite direction) and eventually we found it tucked behind a massive construction area. There’s no chance I would have found it without him. We spent some time walking around the village, which had small cobblestone streets lined with small open-faced houses where artists were painting away. If you’ve ever bought generic oil paintings on Amazon to add some atmosphere to your dorm room (like I have), then you might be interested to hear that this village is where they are made. I literally saw multiple copies of a monkey wearing headphones painting that I have bought on Amazon before. Just type in ‘oil painting wall decoration’ into Amazon and everything that pops up is made there. <a href="https://www.amazon.com/DVQ-Art-Framed-Painting-Headphone-16x24inch/dp/B01MZXFUZG/ref=sr_1_5?ie=UTF8&qid=1545980499&sr=8-5&keywords=monkey+oil+painting" className="blogLink">Monkey link.</a>  
 
 
 That night Will joined us in Luohu, the Eastern part of the city, for dinner. I wanted to make sure that my sister ate some of the Chinese classics before she left. We found a food court and passed by an insect stand, where my sister insisted on trying scorpion. Scorpion definitely isn’t a Chinese classic and almost certainly a tourist trap, but who was I to stop her? We all ordered a scorpion and were pleasantly surprised by how crunchy and flavorless they were. The next stop was stinky tofu, a food I had tried before in Taipei, and hated. For those of you who don’t know it, stinky tofu is a fermented tofu that smells like the worst smell you can think of times 1000. When you’re walking around and you smell it, you’ll instantly know when a stinky tofu stand is nearby. We had no problem sniffing out a stand, and ordered a bowl full of it for the three of us to eat. Unfortunately they put so much spicy sauce on top that it was hard to really taste the tofu as it had an overwhelmingly spicy flavor that limited us to just a couple bites each. We washed that down with some sugarcane juice we bought at the stand next door.
