@@ -513,15 +513,12 @@ html {
 }
 
 .journalContainer {
-  text-align: center;
-  font-size: 30px;
-  color: var(--color1);
   display: flex;
-  align-items: center;
   justify-content: center; 
-  
+  flex-direction: column;
+  align-items: center;
+  color: var(--color1);
 }
-
 
 .journalText {
   width: 70%;
@@ -529,7 +526,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  font-size: 30px;
   background-color: var(--color3);
   margin-top: 50px;
   padding-left: 70px;
@@ -538,9 +535,29 @@ html {
 
 }
 
+.journalTitle {
+  width: 70%;
+  font-size: 60px;
+  color: var(--color1);
+  text-align: center; 
+}
+
+.journalContent {
+  text-align: left;
+  width: 90%;
+}
+
 .lineBreak {
   border: 1px solid var(--color1);
   width: 100%;
+
+}
+.blogPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
 
 }
 
@@ -553,12 +570,7 @@ html {
   text-align: left;
 }
 
-.blogPost {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .blogImage {
   border: 1px solid var(--color1);

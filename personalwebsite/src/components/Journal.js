@@ -7,12 +7,13 @@ function Journal(props) {
             <BackButton/>
         
             <div className="journalContainer">
-                
+                 {/* TODO EDIT THIS FOR SIZING JOURNAL TEXT AND LEFT ALIGN IT*/}
                 <div className="journalText">
-                    <h1>{props.title}</h1>
-                    <hr className="lineBreak"/>
-                    <p>{props.content}</p>
+                <h1 className="journalTitle">{props.title}</h1>
+                <hr className="lineBreak"/>
+                <p className="journalContent">{props.content}</p>
                 </div>
+                
             </div>
         </div>
     )
