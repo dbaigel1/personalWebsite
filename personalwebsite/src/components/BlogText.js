@@ -9,7 +9,10 @@ function Bloghtml(value) {
     if (value === 1){
         html = 
         <div className="blogPost">
-            <p>Hi everyone! Here is the first update email about my life in China. 
+            <p>Hi everyone!
+                <br></br>
+                <br></br>
+                 Here is the first update email about my life in China. 
                 This update is being sent to all different kinds of people in my life: 
                 family, friends, ex-co-workers, etc. so I will try to write this in a way 
                 that is tangible for everyone. The beginning of this email might be 
@@ -137,75 +140,113 @@ function Bloghtml(value) {
     }
     else if (value === 2){
         html = 
-            <div>
+            <div className="blogPost">
                 <p>
                     Hi All!
+                    <br></br>
+                    <br></br>
 
-                    The past few weeks have been the perfect way to get introduced to China. I went on a trip and explored more of the country, and I got my fair share of bodily sicknesses that seem like a rite of passage at this point for traveling to new places. This email will mostly cover my trip to Yunnan province as that’s what I’ve been up to recently. As always there will be a TLDR at the end if you have no interest in reading the email, but signed on to receive updates anyway… 
+                    The past few weeks have been the perfect way to get introduced to China. I went on a trip and explored more of the country, and I got my fair share of bodily sicknesses that seem like a rite of passage at this point for traveling to new places. This email will mostly cover my trip to Yunnan province as that’s what I’ve been up to recently. As always there will be a TLDR at the end if you have no interest in reading the email, but signed on to receive updates anyway.
+                    </p>
+                    <p>
 
 
                     Yunnan province is located in the very southwest of China, so basically directly west of where Will and I live in Shenzhen, and borders Myanmar. Our entire trip lasted about 10 days and included tons of trains of buses to get us to the far-off places we wanted to see. For example, our first morning we woke up at 5am (ick) and took a 1-hour metro ride to the train station where we boarded our first 8-hour bullet train to Kunming, the capital of Yunnan. We got off, took another 1-hour metro ride to the other side of the city, got some lunch, walked to a different train station and boarded an overnight train to get from Kunming to Lijiang. By the time we arrived in Lijiang at 6am, we had spent 25 hours traveling and celebrated by taking a 5-hour nap in our new temporary home. 
-
+                    </p>
+                    <p>
                     Having never been on a bullet train before I found it pretty incredible. It reached a top speed of 300 km/h (which is almost 190 mph) and it passed through some spectacular landscapes of southwest China. The second train was an overnight train, where each person gets a room with two bunkbeds in it and three new friends to make. On top of that, they also had carts running up and down the aisles with snacks and drinks, which sort of reminded me of Harry Potter as long as you replace the chocolate frogs with cups of noodles.
                     Will and I originally got split into different rooms, but a woman kindly switched with Will so that we could be together as the only two foreigners on the entire train. We were thankful until we all went to sleep and one of our new friends started snoring as if he was a trumpet player with no shame.
-
+                    </p>
+                    <p>
                     Lijiang is an amazing city. It’s known for its proximity to incredible nature, and the old town of Lijiang is actually famous as a UNESCO world heritage site. Unfortunately due to that and it being a really cool place it's riddled with tourists. Not international tourists, but rather Chinese tourists from different provinces. I previously thought that I was getting a lot of stares from people in Shenzhen, a tier 1 city, but I was not prepared for the attention I got in Lijiang. You could say the trip was almost defined by other people forcing interactions with us. People would come up to us on the street and take pictures with us, people would try to sneakily take pictures of us in restaurants, people would come up to us and ask us questions such as “what do you like to do?” or “do you like rice noodles?” probably just to practice their English. Initially, it felt like Will and I were some sort of royalty where everyone stared in wonder, but it quickly got tiring as it took an extra 10 minutes to get anywhere due to multiple photo shoots and interviews.</p>
 
-                    <figure>
-                        <img src="images/blogimages/lijiangstreet.jpeg" alt="outside apartment" height="400em" width="300em" /> 
-                        <figcaption>Image 1: Lijiang streets at night.
-                        </figcaption>
-                
-                    </figure>
-
+                    <div style={{
+                        display: "flex",
+                        justifyContent: "space-between"
+                       
+                    }}>
+                        <figure className="blogFigure">
+                            <img src="../../blogimages/lijiangstreet.jpeg" alt="outside apartment" height="400em" width="300em" className="blogImage"/> 
+                            <figcaption className="blogCaption">Image 1: Lijiang streets at night.
+                            </figcaption>
                     
-                    <figure>
-                        <img src="images/blogimages/lijiangstreet2.jpeg" alt="outside apartment" height="400em" width="300em" /> 
-                        <figcaption>Image 2: Lijiang streets at day.
+                        </figure>
+
+                        
+                        <figure className="blogFigure">
+                            <img src="../../blogimages/lijiangstreet2.jpeg" alt="outside apartment" height="400em" width="300em" className="blogImage"/> 
+                            <figcaption className="blogCaption">Image 2: Lijiang streets at day.
+                            </figcaption>
+                    
+                        </figure>
+                    </div>
+
+                    <p>
+                    Walking around Lijiang on the first day we stumbled upon a Naxi dance ceremony. They, of course, ushered us to join them in the dance and afterward, a couple of the dancers proceeded to take us around their house telling us about the history of the Naxi ethnicity in China. After wandering around the town, we took our hostel owner’s advice and hiked up a mountain in order to gain free backdoor access to the “Black Dragon Pool” (which otherwise cost $12 USD to get in). The hike was apparently how all the locals got to the pool (which was really a pond) for free, though it was hard to imagine. The hike was relatively arduous, though I’m probably just super out of shape. 
+                    </p>
+                    <p>
+                    At the pool itself, we walked through a garden where a group of musicians was rehearsing. A man stopped us and sat us down, poured us some tea and proceeded to talk to us, but really just Will, for an hour about the differences in cultures between China and the US. He was a professor of economics from a university in the area. While I couldn’t follow along with the majority of the conversation, he did equate the difference in Chinese culture and American culture to the different styles of chess games that we have, which I thought was pretty interesting. In American chess in order to win a player must destroy their opponent's pieces and sacrifice their own. However, in Weiqi (Go), the object of the game isn’t to destroy the opponent but rather just to have more territory in the end. It’s a much more peaceful game which results not in someone’s demise, but in two people sharing a board where one person is just a bit bigger than the other. He said the best ways to learn about Chinese culture are to learn the language, play Go, and practice calligraphy. Seems easy enough.
+                    </p>
+
+                    <p>
+                    As we neared the end of the day, a pain in my mouth that I had attributed to burning my tongue a couple days earlier began to intensify. It was getting difficult to eat anything or even talk normally. Taking a look in a mirror I noticed that I had these white ulcers underneath and on the sides of my tongue. I’ll leave out any more graphic details don’t worry. I figured they would just disappear after a couple days but as the days continued and the pain intensified, I figured I should probably go see a doctor or something. Will (my guardian angel and absolute savior) and I walked into a walk-in clinic/pharmacy type thing and after showing them my mouth they gave me some medicine which turned out to be an oral numbing gel and some “fire purging” tea. 
+                    </p>
+                    <p>
+                    I began the treatment as we set off for our full-day Tiger Leaping Gorge hike. After another 5am wake-up and 4-hour bus ride, we were at the foot of a beautiful mountain overlooking a gorge. We began our ascent and quickly realized that the trail wasn’t marked at all and at multiple intersections we chose paths that led us astray (including but not limited to: a trail that led us into someone’s personal garden containing among other things a cage with monkeys in it, and a newly paved road that was so newly paved that our shoes sunk into the pavement and left permanent marks, right before being yelled at to go a different way.). On our journey, we walked through herds of horses, walked through waterfalls, and took lots of water breaks. I guess I should really start working out or at least go on runs.</p>
+
+                    <figure className="blogFigure">
+                        <img src="../../blogimages/monkeys.jpeg" alt="monkeys" height="400em" width="300em" className="blogImage"/> 
+                        <figcaption className="blogCaption">Image 3: A pair of monkeys in someone's backyard.
                         </figcaption>
                 
                     </figure>
 
                     <p>
-                    Walking around Lijiang on the first day we stumbled upon a Naxi dance ceremony. They, of course, ushered us to join them in the dance and afterward, a couple of the dancers proceeded to take us around their house telling us about the history of the Naxi ethnicity in China. After wandering around the town, we took our hostel owner’s advice and hiked up a mountain in order to gain free backdoor access to the “Black Dragon Pool” (which otherwise cost $12 USD to get in). The hike was apparently how all the locals got to the pool (which was really a pond) for free, though it was hard to imagine. The hike was relatively arduous, though I’m probably just super out of shape. At the pool itself, we walked through a garden where a group of musicians was rehearsing. A man stopped us and sat us down, poured us some tea and proceeded to talk to us, but really just Will, for an hour about the differences in cultures between China and the US. He was a professor of economics from a university in the area. While I couldn’t follow along with the majority of the conversation, he did equate the difference in Chinese culture and American culture to the different styles of chess games that we have, which I thought was pretty interesting. In American chess in order to win a player must destroy their opponent's pieces and sacrifice their own. However, in Weiqi (Go), the object of the game isn’t to destroy the opponent but rather just to have more territory in the end. It’s a much more peaceful game which results not in someone’s demise, but in two people sharing a board where one person is just a bit bigger than the other. He said the best ways to learn about Chinese culture are to learn the language, play Go, and practice calligraphy. Seems easy enough.
-
-                    As we neared the end of the day, a pain in my mouth that I had attributed to burning my tongue a couple days earlier began to intensify. It was getting difficult to eat anything or even talk normally. Taking a look in a mirror I noticed that I had these white ulcers underneath and on the sides of my tongue. I’ll leave out any more graphic details don’t worry. I figured they would just disappear after a couple days but as the days continued and the pain intensified, I figured I should probably go see a doctor or something. Will (my guardian angel and absolute savior) and I walked into a walk-in clinic/pharmacy type thing and after showing them my mouth they gave me some medicine which turned out to be an oral numbing gel and some “fire purging” tea. I began the treatment as we set off for our full-day Tiger Leaping Gorge hike. After another 5am wake-up and 4-hour bus ride, we were at the foot of a beautiful mountain overlooking a gorge. We began our ascent and quickly realized that the trail wasn’t marked at all and at multiple intersections we chose paths that led us astray (including but not limited to: a trail that led us into someone’s personal garden containing among other things a cage with monkeys in it, and a newly paved road that was so newly paved that our shoes sunk into the pavement and left permanent marks, right before being yelled at to go a different way.). On our journey, we walked through herds of horses, walked through waterfalls, and took lots of water breaks. I guess I should really start working out or at least go on runs.</p>
-
-                    <figure>
-                        <img src="images/blogimages/monkeys.jpeg" alt="monkeys" height="400em" width="300em" /> 
-                        <figcaption>Image 3: A pair of monkeys in someone's backyard.
-                        </figcaption>
-                
-                    </figure>
-
+                    The next leg of our journey took place at Lugu Lake, a massive beautiful lake with ethnic minority groups surrounding the shores. While being there was a breathtaking and relaxing experience, getting there was a whole different story. The morning we left we woke up early and walked around Lijiang trying to find the right bus station to buy a bus ticket to get to Lugu Lake. Like the trails of Tiger Leaping Gorge, there was no signage to help people find their way. After walking around for an hour, we found a station that sold tickets to Lugu Lake but they only had 1 ticket left. 
+                    </p>
                     <p>
-                    The next leg of our journey took place at Lugu Lake, a massive beautiful lake with ethnic minority groups surrounding the shores. While being there was a breathtaking and relaxing experience, getting there was a whole different story. The morning we left we woke up early and walked around Lijiang trying to find the right bus station to buy a bus ticket to get to Lugu Lake. Like the trails of Tiger Leaping Gorge, there was no signage to help people find their way. After walking around for an hour, we found a station that sold tickets to Lugu Lake but they only had 1 ticket left. We managed to get help from someone who worked there and she advised us to buy tickets to a town halfway instead, and then transfer there to another bus that would take us the rest of the way. We didn’t see any other options so we followed her advice and got on the 3-hour bus ride to the halfway point. Upon arriving we got out in the middle of a highway where another man with a small van was stopped in the middle of the road. We were ushered inside with another family and buckled in for the second 3-hour trip. Halfway there, our driver told us that there is a foreigner’s tax for entering Lugu Lake and if we didn’t want to pay it we should hide from the border police. Not wanting to pay the extra price Will and I decided to try hiding. 10 minutes before reaching the border we unpacked a bunch of our clothing and covered ourselves in the back of the van such that (hopefully) it just looked like a pile of clothes. Upon reaching the border, however, we were easily discovered and had to pay for a ticket. It seemed like everyone was paying though, so perhaps something was lost in translation, or maybe the driver of our van just wanted to see a couple foreigners attempt to smuggle themselves into the area. We finally entered the Lugu Lake area and dropped the other family off. Right before we left for our destination, however, a man on the street started yelling at our driver. He got out of the car and after a comically short amount of arguing time a fist fight broke out in the middle of the street right behind our van! We were shocked but at the same time had front row seats and couldn’t look away. It seemed like our driver was getting the best of the other guy; he had landed a couple punches to the face almost unreciprocated. However, the newcomer had friends who quickly joined in the fray and turned the tide in the complete opposite direction. Our driver was slammed into the back window of our van right where we were watching from! It felt like we were up against the glass at a hockey game. As he was clearly outmatched and had taken a beating enough to calm his aggression, the fighting stopped and everyone retired to the sidewalk for a smoke break. As our driver sat on the curb with his dusty suit and head wounds smoking a cigarette, Will and I decided that this would be a good time to leave and find another driver. Surprisingly, this was hard to do. We walked all over the little town using what Chinese we could to ask people for directions to the area just 10 miles North where our hostel was. People seemed not to know or just unwilling to be helpful. After a couple hours of walking around and with our frustrations rising, Will managed to negotiate with the hostel to send a driver to come to pick us up. 
+                    We managed to get help from someone who worked there and she advised us to buy tickets to a town halfway instead, and then transfer there to another bus that would take us the rest of the way. We didn’t see any other options so we followed her advice and got on the 3-hour bus ride to the halfway point. Upon arriving we got out in the middle of a highway where another man with a small van was stopped in the middle of the road. We were ushered inside with another family and buckled in for the second 3-hour trip. Halfway there, our driver told us that there is a foreigner’s tax for entering Lugu Lake and if we didn’t want to pay it we should hide from the border police. Not wanting to pay the extra price Will and I decided to try hiding. 10 minutes before reaching the border we unpacked a bunch of our clothing and covered ourselves in the back of the van such that (hopefully) it just looked like a pile of clothes. Upon reaching the border, however, we were easily discovered and had to pay for a ticket. It seemed like everyone was paying though, so perhaps something was lost in translation, or maybe the driver of our van just wanted to see a couple foreigners attempt to smuggle themselves into the area. 
+                    </p>
+                    <p>
+                    We finally entered the Lugu Lake area and dropped the other family off. Right before we left for our destination, however, a man on the street started yelling at our driver. He got out of the car and after a comically short amount of arguing time a fist fight broke out in the middle of the street right behind our van! We were shocked but at the same time had front row seats and couldn’t look away. It seemed like our driver was getting the best of the other guy; he had landed a couple punches to the face almost unreciprocated. 
+                    </p>
+                    <p>
+                    However, the newcomer had friends who quickly joined in the fray and turned the tide in the complete opposite direction. Our driver was slammed into the back window of our van right where we were watching from! It felt like we were up against the glass at a hockey game. As he was clearly outmatched and had taken a beating enough to calm his aggression, the fighting stopped and everyone retired to the sidewalk for a smoke break. As our driver sat on the curb with his dusty suit and head wounds smoking a cigarette, Will and I decided that this would be a good time to leave and find another driver. Surprisingly, this was hard to do. We walked all over the little town using what Chinese we could to ask people for directions to the area just 10 miles North where our hostel was. People seemed not to know or just unwilling to be helpful. After a couple hours of walking around and with our frustrations rising, Will managed to negotiate with the hostel to send a driver to come to pick us up. 
+                    </p>
+                    <p>
+                    We stayed two nights there and spent the majority of our time doing small hikes to incredible viewpoints and walking around the lake. One area that was truly amazing was a small island that you could only get to by walking on small cinderblocks that were centimeters above the water level. There was only one path, so you had to time it well such that nobody was coming from the other direction, otherwise someone would have to step into the water. Other than a hill with a great view of the lake, the island boasted four or five houses whose bottom floors acted as restaurants and top floors acted as hotels. On our last night, while we were sitting under the awning of a house while it poured with rain, a couple families preparing to eat dinner together invited us in to join them. We had a lovely meal with them (although my mouth ulcers still prevented me from enjoying most foods that weren’t coconut milk) and spent the remainder of the night talking. Again, Will dominated the conversation as they didn’t speak English so my participation was minimal, but I was thankful to enjoy the free food and tea and company.
+                    </p>
 
-                    We stayed two nights there and spent the majority of our time doing small hikes to incredible viewpoints and walking around the lake. One area that was truly amazing was a small island that you could only get to by walking on small cinderblocks that were centimeters above the water level. There was only one path, so you had to time it well such that nobody was coming from the other direction, otherwise someone would have to step into the water. Other than a hill with a great view of the lake, the island boasted four or five houses whose bottom floors acted as restaurants and top floors acted as hotels. On our last night, while we were sitting under the awning of a house while it poured with rain, a couple families preparing to eat dinner together invited us in to join them. We had a lovely meal with them (although my mouth ulcers still prevented me from enjoying most foods that weren’t coconut milk) and spent the remainder of the night talking. Again, Will dominated the conversation as they didn’t speak English so my participation was minimal, but I was thankful to enjoy the free food and tea and company.</p>
-
-                    <figure>
-                        <img src="images/blogimages/lugulake.jpg" alt="Lugu Lake" height="400em" width="300em" /> 
-                        <figcaption>Image 4: Lugu lake.
+                    <figure className="blogFigure">
+                        <img src="../../blogimages/lugulake.jpg" alt="Lugu Lake" height="400em" width="300em" className="blogImage"/> 
+                        <figcaption className="blogCaption">Image 4: Lugu lake.
                         </figcaption>
                 
                     </figure>
 
                     <p>
                     Upon leaving Lugu Lake we took a 6-hour bus ride back to Lijiang and then took another night train back to Kunming where we would spend the last few days of our trip. Before that, however, in our last night in Lijiang we passed by a bar with live music so we decided to check it out. We were immediately asked by a group of people our age to join them at their table. We played different drinking games and tried a sake-like liquor that was super sweet. It literally might have just been simple syrup, I’m not sure. After the band ended their set, they joined us at our table and let me play guitar for a few songs as well, which was pretty cool since I was useless trying to communicate in Chinese in a loud venue. Thus ended our Lijiang leg of the journey. 
-
+                    </p>
+                    <p>
                     Arriving in Kunming as you can imagine after all the hiking and traveling we had been doing, we were pretty burned out. We spent our time in Kunming exploring the city, renting bikes, and playing Go in coffee shops when it rained (which happened frequently). Finally, it was time to head home and we boarded our last 8-hour bullet train back to Shenzhen, which has begun to feel like home sweet home.
-
+                    </p>
+                    <p>
                     HUGE shoutout to Will for putting up with my strange ailments and unfit body, my inability to pay for anything as I didn’t have a bank account at the time, as well as being our sole translator in a country that is not very foreigner friendly. Mom, please send this boy a gift as I would not have made it this far without him.
-
+                    </p>
+                    <p>
                     This past week we’ve been taking it easy in Shenzhen. We went out one night with a bunch of other expats (we all met at a bar literally called “xpats”) including a guy from Tufts!
                     We experienced our first bad air quality day with the AQI (air quality index) reaching 160. I’ve spent a lot of time reading (I’ve almost finished Murakami’s 1Q84) and playing dominion with Will (shoutout to Keyrus boardgames crew!).
-
+                    </p>
+                    <p>
                     At the time that I send out this email, I will have almost spent a month in China. Time has been flying for me, I wonder if it has been the same for all of you. I start my teaching job at a public middle school around the corner from where I live next week. How I am qualified to teach this job I am not so sure but I will tell you all about my first experiences and impressions of teaching in my next email! Don’t be a stranger!
-
+                    <br></br>
+                    <br></br>
                     Miss you all,
-
+                    <br></br>
+                    <br></br>
                     Baigs
-                    
+                    </p>
+                    <p>
                     TLDR: Took a trip to Yunnan which had incredible natural beauty. People there were obsessed with us, we had many interactions with people who wanted to take our pics and/or spend quality time with us. I refuse to go on another bus/train for the next short while as we spent countless hours on them during our trip. Will is an angel and we are all lucky he exists on this Earth. I start teaching in a week!
                 </p>
 
@@ -213,7 +254,7 @@ function Bloghtml(value) {
     }
     else if (value === 3){
         html = 
-            <div>
+            <div className="blogPost">
                 <p>
 			Hey everyone, 
 
@@ -229,9 +270,9 @@ function Bloghtml(value) {
 
 			I showed up to my first class with both my laptop and a usb stick with my powerpoint presentation on it. Unfortunately the classrooms have no way to handle that, according to the teacher who brought me to the class. Instead I was supposed to upload any presentations I had to their server beforehand. Thanks for the heads up guys! I ran back up to my office (yeah I get an office how cool is that) and one of the other teachers helped me navigate the school’s file system, which needless to say is all in Chinese. I ran back down to my first class and began the lesson (which I’ve attached to this email in case you all are curious). This whole server thing is frustrating because it means I can never edit my slides in class, or even at school. The school doesn’t have wifi so my laptop is useless if I want to do anything on the internet, and Microsoft isn’t a thing here so the school computer that I was given can’t edit my slides either. If I ever want to make a change I have to wait until I get home, make the changes on my laptop, put the new slides on the usb, and then re upload them the next morning on the school server. Not ideal.</p>
 
-			<figure>
-				<img src="images/blogimages/school.jpeg" alt="school" height="400em" width="400em" /> 
-				<figcaption>Image 1: Entrance to my school (hell).
+			<figure className="blogFigure">
+				<img src="../../blogimages/school.jpeg" alt="school" height="400em" width="400em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 1: Entrance to my school (hell).
 				</figcaption>
 	
 			</figure>
@@ -240,9 +281,9 @@ function Bloghtml(value) {
 			However, all the struggles I had dealt with up until this point pale in comparison to what I had to deal with in the classroom. My first day of school I had three different classes, two 4th grade and one 5th. My only description for each class would be ‘total disaster’. I wish that I was recording the whole thing because it was so outrageous. I don’t even know where to begin. I suppose firstly I should say that each class has 50 students in it. That’s not an exaggeration. 50 students. A couple have closer to 60. I teach 20 classes every week for a total of 1000 students. Wish me luck. The English skill level in a given class ranges from students who do not understand nor speak a word of English, to students who ask me things like what my favorite type of seafood is or whether or not I prefer Shenzhen to New York and why, and everything in-between. How do you teach classes like that? If I teach to the students that are really struggling, I lose the attention of everyone else. If I teach to the top performers in the class, I also lose people’s attention. In either scenario the classroom becomes a nightmare. Also, I am the only teacher in the room. I don’t have a teaching assistant to help me communicate ideas when they don’t understand or quiet the class down when they are noisy. Which leads me to the thing that has been the most difficult, and that is discipline. I’d say at this stage that my job is 80% discipline and 20% actually teaching, maybe even a 90-10 split in my 3rd grade classes. For example, in my first class perhaps 3 minutes in, there a few students in the front that were engaged and listening, there was a group of students in the back left noisily talking to each other, and a couple of students were strangling each other with the curtains in the back right corner. The rest of the students were watching the scene and commentating on it out loud as if they were sports announcers. I tried quieting everyone down, but with my quiet voice and mild temperament it was difficult for me to make my presence commanding enough to stop the ruckus. 
             </p>
 
-			<figure>
-				<img src="images/blogimages/sampleclass.jpeg" alt="3rd grade classroom" height="400em" width="500em" /> 
-				<figcaption>Image 2: Grade 3 Class 8. Demons, but the cute kind.
+			<figure className="blogFigure">
+				<img src="../../blogimages/sampleclass.jpeg" alt="3rd grade classroom" height="400em" width="500em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 2: Grade 3 Class 8. Demons, but the cute kind.
 				</figcaption>
 	
 			</figure>
@@ -274,9 +315,9 @@ function Bloghtml(value) {
 			Discipline issues and Chinese classroom culture aside, there are some pretty amazing things about being a foreign teacher in a Chinese school. The best parts of my job are without a doubt the interactions I have with the kids between class ending and me trying to leave the classroom. I say trying because after each period, the students rush up to the front and swarm me. One student couldn’t stop herself from touching my beard, one student gave me a sheet of paper with his telephone number on it, one student asked if I liked Chinese food and then invited me over to her house for dinner, claiming that her mom makes really good Chinese food. I’ve had students tell me how handsome I am and that I have pretty eyes. I’ve had students ask if we can hang out after school, and I’m being asked constantly to take a photo with them. If you all ever need a confidence booster, I recommend becoming a teacher in China. I’ve never felt famous before, but I feel like a complete celebrity at school. Just walking from my office to a classroom down the hall I get said ‘hello Daniel!’ to 10-20 times, and maybe 2-3 “you’re so handsome”’s or so. My favorite comment in a class however, has been the student who raised her hand 10 seconds into my lesson and asked “Why are you handsome in your photo, but not in person”? It was a blow to my self-esteem, but I think I needed it given all the attention I had been getting. 
             </p>
 
-			<figure>
-				<img src="images/blogimages/classselfie.jpeg" alt="selfie with students" height="400em" width="300em" /> 
-				<figcaption>Image 3: A quality selfie with the boys in grade 4 class 1. Not pictured, literally 40 other students surrounding me.
+			<figure className="blogFigure">
+				<img src="../../blogimages/classselfie.jpeg" alt="selfie with students" height="400em" width="300em" className="blogImage" /> 
+				<figcaption className="blogCaption">Image 3: A quality selfie with the boys in grade 4 class 1. Not pictured, literally 40 other students surrounding me.
 				</figcaption>
 	
 			</figure>
@@ -294,9 +335,9 @@ function Bloghtml(value) {
 			We spent our time there exploring the different areas of the city. We took a day to hike a mountain on Lantau island and ended up seeing a massive Buddha statue as well. Another night we went to a jazz bar and saw some live music, and another morning we had delicious dim sum. Easily the best pork buns I’ve ever had, so if you’re planning on visiting me you can bet I’ll take you there. The only downside to HK is that it’s super expensive, probably equivalent to NYC prices. Not the best place to travel to if you’re on my teacher’s salary.
             </p>
 
-			<figure>
-				<img src="images/blogimages/hkstreet.jpeg" alt="Hong Kong street" height="400em" width="300em" /> 
-				<figcaption>Image 4: Neon Hong Kong.
+			<figure className="blogFigure">
+				<img src="../../blogimages/hkstreet.jpeg" alt="Hong Kong street" height="400em" width="300em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 4: Neon Hong Kong.
 				</figcaption>
 	
 			</figure>
@@ -305,109 +346,121 @@ function Bloghtml(value) {
 			I am currently writing this email while pent up in my apartment with a massive typhoon looming outside. I woke up to the sounds of our windows and doors creaking and swinging open and our entire building shaking. We spent the next few hours running around trying to keep water out of our apartment and trying not to worry that our building would collapse. I know hurricane Florence is in the news, but if you were unaware there is also a massive typhoon hitting the Hong Kong-Shenzhen area. Funny how I am all the way here and still experiencing a similar thing to you guys. I hope all of you are doing well wherever you are in the world, and I look forward to hearing from you! As always, feel free to reach out to me by whatever means is easiest for you, as long as it’s WeChat then it works for me.
             </p>
 
-			<figure>
-				<img src="images/blogimages/typhoon.jpeg" alt="Typhoon" height="400em" width="500em" /> 
-				<figcaption>Image 5: Typhoon aftermath outside my apartment.
+			<figure className="blogFigure">
+				<img src="../../blogimages/typhoon.jpeg" alt="Typhoon" height="400em" width="500em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 5: Typhoon aftermath outside my apartment.
 				</figcaption>
 	
 			</figure>
 			<p>
 
 			All the best,
-
+            <br></br>
+            <br></br>
 			Baigs
-
+            </p>
+            <p>
 			TLDR; I am a teacher now and it has been a super overwhelming experience. I teach 3rd-5th graders with 50 kids in each class. Discipline has been the biggest issue, but I think that I’ll get better at controlling classes over time. The kids here are obsessed with me, entirely because I am the only foreigner in the school. I also went to Hong Kong and it was western and an incredible break from mainland China.
 		    </p>
             </div>
     }
     else if (value === 4){
         html = 
-            <div>
+            <div className="blogPost">
                 <p>
-			Hi everyone! It has been a while since I last sent an email, so I hope all is still well. I’ve been traveling a bunch this month, which marks the third month of my journey. It’s crazy to think that if I decide to only stay in China for this one year, my time here is already 25% done. While I don’t feel completely at home here still, and I don’t think I ever will, it is amazing how settled in I am. I have my work routine down, I have my favorite restaurants around me that I frequent, my social life revolves around weekend trips, exploring with Will, and occasionally meeting up with other foreign English teachers. I also recently purchased a $30 guitar on TaoBao (Chinese Amazon) just to make me feel even more at home. While this past month has been characterized by settling into my job and weekly routine, I have done quite a lot of traveling, so I’ll tell you all about that. As always there will be a TLDR at the end of this email. 
+			Hi everyone! 
+            <br></br>
+            <br></br>
+            It has been a while since I last sent an email, so I hope all is still well. I’ve been traveling a bunch this month, which marks the third month of my journey. It’s crazy to think that if I decide to only stay in China for this one year, my time here is already 25% done. While I don’t feel completely at home here still, and I don’t think I ever will, it is amazing how settled in I am. I have my work routine down, I have my favorite restaurants around me that I frequent, my social life revolves around weekend trips, exploring with Will, and occasionally meeting up with other foreign English teachers. I also recently purchased a $30 guitar on TaoBao (Chinese Amazon) just to make me feel even more at home. While this past month has been characterized by settling into my job and weekly routine, I have done quite a lot of traveling, so I’ll tell you all about that. As always there will be a TLDR at the end of this email. 
+            </p>
+            <p>
 
-For those of you who have reached out to me concerned about my well-being after I described my teaching situation, things have gotten better! Well, to be completely honest, I think I more or less just know what to expect now. I have singled out the most disruptive classes and even the specific students in those classes who give me the most trouble. There are also classes that are well-behaved and it’s a joy to teach them. Out of the 3 grades I teach, I find my 3rd graders the best as they are old enough to pay attention (though not too old to think they’re too cool for school) and young enough to be completely enamored by a foreign teacher. After most classes my third grade students will rush to the front where I stand and hug me, touch my arms, and ask me the hard-hitting questions like “you have so much hair, are you a woman”? Or “Why are you so fat”? Mom, according to my students I have put on some weight so you don’t have to worry about me not eating enough. The past couple of weeks a few girls in one of my classes have been standing outside my office pulling faces at me, and when I go outside to greet them they grab onto me like their lives depend on it and only release their grips when the bell for the next class rings. Also, I made the mistake of giving one of my students my email address after he had been asking me for it for weeks. Not only does he email me “good morning” and “good night” every day and then ask me at school why I never responded, but now all my other students want my email address. I gave it to one student but I am beginning to realize how critical a mistake this could turn out to be. I might have to burn this email address after leaving China.
+        For those of you who have reached out to me concerned about my well-being after I described my teaching situation, things have gotten better! Well, to be completely honest, I think I more or less just know what to expect now. I have singled out the most disruptive classes and even the specific students in those classes who give me the most trouble. There are also classes that are well-behaved and it’s a joy to teach them. Out of the 3 grades I teach, I find my 3rd graders the best as they are old enough to pay attention (though not too old to think they’re too cool for school) and young enough to be completely enamored by a foreign teacher. After most classes my third grade students will rush to the front where I stand and hug me, touch my arms, and ask me the hard-hitting questions like “you have so much hair, are you a woman”? Or “Why are you so fat”? Mom, according to my students I have put on some weight so you don’t have to worry about me not eating enough. The past couple of weeks a few girls in one of my classes have been standing outside my office pulling faces at me, and when I go outside to greet them they grab onto me like their lives depend on it and only release their grips when the bell for the next class rings. Also, I made the mistake of giving one of my students my email address after he had been asking me for it for weeks. Not only does he email me “good morning” and “good night” every day and then ask me at school why I never responded, but now all my other students want my email address. I gave it to one student but I am beginning to realize how critical a mistake this could turn out to be. I might have to burn this email address after leaving China.
 
-In China there is a holiday called "National Day”, which actually lasts a week so it’s nicknamed “Golden Week”. With this vacation I decided to travel to Vietnam! I had never been and it was one of the countries on the top of my list, accompanying Japan. However, when you get national holidays in China, you have to make up some of the missed time by working on the weekend. That means before my trip I had to work the Saturday and Sunday, and yes that means the students were in school too. Right as school ended I jumped on a bike for the train station so I could catch a high speed rail train to Hong Kong. The high speed rail has proven to be a really fast and great way to cross the Shenzhen-Hong Kong border. It takes you from downtown Shenzhen right to downtown Kowloon, Hong Kong. Upon arriving in Hong Kong, I took the airport express to the airport in order to catch my 3-hour flight to Hanoi, Vietnam. 
+        In China there is a holiday called "National Day”, which actually lasts a week so it’s nicknamed “Golden Week”. With this vacation I decided to travel to Vietnam! I had never been and it was one of the countries on the top of my list, accompanying Japan. However, when you get national holidays in China, you have to make up some of the missed time by working on the weekend. That means before my trip I had to work the Saturday and Sunday, and yes that means the students were in school too. Right as school ended I jumped on a bike for the train station so I could catch a high speed rail train to Hong Kong. The high speed rail has proven to be a really fast and great way to cross the Shenzhen-Hong Kong border. It takes you from downtown Shenzhen right to downtown Kowloon, Hong Kong. Upon arriving in Hong Kong, I took the airport express to the airport in order to catch my 3-hour flight to Hanoi, Vietnam. 
 
-This was my first time traveling alone. The plan was to travel in and around Hanoi for 4 days, and then Will would join me in Ha Long Bay for the remainder of the trip. That meant I was on my own in a new country where English is not spoken. I was pretty excited actually. I don’t mind doing things by myself, and when you travel with other people there always has to be a group consensus on what to do or where to eat. Being alone meant that I could completely control my experience and do as much or as little as I wanted. Basically I could skip the museums and just do a food tour of Hanoi.
+        This was my first time traveling alone. The plan was to travel in and around Hanoi for 4 days, and then Will would join me in Ha Long Bay for the remainder of the trip. That meant I was on my own in a new country where English is not spoken. I was pretty excited actually. I don’t mind doing things by myself, and when you travel with other people there always has to be a group consensus on what to do or where to eat. Being alone meant that I could completely control my experience and do as much or as little as I wanted. Basically I could skip the museums and just do a food tour of Hanoi.
 
-When I arrived at my hostel I was shocked to see how lively it was. I have never lived in a frat house but my time there felt like what living in a frat house most likely feels like. By that I mean that the lobby, which had a large bar directly opposite the reception area, was filled with white guys in their late 20s with sleeveless tees and backwards hats double-fisting beers with loud pop music blaring in the background. Constantly. This made checking in when I arrived at 8pm a nightmare, as I couldn’t hear a word the reception was saying and wanted to talk to them about day trips, but decided to cut my losses and just check into my room. Other than the never-ending party downstairs, the hostel itself was quite nice. It cost $5 USD a night and included free breakfast, a free walking tour, and an assortment of trip packages that you could purchase. They also served fresh smoothies at the bar so no matter what happened the rest of the trip, I was happy. I put my backpack down in my room and one of my roommates, a guy in his late 20s with a sleeveless tee named Zander, started chatting with me. He had just flown in from New Zealand and was staying in the hostel for a month while looking for teaching jobs there. We were both traveling alone and he was extroverted enough to carry a conversation for the both of us so we decided to grab some food together and walk around the area. We were staying in an area of Hanoi called the Old Quarter, which was a maze of really narrow roads with more motorbikes than people and food stalls lining the sidewalks. We sat down on these tiny plastic chairs maybe 6 inches off the ground and ordered some Vietnamese food which included a plate of snails. Zander ordered a couple beers to occupy his hands. Walking onwards we came across a lake called Hoan Kiem Lake, which seemed to be the center of all nightlife in Hanoi. Something that struck me as we were walking was just how many foreigners there were. It seemed like for every Vietnamese person I saw there were two foreigners. </p>
+        When I arrived at my hostel I was shocked to see how lively it was. I have never lived in a frat house but my time there felt like what living in a frat house most likely feels like. By that I mean that the lobby, which had a large bar directly opposite the reception area, was filled with white guys in their late 20s with sleeveless tees and backwards hats double-fisting beers with loud pop music blaring in the background. Constantly. This made checking in when I arrived at 8pm a nightmare, as I couldn’t hear a word the reception was saying and wanted to talk to them about day trips, but decided to cut my losses and just check into my room. Other than the never-ending party downstairs, the hostel itself was quite nice. It cost $5 USD a night and included free breakfast, a free walking tour, and an assortment of trip packages that you could purchase. They also served fresh smoothies at the bar so no matter what happened the rest of the trip, I was happy. I put my backpack down in my room and one of my roommates, a guy in his late 20s with a sleeveless tee named Zander, started chatting with me. He had just flown in from New Zealand and was staying in the hostel for a month while looking for teaching jobs there. We were both traveling alone and he was extroverted enough to carry a conversation for the both of us so we decided to grab some food together and walk around the area. We were staying in an area of Hanoi called the Old Quarter, which was a maze of really narrow roads with more motorbikes than people and food stalls lining the sidewalks. We sat down on these tiny plastic chairs maybe 6 inches off the ground and ordered some Vietnamese food which included a plate of snails. Zander ordered a couple beers to occupy his hands. Walking onwards we came across a lake called Hoan Kiem Lake, which seemed to be the center of all nightlife in Hanoi. Something that struck me as we were walking was just how many foreigners there were. It seemed like for every Vietnamese person I saw there were two foreigners. </p>
 
-	<figure>
-		<img src="images/blogimages/hanoi-market.jpeg" alt="Hanoi Market" height="400em" width="300em"/> 
-		<figcaption>Image 1: Old Quarter, Hanoi.
-		</figcaption>
-	
-	</figure>
-	<p>
+            <figure className="blogFigure">
+                <img src="../../blogimages/hanoi-market.jpeg" alt="Hanoi Market" height="400em" width="300em" className="blogImage" /> 
+                <figcaption className="blogCaption">Image 1: Old Quarter, Hanoi.
+                </figcaption>
+            
+            </figure>
+            <p>
 
-The next morning I took the complimentary walking tour that the hostel offered and walked around the old quarter during the day. We saw many markets and historical buildings, including the building where Ho Chi Minh wrote the Declaration of independence after WW2. We ended the tour at a hidden cafe where the specialty drink was called egg coffee, and is exactly what you think it is. It’s coffee mixed with a raw whipped egg and some cream/sugar. They also served egg beer, egg rum, and egg coke. We tried the egg beer and I definitely preferred the coffee. I spent the remainder of the day walking around the city eating different foods, including western favorites like Pho and Bahn Me, and recovering from drinking the egg beer. On day 3 I took a day trip to a village called Hoa Lu, which actually used to be the capital of Vietnam 1000 years ago. I toured some ancient temples where the queen and king used to live, and almost bought one of those conical rice hats to block the intense sun, but decided that it would be too touristy. After Hoa Lu I went to Tam Coc, which is a beautiful river that offers tours where locals row you (with their feet) in a small boat through caves and rice fields. I then rented a bike and rode through some roads that passed by the river until I had to catch a bus back to Hanoi. It was definitely an incredibly scenic few hours. </p>
+        The next morning I took the complimentary walking tour that the hostel offered and walked around the old quarter during the day. We saw many markets and historical buildings, including the building where Ho Chi Minh wrote the Declaration of independence after WW2. We ended the tour at a hidden cafe where the specialty drink was called egg coffee, and is exactly what you think it is. It’s coffee mixed with a raw whipped egg and some cream/sugar. They also served egg beer, egg rum, and egg coke. We tried the egg beer and I definitely preferred the coffee. I spent the remainder of the day walking around the city eating different foods, including western favorites like Pho and Bahn Me, and recovering from drinking the egg beer. On day 3 I took a day trip to a village called Hoa Lu, which actually used to be the capital of Vietnam 1000 years ago. I toured some ancient temples where the queen and king used to live, and almost bought one of those conical rice hats to block the intense sun, but decided that it would be too touristy. After Hoa Lu I went to Tam Coc, which is a beautiful river that offers tours where locals row you (with their feet) in a small boat through caves and rice fields. I then rented a bike and rode through some roads that passed by the river until I had to catch a bus back to Hanoi. It was definitely an incredibly scenic few hours. </p>
 
-	<figure>
-		<img src="images/blogimages/eggbeer.jpeg" alt="Egg Beer" height="400em" width="300em"/> 
-		<figcaption>Image 2: Eggs and beer. Sound good? It was alright.
-		</figcaption>
-	
-	</figure> 
+            <figure className="blogFigure">
+                <img src="../../blogimages/eggbeer.jpeg" alt="Egg Beer" height="400em" width="300em" className="blogImage"/> 
+                <figcaption className="blogCaption">Image 2: Eggs and beer. Sound good? It was alright.
+                </figcaption>
+            
+            </figure> 
 
-<p>
-Will joined me the evening of the next day as we prepared to leave for Ha Long Bay, a UNESCO world heritage site that I can’t recommend enough. It’s a bay that features tons of islands and limestone karsts (I had to look up what that was too). Will and I stayed on Cat Ba island, which is a slightly smaller island on the outskirts of the bay. Since it was a little outside of the super touristy center, we basically had the island to ourselves. We dropped our bags, got some smoothies, and rented a pair of motorbikes for $3 each. Don’t worry mom we wore helmets. It took about 20 minutes to figure out how to control the bike (they didn’t exactly give us any lessons or even ask for driving licenses) but once I got the hang of it, driving a motorbike across a remote island was one of the most beautiful things I have ever done. We drove from one end of the island to the other, which took about an hour, and only stopped to fill up with gas and pick up Will’s phone which fell out of his pocket. At the other end of the island we rested on a ledge by the water, and while we were laying there Will’s phone decided to take on a life of its own again and dive into the bay. With little hesitation he jumped in to rescue it, and while he miraculously found it, it had sustained too much damage over the day to be resurrected. 
+        <p>
+        Will joined me the evening of the next day as we prepared to leave for Ha Long Bay, a UNESCO world heritage site that I can’t recommend enough. It’s a bay that features tons of islands and limestone karsts (I had to look up what that was too). Will and I stayed on Cat Ba island, which is a slightly smaller island on the outskirts of the bay. Since it was a little outside of the super touristy center, we basically had the island to ourselves. We dropped our bags, got some smoothies, and rented a pair of motorbikes for $3 each. Don’t worry mom we wore helmets. It took about 20 minutes to figure out how to control the bike (they didn’t exactly give us any lessons or even ask for driving licenses) but once I got the hang of it, driving a motorbike across a remote island was one of the most beautiful things I have ever done. We drove from one end of the island to the other, which took about an hour, and only stopped to fill up with gas and pick up Will’s phone which fell out of his pocket. At the other end of the island we rested on a ledge by the water, and while we were laying there Will’s phone decided to take on a life of its own again and dive into the bay. With little hesitation he jumped in to rescue it, and while he miraculously found it, it had sustained too much damage over the day to be resurrected. 
 
-Near our hostel there was a big hill which according to reception had one of the best views in Vietnam. The top of the hill was called Cannon Fort, and originally was a military outpost built by Japan during World War 2. We decided to race our bikes back across the island to try to catch the 5:30pm sunset (it was already 4:30pm). Along the way Will’s bike ran out of gas again, so we stopped at a random person’s house/store to ask for petrol. He didn’t seem to have any but told us to wait there. He tucked his 2 year-old child under his arm, hopped on his motorbike, and came back 3 minutes later with a water bottle filled with petrol. It was pretty incredible how friendly everyone was, even though there was such a language barrier. With no more interruptions albeit a couple wrong turns, we coasted all the way to cannon fort. We had to get off to pay for entrance tickets, and when we returned to our bikes Will’s wouldn’t start back up! We tried for a few minutes, and a bunch of Vietnamese people upon seeing us having bike difficulties all came over to try to fix it. Apparently everyone in Vietnam is a mechanic. They deemed the bike broken, so we decided since we would miss the sunset by walking up to the top, that he should jump on the back of mine. I’m not sure how many of you all have ever driven motorbikes, but driving up a windy hill with two people is considerably harder than driving across a flat island by yourself. We took it a bit slow, and unfortunately despite all of our efforts, missed the sunset by a few minutes. The view from the top however was still staggering. The reception really didn’t lie when they said cannon fort had incredible views. My photography skills do not do it justice.</p>
+        Near our hostel there was a big hill which according to reception had one of the best views in Vietnam. The top of the hill was called Cannon Fort, and originally was a military outpost built by Japan during World War 2. We decided to race our bikes back across the island to try to catch the 5:30pm sunset (it was already 4:30pm). Along the way Will’s bike ran out of gas again, so we stopped at a random person’s house/store to ask for petrol. He didn’t seem to have any but told us to wait there. He tucked his 2 year-old child under his arm, hopped on his motorbike, and came back 3 minutes later with a water bottle filled with petrol. It was pretty incredible how friendly everyone was, even though there was such a language barrier. With no more interruptions albeit a couple wrong turns, we coasted all the way to cannon fort. We had to get off to pay for entrance tickets, and when we returned to our bikes Will’s wouldn’t start back up! We tried for a few minutes, and a bunch of Vietnamese people upon seeing us having bike difficulties all came over to try to fix it. Apparently everyone in Vietnam is a mechanic. They deemed the bike broken, so we decided since we would miss the sunset by walking up to the top, that he should jump on the back of mine. I’m not sure how many of you all have ever driven motorbikes, but driving up a windy hill with two people is considerably harder than driving across a flat island by yourself. We took it a bit slow, and unfortunately despite all of our efforts, missed the sunset by a few minutes. The view from the top however was still staggering. The reception really didn’t lie when they said cannon fort had incredible views. My photography skills do not do it justice.</p>
 
-	<figure>
-		<img src="images/blogimages/cannonfort.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-		<figcaption>Image 3: 1 broken bike, 2 hungry boys, and 3 minutes after sunset.
-		</figcaption>
-	
-	</figure>
-<p>
-The following day we decided to explore other islands in Ha Long Bay. We rented kayaks at the docks and the guy who rented them to us took us out on his boat through the bay to an island he recommended, called Monkey Island. We spent some time kayaking around the island first, stopping at random beaches and inlets along the way. Both of us shared a kayak, and while I was vastly out of shape, my tiredness was worth it. We beached our kayak on one of Monkey Island’s beaches and walked around a bit. We climbed to two different peaks on the island, one of which had stairs leading up to it and the other of which was basically rock climbing. We admired the views for quite some time, and then kayaked back to the boat that was meeting us to take us back to Cat Ba Island. That night we hiked Cannon Fort again in an attempt to catch the sunset, and while we made it up there in time, we ordered food at the cafe and didn’t finish eating until after the sunset again. I suppose I’ll have to go back one day to finally catch it. </p>
+            <figure className="blogFigure">
+                <img src="../../blogimages/cannonfort.jpeg" alt="Typhoon" height="400em" width="300em" className="blogImage"/> 
+                <figcaption className="blogCaption">Image 3: 1 broken bike, 2 hungry boys, and 3 minutes after sunset.
+                </figcaption>
+            
+            </figure>
+        <p>
+        The following day we decided to explore other islands in Ha Long Bay. We rented kayaks at the docks and the guy who rented them to us took us out on his boat through the bay to an island he recommended, called Monkey Island. We spent some time kayaking around the island first, stopping at random beaches and inlets along the way. Both of us shared a kayak, and while I was vastly out of shape, my tiredness was worth it. We beached our kayak on one of Monkey Island’s beaches and walked around a bit. We climbed to two different peaks on the island, one of which had stairs leading up to it and the other of which was basically rock climbing. We admired the views for quite some time, and then kayaked back to the boat that was meeting us to take us back to Cat Ba Island. That night we hiked Cannon Fort again in an attempt to catch the sunset, and while we made it up there in time, we ordered food at the cafe and didn’t finish eating until after the sunset again. I suppose I’ll have to go back one day to finally catch it. </p>
 
-	<figure>
-		<img src="images/blogimages/monkey-island.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-		<figcaption>Image 4: Monkey Island. That's me and the other one is Will.
-		</figcaption>
-	
-	</figure>
-<p>
-A couple weeks after getting back to China, my friend Mikey, who also moved to China to teach English for a year, and I decided to meet up for a weekend trip. He and his girlfriend Hana are living in a tiny village in East China called Jinyun where they are the only foreigners. On top of that they also teach high school students with smaller class sizes and received lots of help with teaching materials/syllabus from their program. Basically, while were are both living in China we are having completely different experiences. We decided to meet up in a city called Xiamen. It’s one of the major port cities in China and is in-between where they live, and Shenzhen. It’s a beautiful city on the water that boasts both the world’s longest elevated bike path, and a pedestrian-only island called Gulangyu. Of course, we had to do both of these things. The island was small enough such that we could probably walk the whole thing given a few hours, but since we could only manage to get on a ferry at 3pm, we didn’t have enough time to see all of it. We prioritized the things we wanted to do most, which involved walking through the town, and watching the sunset from “sunlight rock”. I know, I love my sunsets.
+            <figure className="blogFigure">
+                <img src="../../blogimages/monkey-island.jpeg" alt="Typhoon" height="400em" width="300em" className="blogImage" /> 
+                <figcaption className="blogCaption">Image 4: Monkey Island. That's me and the other one is Will.
+                </figcaption>
+            
+            </figure>
+        <p>
+        A couple weeks after getting back to China, my friend Mikey, who also moved to China to teach English for a year, and I decided to meet up for a weekend trip. He and his girlfriend Hana are living in a tiny village in East China called Jinyun where they are the only foreigners. On top of that they also teach high school students with smaller class sizes and received lots of help with teaching materials/syllabus from their program. Basically, while were are both living in China we are having completely different experiences. We decided to meet up in a city called Xiamen. It’s one of the major port cities in China and is in-between where they live, and Shenzhen. It’s a beautiful city on the water that boasts both the world’s longest elevated bike path, and a pedestrian-only island called Gulangyu. Of course, we had to do both of these things. The island was small enough such that we could probably walk the whole thing given a few hours, but since we could only manage to get on a ferry at 3pm, we didn’t have enough time to see all of it. We prioritized the things we wanted to do most, which involved walking through the town, and watching the sunset from “sunlight rock”. I know, I love my sunsets.
 
-The city itself reminded me of Santa Monica, a place outside of LA that my sister had taken me to when I visited her (~shoutout to you Mbaigs~). The weather was perfect, there were palm trees everywhere, and there were tons of cafes right on the water. We stopped at some cafes, toured around an art district, rode bikes on the elevated bike path, and called it a trip. While we did a lot, we realized that doing everything in a city of nearly 4 million people in a single weekend was near impossible. Definitely looking forward to exploring another new city with Mikey and Hana soon!
+        The city itself reminded me of Santa Monica, a place outside of LA that my sister had taken me to when I visited her (~shoutout to you Mbaigs~). The weather was perfect, there were palm trees everywhere, and there were tons of cafes right on the water. We stopped at some cafes, toured around an art district, rode bikes on the elevated bike path, and called it a trip. While we did a lot, we realized that doing everything in a city of nearly 4 million people in a single weekend was near impossible. Definitely looking forward to exploring another new city with Mikey and Hana soon!
 
-That sums up the traveling I’ve been doing up until now. I still have to visit Guangzhou, the massive metropolis 45 minutes from Shenzhen, and I imagine I’ll do more trips to Hong Kong in the near future. I already have tons of people coming to visit me starting in December all the way until March, so it won’t be too long before I leave China again. 
+        That sums up the traveling I’ve been doing up until now. I still have to visit Guangzhou, the massive metropolis 45 minutes from Shenzhen, and I imagine I’ll do more trips to Hong Kong in the near future. I already have tons of people coming to visit me starting in December all the way until March, so it won’t be too long before I leave China again. 
 
-Meanwhile in China, Will and I have befriended this family that keeps taking us out to dinner. We were on our way to some board game meet up in our neighborhood, and when we got there we couldn’t find the right room in an apartment building. Just before giving up and going back home, a woman and her six-year-old child walked in and started talking to us, well, started talking to Will. I just stood on the sidelines and exchanged silly faces with the daughter while the adults talked. Pretty soon Will and the woman added each other on WeChat and before we knew it we were invited out to dinner. The parents and daughter took us out to a nice hot pot restaurant. Hot pot is a Chinese cooking style where customers cook their own food in a boiling bowl of soup. Throughout the dinner I said very few words, but had a great time tasting all the different dishes that were brought out. It definitely made me want to improve my Chinese though. The parents would be having a conversation with Will about something like the discrepancies between STEM education in the US and China, and then after 15 minutes or so they would feel the urge to include me. They would turn to me and ask a question like “How old are you?” or, “do you like China?”. And I would look to Will to help translate the words I didn’t know, and then respond with something like “I am 23” or “Yes, I like eating in China”. Not my proudest moments. The family took us out on another occasion just a week later, this time their daughter, who I connected with most on our last dinner since neither of us participated in the grown ups conversation, didn’t come. Instead they brought one of their daughter's teachers. We went to a great Thai restaurant, but as the night went on it became clear that this family wasn’t just trying to make us feel at home in China, but rather wanted to hire us as teachers in their new STEM education company they were starting. I played a very small role in the conversation again, I let Will handle navigating their questions while I savored the pineapple fried rice and coconut water. </p>
+        Meanwhile in China, Will and I have befriended this family that keeps taking us out to dinner. We were on our way to some board game meet up in our neighborhood, and when we got there we couldn’t find the right room in an apartment building. Just before giving up and going back home, a woman and her six-year-old child walked in and started talking to us, well, started talking to Will. I just stood on the sidelines and exchanged silly faces with the daughter while the adults talked. Pretty soon Will and the woman added each other on WeChat and before we knew it we were invited out to dinner. The parents and daughter took us out to a nice hot pot restaurant. Hot pot is a Chinese cooking style where customers cook their own food in a boiling bowl of soup. Throughout the dinner I said very few words, but had a great time tasting all the different dishes that were brought out. It definitely made me want to improve my Chinese though. The parents would be having a conversation with Will about something like the discrepancies between STEM education in the US and China, and then after 15 minutes or so they would feel the urge to include me. They would turn to me and ask a question like “How old are you?” or, “do you like China?”. And I would look to Will to help translate the words I didn’t know, and then respond with something like “I am 23” or “Yes, I like eating in China”. Not my proudest moments. The family took us out on another occasion just a week later, this time their daughter, who I connected with most on our last dinner since neither of us participated in the grown ups conversation, didn’t come. Instead they brought one of their daughter's teachers. We went to a great Thai restaurant, but as the night went on it became clear that this family wasn’t just trying to make us feel at home in China, but rather wanted to hire us as teachers in their new STEM education company they were starting. I played a very small role in the conversation again, I let Will handle navigating their questions while I savored the pineapple fried rice and coconut water. </p>
+            <div style={{
+                                display: "flex",
+                                justifyContent: "space-between"
+                            
+                            }}>
+                <figure className="blogFigure">
+                    <img src="../../blogimages/family-dinner.jpeg" alt="Dinner 1" height="400em" width="500em" className="blogImage"/> 
+                    <figcaption className="blogCaption">Image 5: Me with my new best friend and her parents.
+                    </figcaption>
+                
+                </figure>
 
-	<figure>
-		<img src="images/blogimages/family-dinner.jpeg" alt="Dinner 1" height="400em" width="500em"/> 
-		<figcaption>Image 5: Me with my new best friend and her parents.
-		</figcaption>
-	
-	</figure>
-
-	<figure>
-		<img src="images/blogimages/family-dinner2.jpeg" alt="Typhoon" height="400em" width="500em"/> 
-		<figcaption>Image 6: My new best friend and I playing games. Will is jealous.
-		</figcaption>
-	
-	</figure>
-<p>
-That’s it for now, apologies that it took me a little longer than usual to get this update out. I miss you all and looking forward to hearing about life back in the states. Back to studying Chinese and writing lesson plans, I guess.
-
-Peace,
-
-Baigs
-
-TLDR; Teaching is getting a little easier, not because the students are better behaved, but because I know what to expect when I walk into each class now. While I don’t like teaching, I love the little moments in-between class where I get to interact with the kids. I Went to Vietnam for a week by myself and Will joined me halfway through. Hanoi was cheap and interesting with bad air pollution, and Ha Long Bay was an amazing beautiful experience. I met up with my high school friend Mikey who is also teaching English in China and is having a completely different experience from me. A random Chinese family keeps inviting Will and me out to dinner to try to convince us to join their STEM education startup as teachers.  
-</p>
-
+                <figure className="blogFigure">
+                    <img src="../../blogimages/family-dinner2.jpeg" alt="Dinner2" height="400em" width="500em" className="blogImage"/> 
+                    <figcaption className="blogCaption">Image 6: My new best friend and I playing games. Will is jealous.
+                    </figcaption>
+                
+                </figure>
             </div>
+        <p>
+        That’s it for now, apologies that it took me a little longer than usual to get this update out. I miss you all and looking forward to hearing about life back in the states. Back to studying Chinese and writing lesson plans, I guess.
+
+        Peace,
+
+        Baigs
+
+        TLDR; Teaching is getting a little easier, not because the students are better behaved, but because I know what to expect when I walk into each class now. While I don’t like teaching, I love the little moments in-between class where I get to interact with the kids. I Went to Vietnam for a week by myself and Will joined me halfway through. Hanoi was cheap and interesting with bad air pollution, and Ha Long Bay was an amazing beautiful experience. I met up with my high school friend Mikey who is also teaching English in China and is having a completely different experience from me. A random Chinese family keeps inviting Will and me out to dinner to try to convince us to join their STEM education startup as teachers.  
+        </p>
+
+        </div>
     }
     else if (value === 5){
-        html = <div>
+        html = <div className="blogPost">
             <p>Hey everyone,  
 
 I hope you all haven’t forgotten about me! Or if you have, that you at least remember me now that you’ve received this email. These last couple months have been filled with small trips, family and friends visiting me, and getting approached by ~hundreds of Chinese people for various reasons including and strictly limited to English lessons/language exchange. Seriously, I’ve been added on WeChat by tons of random people I meet on the Shenzhen streets. 
@@ -419,9 +472,9 @@ Just after I sent my last update, I had the opportunity to go on a field trip wi
 
 The museum consisted of three floors of rocks. I’m not really sure what was so special about this place, there was literally no context on any floor, just single rocks or gems sitting behind glass with little signs that said the English name and Chinese name of the stone. Regardless, these kids were excited to be there, most likely because they would be happier anywhere than in a classroom all day. I was constantly being pulled by kids who individually wanted to show me pieces of slate, or ruby gemstones, or diamonds. We spent maybe 20 minutes there before all the kids took buses to a local beach and all the teachers took buses to a hotel where we took naps and ate lunch. We never interacted with the kids again and after lunch took the buses home. So much for spending quality time with my students.</p>
 
-<figure>
-    <img src="images/blogimages/fieldtrip.jpeg" alt="Typhoon" height="400em" width="350em"/> 
-    <figcaption>Image 1: Field trip with grade 4 class 6! So much peace.
+<figure className="blogFigure">
+    <img src="../../blogimages/fieldtrip.jpeg" alt="Field Trip" height="400em" width="350em" className="blogImage"/> 
+    <figcaption className="blogCaption">Image 1: Field trip with grade 4 class 6! So much peace.
     </figcaption>
 
 </figure>
@@ -430,9 +483,9 @@ In other news my life here is probably as acclimated as it will get. I’ve got 
 
 Will and I took one day to check out Guangzhou for the first time. Only 40 minutes away on the high speed rail, Guangzhou is another major metropolis boasting an urban population of over 14 million, and is the capital of Cantonese cultural in mainland China. We only spent 24 hours there but filled our time by trying to see as much of the city as we could. We started our day off at the Sacred Heart Cathedral, one of the few remaining active churches in Guangzhou. It looked like something you would see in Europe, which makes sense as it was built during the Second Opium War with influence from Britain and France. We then took a bus to the South Tea Market, which despite being the biggest tea market with the highest quality tea I had ever been to, was surprisingly empty. We got stuck in one of the shops tasting endless tea while conversing to the store owners who were excited to talk to a Chinese-speaking foreigner and his semi-illiterate foreigner companion. We left to check out Shamian island, an old foreigners residential area now turned tourist site. It boasts European architecture, which is hard to come by in China, and a green area for strolling. It was nice, but like, whatevs. There’s more to see and do in this city. We took a metro over to the famous Beijing street which is a massive pedestrian area with tons of restaurants, shops, and yes even a chinchilla store. After buying some fresh kicks we put them on and ran over to a different area of the city that is known to house the biggest African immigrant community in all of China. We walked around a bit, Will bought more shoes, and then we left for the new city to see the public library and the Canton Tower, the iconic landmark of Guangzhou. We then finished our day under the Canton Tower by eating some of the best dim sum I’ve eaten yet. All before our 8pm train back to Shenzhen. While this paragraph was probably boring for most of you to read as nothing crazy or interesting happened, I mostly just wanted to brag about how much we did in under 24 hours. Although, it’s all a bit of a blur now so I will definitely have to go back.</p>
 
-<figure>
-<img src="images/blogimages/chinchilla.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-<figcaption>Image 2: Ralph.
+<figure className="blogFigure">
+<img src="../../blogimages/chinchilla.jpeg" alt="Typhoon" height="400em" width="300em" className="blogImage"/> 
+<figcaption className="blogCaption">Image 2: Ralph.
 </figcaption>
 
 </figure>
@@ -444,9 +497,9 @@ Finally, the moment you’ve all been waiting for, or at least what I had been l
 
 Our time in Hong Kong came to an end and we all took the train to Shenzhen. I still had work the week they visited, so each morning I would go to work, and when I got off I would take the train to wherever they were. According to both my mom and sister, the highlight of their trip was when they came to sit in on one of my classes at school. They watched one of my 4th grade classes that also happens to be my most well-behaved class and for that reason one of my favorites to teach. Before class started I took my visitors to come meet the other teachers I share an office with. They were given a warm welcome of tea and chicken feet; They graciously accepted the tea. Then a few students came in as they usually do before class so that they could walk with me in the hallway. They stood there like deer in headlights when they saw my family, but quickly got excited and started asking them questions. Pretty soon there were 20 students crowding the room as word had gotten out that there was a 200% increase in the number of foreigners in school today. They continually told my sister that she was so pretty and for some reason loved asking my mom how old she was. The bell rang and as we walked into the classroom the students’ usual cheer turned into piercing excited screams as they all realized that they had two new guests today. My mom and sister stood in the back of the classroom, while I played a review game with my students. Amazingly there were no major fights, nobody cried, and the noise level was tolerable. Although my mom and sister later told me that two kids in the back of the room were playing with knives and smashing their desks into each other.  </p>
 
-<figure>
-    <img src="images/blogimages/students-grade4.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-    <figcaption>Image 3: Pictured left to right: Sophie, Sophie, Amy, Batman.
+<figure className="blogFigure">
+    <img src="../../blogimages/students-grade4.jpeg" alt="Typhoon" height="400em" width="300em" className="blogImage"/> 
+    <figcaption className="blogCaption">Image 3: Pictured left to right: Batman, Sophie, Amy, Sophie.
     </figcaption>
 
 </figure>
@@ -454,15 +507,15 @@ Our time in Hong Kong came to an end and we all took the train to Shenzhen. I st
 <p>
 Another highlight of our time in Shenzhen was at the Dafen oil painting village. I had never been here before as it’s nearly two hours away from where I live, but I had heard good things so we went to go see it one day after school. Upon leaving the metro station however, I realized I had no idea how to find it. I had underestimated how good at hiding an entire village could be. 
 
-We wandered around for quite a while, stopped for some lunch, wandered around some more and eventually stopped to consult the internet. While all staring down at our phones, an older man approached us and asked if we needed help. Miraculously he spoke pretty good English and also knew exactly how to get where we wanted to go to. We walked along for 20 minutes (we had been walking in the total opposite direction) and eventually we found it tucked behind a massive construction area. There’s no chance I would have found it without him. We spent some time walking around the village, which had small cobblestone streets lined with small open-faced houses where artists were painting away. If you’ve ever bought generic oil paintings on Amazon to add some atmosphere to your dorm room (like I have), then you might be interested to hear that this village is where they are made. I literally saw multiple copies of a monkey wearing headphones painting that I have bought on Amazon before. Just type in ‘oil painting wall decoration’ into Amazon and everything that pops up is made there. <a href="https://www.amazon.com/DVQ-Art-Framed-Painting-Headphone-16x24inch/dp/B01MZXFUZG/ref=sr_1_5?ie=UTF8&qid=1545980499&sr=8-5&keywords=monkey+oil+painting" className="blogLink">Monkey link.</a>  
+We wandered around for quite a while, stopped for some lunch, wandered around some more and eventually stopped to consult the internet. While all staring down at our phones, an older man approached us and asked if we needed help. Miraculously he spoke pretty good English and also knew exactly how to get where we wanted to go to. We walked along for 20 minutes (we had been walking in the total opposite direction) and eventually we found it tucked behind a massive construction area. There’s no chance I would have found it without him. We spent some time walking around the village, which had small cobblestone streets lined with small open-faced houses where artists were painting away. If you’ve ever bought generic oil paintings on Amazon to add some atmosphere to your dorm room (like I have), then you might be interested to hear that this village is where they are made. I literally saw multiple copies of a monkey wearing headphones <a href="https://www.amazon.com/DVQ-Art-Framed-Painting-Headphone-16x24inch/dp/B01MZXFUZG/ref=sr_1_5?ie=UTF8&qid=1545980499&sr=8-5&keywords=monkey+oil+painting" className="blogLink">painting</a> that I have bought on Amazon before. Just type in ‘oil painting wall decoration’ into Amazon and everything that pops up is made there.   
 
 
 That night Will joined us in Luohu, the Eastern part of the city, for dinner. I wanted to make sure that my sister ate some of the Chinese classics before she left. We found a food court and passed by an insect stand, where my sister insisted on trying scorpion. Scorpion definitely isn’t a Chinese classic and almost certainly a tourist trap, but who was I to stop her? We all ordered a scorpion and were pleasantly surprised by how crunchy and flavorless they were. The next stop was stinky tofu, a food I had tried before in Taipei, and hated. For those of you who don’t know it, stinky tofu is a fermented tofu that smells like the worst smell you can think of times 1000. When you’re walking around and you smell it, you’ll instantly know when a stinky tofu stand is nearby. We had no problem sniffing out a stand, and ordered a bowl full of it for the three of us to eat. Unfortunately they put so much spicy sauce on top that it was hard to really taste the tofu as it had an overwhelmingly spicy flavor that limited us to just a couple bites each. We washed that down with some sugarcane juice we bought at the stand next door.
  </p>
 
-<figure>
-    <img src="images/blogimages/stinky-tofu.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-    <figcaption>Image 4: Stinky (Spicy) tofu.
+<figure className="blogFigure">
+    <img src="../../blogimages/stinky-tofu.jpeg" alt="Stinky Tofu" height="400em" width="300em" className="blogImage"/> 
+    <figcaption className="blogCaption">Image 4: Stinky (Spicy) tofu.
     </figcaption>
 
 </figure>
@@ -472,9 +525,9 @@ We ended our time together by taking the high speed rail up to a city called Gui
 
 Our taxi dropped us off at West Street, a famous tourist street in Yangshuo that can get pretty crowded at night. It’s filled with restaurants and stores selling all sorts of things such as jewelry, beef jerky, and clothing. The best moment of the night happened just after dinner. We had left the restaurant and walked for perhaps five minutes when my mom realized that we had forgotten a bag back inside. I decided I’d run back to get it and meet them at the top of the street. After picking up the bag though, I was stopped by a 6 or 7-year old girl in the street. She said “hello” to me and asked if I had a minute to spare. I told her of course I did, as teaching has now made me way more affectionate/welcoming towards children. She then handed me an envelope and said “Merry Christmas and Happy New Year!”. Her dad came over then and asked if he could take a photo of us, and I obliged. They then said thank you and wished me a happy new year again and went on their way. I was so taken aback that someone at that age would approach a stranger, who doesn’t speak their language, just to wish them well AND give them a homemade holiday card. The card read, My dear friend, we wish you Merry Christmas and Happy New Year! -Kiki”. Best gift ever. My only regret is not asking them to send me the photo. </p>
 
-<figure>
-    <img src="images/blogimages/holidaycard.jpeg" alt="Holiday Card" height="400em" width="400em" class = "rotateimg90"/> 
-    <figcaption>Image 5: Happy Holidays Kiki!
+<figure className="blogFigure">
+    <img src="../../blogimages/holidaycard.jpeg" alt="Holiday Card" height="400em" width="400em" class = "rotateimg90" className="blogImage"/> 
+    <figcaption className="blogCaption">Image 5: Happy Holidays Kiki!
     </figcaption>
 
 </figure>
@@ -484,26 +537,29 @@ The next morning we woke up and walked a portion of the ’Ten-Mile Gallery’, 
 
 On Christmas Eve I got invited to hang out and have dinner with our friend Ty, who is the main guy we play boardgames with, and his friends at an airbnb he rented back in Luohu. To my surprise when I got there, dinner was Turkey with mashed potatoes, gravy, and cranberry sauce. So festive! I hadn’t had real Western food in a while, and it was perfect.  </p>
 
-<figure>
-    <img src="images/blogimages/turkey-dinner.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-    <figcaption>Image 6: Attempting to carve a turkey. It's way harder than it looks.
+<figure className="blogFigure">
+    <img src="../../blogimages/turkey-dinner.jpeg" alt="Turkey" height="400em" width="300em" className="blogImage"/> 
+    <figcaption className="blogCaption">Image 6: Attempting to carve a turkey. It's way harder than it looks.
     </figcaption>
 
 </figure>
 
 <p>
 That’s it for this update. I’m super excited for the upcoming couple months as the first semester of teaching is coming to an end, and I’ve got some big trips planned including a trip to Australia with my dad, and a trip to Japan with my friends from back home! Shout out to Owen, Becky, and Jake for coming all the way out to Asia to go exploring with me. As always feel free to reach out anytime and I’ll get back to you as soon as my VPN lets me. 
-
+<br></br>
+<br></br>
 Cool, 
-
+<br></br>
+<br></br>
 Baigs 
-
+</p>
+<p>
 TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Met up with friends in Hong Kong. Mom and sister visited me! We spent time in Hong Kong, Shenzhen, and Yangshuo. Had some American Christmas dinner in China with friends, and also have amassed tons of “friends” on WeChat just from people randomly asking for it on the streets. 
 </p>
-        </div>
+</div>
     }
     else if (value === 6){
-        html = <div>
+        html = <div className="blogPost">
             <p>
 			The past two months have been so busy with travel, I feel as if I could write multiple entries about them. Luckily for you all, I’m going to condense it all into one entry and just fill it with the most interesting of my stories. Why have I been so busy? From January 10th until February 17th I had a vacation from teaching for the Chinese New Year holiday, and traveled for every single day of it. I went to Thailand, Australia, and Japan, and had the opportunity to show friends and family around Shenzhen, Guangzhou, and Hong Kong. Having done so much, all the experiences are beginning to blend together so this post will act as a good way to remember the events that happened and organize my thoughts. Let's start with my last-second trip to Thailand. 
 
@@ -513,18 +569,18 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 
 		  On our first night we stayed up late experiencing the local nightlife, and woke up early the next morning to rent motorbikes and take them to a ’sticky waterfall’. The sticky waterfall was a big waterfall system where the rocks were made out of limestone, allowing people to climb up and down it without needing any special gear or major athletic skills. To my surprise, I was able to navigate the perilous climb successfully while only falling a few times to watch packs of 6-year-olds pass me by. Fading quickly from the few hours of sleep we got the night before we decided to head back to our hostel for an early night, but only after a couple plates of pad thai and some mango smoothies.	 </p>
 
-		<figure>
-			<img src="images/blogimages/stickywaterfall.jpeg" alt="Sticky waterfall" height="400em" width="300em"/> 
-			<figcaption>Image 1: Sticky waterfall. Also me.
+		<figure className="blogFigure">
+			<img src="../../blogimages/stickywaterfall.jpeg" alt="Sticky waterfall" height="400em" width="300em" className="blogImage" /> 
+			<figcaption className="blogCaption">Image 1: Sticky waterfall. Also me.
 			</figcaption>
 		</figure>
 
 		<p>
 			The next morning was the morning of our big trip. We drove our bikes 80 miles North, driving the infamous 762 winding curves through beautiful mountain views and quaint villages until we arrived at a hippy village called Pai. Along the way we took multiple stops to sample the local dishes of the towns and check out any and every sign that claimed to lead to a waterfall. The drive took about four hours due to our numerous stops, and once we arrived filled me with relief as no major accidents happened. None of us were experienced motorbike drivers and to take them for a multi-hour drive across a country on a dangerous road didn’t seem like the safest idea at the time. I don’t like spoiling stories but in case you were wondering, we made it back without any injuries as well. </p>
 
-			<figure>
-				<img src="images/blogimages/thaibike.jpeg" alt="Thai Bike" height="400em" width="400em" class = "rotateimg90"/> 
-				<figcaption>Image 2: Ol' Bessy.
+			<figure className="blogFigure">
+				<img src="../../blogimages/thaibike.jpeg" alt="Thai Bike" height="400em" width="400em" class = "rotateimg90" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 2: Ol' Bessy.
 				</figcaption>
 			</figure>
 
@@ -543,9 +599,9 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 
 			The reason my dad and I went to Australia was because he wanted to see the Australian open for the first time. I had forgotten how much I enjoyed watching and playing tennis until we walked onto the grounds and flashbacks of my high school tennis days played through my head. We got to see some great matches and had beautiful seats under the shade of the stadium (avoiding the Australian sun). I could summarize the eight days I spent in Australia by saying I got to watch some tennis and spend a lot of time with people triple my age, as my dad understandably wanted to connect with all his family he hadn’t seen in years. I did get to see some of my cousins closer in age to me in Melbourne and spend time with his two adorable children, as well as a friend of mine from New York now living in Sydney.  </p>
 
-			<figure>
-				<img src="images/blogimages/aopen.jpeg" alt="Australian Open" height="400em" width="300em"/> 
-				<figcaption>Image 3: Tennis is a sport where 2 people hit a yellow ball across a net.
+			<figure className="blogFigure">
+				<img src="../../blogimages/aopen.jpeg" alt="Australian Open" height="400em" width="300em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 3: Tennis is a sport where 2 people hit a yellow ball across a net.
 				</figcaption>
 			</figure>
 
@@ -558,9 +614,9 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 
 			Traveling in a group always proves to be interesting since people like to travel in different ways. For example Jake loves to travel through food and so we made sure to sample everything from fresh sushi at Toyosu market, to ramen in Tokyo station, to Tonkatsu pork. I do want to take a second to explain the best meal we had on the trip, and probably one of the best meals I’ve had in general. One morning in Tokyo we woke up before sunrise to head over to Toyosu market, where the famous bluefin tuna auctions happen. That morning after watching some of the auctioning we ate breakfast at an omakase sushi restaurant called Sushi Dai. It consisted of 10 pieces of sashimi, of whatever fish was fresh that day. I truly had never had sushi like that before. The best of all was the last piece, which was the only piece we got to choose ourselves. After consulting with the waiter about what to order, we all settled on trying the seasonal special, cod sperm sacs. They had the exact consistency you’re probably imagining right now; slimy white sacs that popped in your mouth when you bite into them. Although it took a few seconds to adjust to, they actually were packed with flavor, an opinion that I alone may have held.  </p>
 
-			<figure>
-				<img src="images/blogimages/sushi.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-				<figcaption>Image 4: :) 
+			<figure className="blogFigure">
+				<img src="../../blogimages/sushi.jpeg" alt="Sushi" height="400em" width="300em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 4: :) 
 				</figcaption>
 			</figure>
 			<p>
@@ -568,25 +624,29 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 			Owen, while still enjoying trying all the food, put more emphasis on the cultural aspects of wherever we were visiting. We visited both the samurai and sumo museums, walked around the imperial palace, hiked through the Fushimi Inari shrine in Kyoto, and did a tour of the Okunoin cemetery and temple in Koyasan. One of the craziest moments for me in Japan was walking around some of the arcades in Tokyo. There were a plethora of massive multi-story arcades peppered all throughout the city that housed hundreds of people mindlessly clicking buttons on games they seemingly were born playing. Most impressive of all of them were the people playing some type of dance dance revolution remake. 
 
 			 One of the highlights of the entire trip came from a recommendation Will gave me. Of course Will has to be mentioned in every entry at least once so here’s his sentence of fame. We left Kyoto for a mountain village called Koyasan on mount Koya. It took about three hours to get there, including a nauseating bus ride up the windy roads of the mountain. We stayed that night in a Buddhist temple in a traditional room with tatami mats. They served us a vegan dinner and breakfast, allowed us to attend the morning prayers at 6am, and they had a thermal spring bath which we completely took advantage of due to the freezing cold weather. We did a hike that afternoon, and toured the cemetery at night. What I loved about the cemetery was that over 200,000 people are buried there and they accept anyone from around the world practicing any faith. The next morning it began to snow so we took a scenic stroll through the cemetery again and left that afternoon for Osaka, our last day of the trip. After eating more sushi, walking through some markets, and eating one more bowl of ramen, we were ready to explore China.  </p>
+            <div style={{
+                display: "flex",
+                justifyContent: "space-between"
+            }}>
+                <figure className="blogFigure">
+                    <img src="../../blogimages/temple.jpeg" alt="Koyasan Temple" height="400em" width="300em" className="blogImage"/> 
+                    <figcaption className="blogCaption">Image 4: Our temple home.
+                    </figcaption>
+                </figure>
 
-			 <figure>
-				<img src="images/blogimages/temple.jpeg" alt="Koyasan Temple" height="400em" width="300em"/> 
-				<figcaption>Image 4: Our temple home.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="images/blogimages/cemetery.jpeg" alt="cemetery" height="400em" width="300em"/> 
-				<figcaption>Image 5: Cemetery Koyasan.
-				</figcaption>
-			</figure>
+                <figure className="blogFigure">
+                    <img src="../../blogimages/cemetery.jpeg" alt="cemetery" height="400em" width="300em" className="blogImage"/> 
+                    <figcaption className="blogCaption">Image 5: Cemetery Koyasan.
+                    </figcaption>
+                </figure>
+            </div>
 
 			<p>
 			Arriving in Hong Kong we had a quick dim sum brunch before catching the bullet train to Shenzhen. Our first couple days in Shenzhen I was amazed to see how quiet everything was. Everyone from food stall owners to electronics market shop owners to regular pedestrians seemed to have left town for the holidays. A big chunk of our China trip was spent in Guangzhou. Right after getting to the hostel we decided to try to buy tickets to the Guangzhou Long Lions CBA (Chinese Basketball Association) game. We eventually found the stadium and after being hassled to buy scalped tickets from some people outside the front, we eventually decided to buy tickets we were confident were real from some security guards sitting outside the entrance. We had great seats near the front at a game that was less than half full. It was actually a super close game against the Beijing Ducks which ended in a close finish with Guangzhou winning by just a couple baskets. Each team had two American players that greatly overshadowed the rest of the players on the court. Each American player had 30+ points, though the Chinese players certainly had more fouls than the Americans; two of them even fouled out of the game. The craziest part of the game was that in the last quarter, both teams took out their star players. We couldn’t understand what the deal was, especially during such a close game. Only afterwards did we look up the rules and realize that there are constraints against non-Asian players. For example, each team can only have a maximum of two non-Asian players, who can only play a total of six quarters in a game. So in the case of the game we watched, both teams had maxed out the number of quarters they could play their foreigners by the last quarter. Also, each team can only play one foreign player in the last quarter. We also found out that there are rules in the league that apply only when playing a specific team. The Bayi Rockets, a team founded by the People’s Liberation Army (PLA), has no foreign players and so when playing the Rockets teams must limit their foreigners to five quarters.  </p>
 
-			<figure>
-				<img src="images/blogimages/basketball.jpeg" alt="Typhoon" height="400em" width="300em"/> 
-				<figcaption>Image 6: Chinese Basketball Association.
+			<figure className="blogFigure">
+				<img src="../../blogimages/basketball.jpeg" alt="Typhoon" height="400em" width="300em" className="blogImage"/> 
+				<figcaption className="blogCaption">Image 6: Chinese Basketball Association.
 				</figcaption>
 			</figure>
 
@@ -596,11 +656,15 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 			The rest of the trip went smoothly as we all began to tire out from traveling for two straight weeks (five straight weeks in my case) and took it easy in our last day in Shenzhen. The last day we went to Hong Kong and met up with Owen’s colleague from work who showed us around Hong Kong. We went to a fisherman’s island called Cheung Chau where we sampled different mochi, and watched the sunset. We also went to the top of the Peak for a final Chinese dinner. We finished out the trip by playing cards (a game called Mao that I taught everyone) in a bar in SoHo (yes there’s a SoHo in Hong Kong too). I think (hope) all my friends enjoyed the trip, regardless, Owen left with a couple oil paintings and a cast iron wok, so I’d say it was pretty successful. 
 
 			That’s all for now, I’ve just started my second semester as an English teacher teaching the same students as last semester. They were pumped to have me back, but I'm beginning to feel ready for the next thing, whatever that may be. 
-
-			Until next time! 
+            <br></br>
+            <br></br>
+			Until next time!
+            <br></br>
+            <br></br> 
 
 			Baigs 
-
+            </p>
+            <p>
 			TLDR; Traveled a ton. Thailand, Australia, Japan, China. Saw family and friends. To hear more about it, read the email.
 
 
@@ -608,7 +672,7 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
         </div>
     }
     else if (value === 7){
-        html = <div>
+        html = <div className="blogPost">
             <p>
 		Hi all,
 
@@ -780,7 +844,7 @@ TLDR; My friends Brett and Colin came to visit. We went to Guangzhou and wrote s
     }
     else if (value === 8){
         html = 
-        <div>
+        <div className="blogPost">
             <p>
             Sup everyone,
 
@@ -838,7 +902,7 @@ Baigs
     }
     else if (value === 9){
         html = 
-        <div>
+        <div className="blogPost">
             <p>
             Hi all, welcome to the last of my Chinese update emails. For those of you still reading these, congrats on making it all the way through! I’m sitting in my empty apartment next to my two fully packed suitcases on my last night in Shenzhen getting ready to catch a plane to Japan. These past couple of months have been packed with finishing up teaching, traveling all throughout China, and planning my last trip to Japan. As you can imagine I have a lot to write about, but since I only have a couple of hours before I need to pack my computer, I’ll gloss over the details and only talk big-picture. If you want more details just message me privately, or wait until I come home in a couple of months and let’s grab lunch!
 
@@ -880,7 +944,7 @@ Daniel “大牛” Baigel
     }
     else if (value === 10){
         html = 
-        <div>
+        <div className="blogPost">
             <p>
             Hello! Welcome to my last email!
 

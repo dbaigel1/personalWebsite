@@ -529,6 +529,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   background-color: var(--color3);
   margin-top: 50px;
   padding-left: 70px;
@@ -549,6 +550,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
 }
 
 .blogPost {
@@ -563,6 +565,7 @@ html {
 }
 .blogCaption {
   font-size: 20px;
+  text-align: left;
 }
 
 .blogLink {
