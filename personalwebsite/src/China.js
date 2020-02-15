@@ -1,6 +1,7 @@
 import React from "react"
 import BlankSpace from "./components/BlankSpace"
 import Entry from "./components/Entry"
+import Footer from "./components/Footer"
 
 function China() {
     return (
@@ -44,6 +45,9 @@ function China() {
 
                 <Entry title="Japan" date="August 2019" num="10"/>
             </div>
+            <BlankSpace/>
+                
+            <Footer/>
 
         </div>
     )

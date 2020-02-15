@@ -1,6 +1,7 @@
 import React from "react"
 import BlankSpace from "./components/BlankSpace"
 import Poem from "./components/Poem"
+import Footer from "./components/Footer"
 
 
 function Poems() {
@@ -275,6 +276,8 @@ function Poems() {
                 line2="how memorable and joyous"
                 line3="now to find a job..."
             />
+            <BlankSpace/>
+            <Footer/>
         </div>
     )
 }

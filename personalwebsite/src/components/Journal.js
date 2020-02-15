@@ -1,5 +1,7 @@
 import React from "react"
 import BackButton from "./BackButton"
+import Footer from "./Footer"
+import BlankSpace from "./BlankSpace"
 
 function Journal(props) {
     return (
@@ -15,6 +17,8 @@ function Journal(props) {
                 </div>
                 
             </div>
+            <BlankSpace/>
+            <Footer/>
         </div>
     )
 }

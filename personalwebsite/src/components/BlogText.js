@@ -1079,16 +1079,23 @@ We hiked down the mountain and arrived at the Chi Lin nunnery and gardens. It wa
 <br></br> 
 <br></br>
 That night we went up to Victoria Peak to see the iconic skyline one last time. On our way down it started to rain, so we stopped by Little Bao for some green tea ice cream bao, and decided to call it a night. The next day was filled with nostalgia-inducing activities such as a final dim sum at Tim Ho Wan, taking the star ferry across the harbor, and drinking various teas with the owner of a tea shop called Fukien Tea Company. That night we ate at a typical Hong Kong cafe and ended our trip with a cocktail at a famous cocktail bar called The Old Man. It’s a bar dedicated to Ernest Hemingway and finds itself near the top of a list of the best cocktail bars in Asia. My drink included Guava gin, carrot puré, and tarragon amongst other hard-to-name ingredients. </p>
-<figure className="blogFigure">
-    <img src="../../blogimages/lastvictoriapeak.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
-    <figcaption className="blogCaption">Image 4: Victoria Peak. Truly Nostalgic.
-    </figcaption>
-</figure>
-<figure className="blogFigure">
-    <img src="../../blogimages/fukientea.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
-    <figcaption className="blogCaption">Image 5: Fukien Tea.
-    </figcaption>
-</figure>
+
+<div style={{
+        display: "flex",
+        justifyContent: "space-between"
+        
+    }}>
+    <figure className="blogFigure">
+        <img src="../../blogimages/lastvictoriapeak.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+        <figcaption className="blogCaption">Image 4: Victoria Peak. Truly Nostalgic.
+        </figcaption>
+    </figure>
+    <figure className="blogFigure">
+        <img src="../../blogimages/fukientea.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+        <figcaption className="blogCaption">Image 5: Fukien Tea.
+        </figcaption>
+    </figure>
+</div>
 <p>
 This year Hong Kong has been a home away from home, away from home. I feel this deep sense of nostalgia for it, even though I have never lived there. It has been an excellent outlet for when mainland China gets frustrating, and when you get past the incessant consumerism that dominates large parts of the downtown areas, it’s a city with incredible culture, beautiful nature, budding industry, and a vibrant nightlife. I’m sure that I’ll be back to visit one day, even if it’s just to climb Victoria Peak to see the skyline or stop into Tim Ho Wan for a pork bun.
 <br></br> 
@@ -1129,10 +1136,10 @@ Baigs
             Hi all, 
             <br></br> 
             <br></br>
-            welcome to the last of my Chinese update emails. For those of you still reading these, congrats on making it all the way through! I’m sitting in my empty apartment next to my two fully packed suitcases on my last night in Shenzhen getting ready to catch a plane to Japan. These past couple of months have been packed with finishing up teaching, traveling all throughout China, and planning my last trip to Japan. As you can imagine I have a lot to write about, but since I only have a couple of hours before I need to pack my computer, I’ll gloss over the details and only talk big-picture. If you want more details just message me privately, or wait until I come home in a couple of months and we can grab lunch!
+            Welcome to the last of my Chinese update emails. For those of you still reading these, congrats on making it all the way through! I’m sitting in my empty apartment next to my two fully packed suitcases on my last night in Shenzhen getting ready to catch a plane to Japan. These past couple of months have been packed with finishing up teaching, traveling all throughout China, and planning my last trip to Japan. As you can imagine I have a lot to write about, but since I only have a couple of hours before I need to pack my computer, I’ll gloss over the details and only talk big-picture. If you want more details just message me privately, or wait until I come home in a couple of months and we can grab lunch!
             <br></br> 
 <br></br>
-June ended with saying goodbye to all of my students at Lilin primary school in Shenzhen. As I noted in my previous email, it was bitter-sweet for me. Most of my students didn’t grasp that I was leaving forever, and I imagine to them it was irrelevant (they’ll just get a new foreign English teacher next year who probably is more qualified and doesn’t have a receding hairline). However, some of my students were sad to see me go. A couple of students bought me gifts on my last day (as well as gifts for my sister) and lots of students gave me hugs telling me they’ll miss me. I actually gave out my WeChat account to all of my 4th and 5th-grade classes and chaos quickly ensued. I have woken up every day with 10 new friend requests and hundreds of messages saying “good morning” or “do you like China?” or “where are you and what are you doing?”. I decided to deal with it all to create a group chat with everyone in it, and while it helped organize everything, I still get flooded with messages every day. I’m hoping that one day in the future students will be able to reach out to me, especially if they are planning on coming to the US for college.
+June ended with saying goodbye to all of my students at Lilin primary school in Shenzhen. As I noted in my previous email, it was bitter-sweet for me. Most of my students didn’t grasp that I was leaving forever, and I imagine to them it was irrelevant (they’ll just get a new foreign English teacher next year who probably is more qualified and doesn’t have a receding hairline). However, some of my students were sad to see me go. A couple of students bought me gifts on my last day (as well as gifts for my sister) and lots of students gave me hugs telling me they’ll miss me. I actually gave out my WeChat account to all of my 4th and 5th-grade classes and chaos quickly ensued. I have woken up every day with 10 new friend requests and hundreds of messages saying “good morning” or “do you like China?” or “where are you and what are you doing?”. I decided to deal with it all by creating a group chat with everyone in it, and while it helped organize everything, I still get flooded with messages every day. I’m hoping that one day in the future students will be able to reach out to me, especially if they are planning on coming to the US for college.
 <br></br> 
 <br></br>
 To celebrate school ending I took a weekend trip to Macau. Macau was given back to the Chinese government pretty recently in 1999 by Portugal, so it still feels relatively European. It’s also a gambling hub, rivaling Los Vegas. The city has some really quaint and historic areas but the juxtaposition between them and the massive gaudy casino strips was startling. I spent my time walking through the historic towns, eating egg tarts, and watching thousands of people lose large amounts of money in casinos. The most common game by a wide margin was Baccarat, whose presence dominated every casino. The minimum buy-in for a single hand was $75 USD and to my horror after learning the rules, the game required no strategy. It’s basically a blind guessing game. I guess gambling isn’t for me.
@@ -1142,35 +1149,117 @@ In my last few days before flying out to Northern China, I took up a part-time j
 <br></br> 
 <br></br>
 One of my goals in China was to play a game of Mahjong, and I finally got to do it on one of my final nights. One of my friends invited both Will and me and a bunch of her Chinese friends to her apartment for a final hotpot dinner and Mahjong night. We learned all the basic rules and then played a few rounds. Mahjong is a game for four players who take turns drawing tiles and trying to make 3-of-a-kind, or 3-in-a-row, or basic pairs with them. You might recognize it if you’ve seen the recent Hollywood blockbuster ‘Crazy Rich Asians’. Much to my liking and much to my host and her friends disliking, I somehow was able to win 2 of the 3 rounds that we played. Big shoutout to Sena for allowing me to realize one of my Chinese dreams!
-<br></br> 
-<br></br>
-The past three weeks I’ve been traveling throughout China non-stop, seeing mostly major cities (Beijing, Shanghai, etc.) but also some really rural areas in Sichuan province. I did so many things during this trip that it would be a whole email in itself so I’ll just brush over some highlights. In the first 11 days, I went to Hangzhou, Shanghai, and Beijing. Hangzhou is a peaceful lake city just an hour from Shanghai on high-speed rail. The highlight in Hangzhou for me was walking through the Longjing green tea fields and sipping tea while overlooking them. Hangzhou is famous for its Longjing “Dragon Well” green tea. Before coming to China and while I was doing research on what city I wanted to move to, I found a video about Hangzhou and its tea fields and it made me want to live there. Obviously, I didn’t end up moving there, but I wanted to experience the tea fields just like the guy in the video I watched did. While I don’t think I walked through the fields as gracefully or majestically as the guy in the video, I was happy just to be there.
-<br></br> 
-<br></br>
+</p>
+<figure className="blogFigure">
+        <img src="../../blogimages/mahjongchampion.jpeg" alt="Mahjong" height="375em" width="480em" class = "rotateimg90" className="blogImage"/> 
+        <figcaption className="blogCaption">Image 1: American champion, Chinese haircut.
+        </figcaption>
+</figure>
+<p>
+The past three weeks I’ve been traveling throughout China non-stop, seeing mostly major cities (Beijing, Shanghai, etc.) but also some really rural areas in Sichuan province. I did so many things during this trip that it would be a whole email in itself so I’ll just mention some of the highlights. In the first 11 days, I went to Hangzhou, Shanghai, and Beijing. Hangzhou is a peaceful lake city just an hour from Shanghai on high-speed rail. The highlight in Hangzhou for me was walking through the Longjing green tea fields and sipping tea while overlooking them. Hangzhou is famous for its Longjing “Dragon Well” green tea. Before coming to China and while I was doing research on what city I wanted to move to, I found a video about Hangzhou and its tea fields and it made me want to live there. Obviously, I didn’t end up moving there, but I wanted to experience the tea fields just like the guy in the video I watched did. While I don’t think I walked through the fields as gracefully or majestically as the guy in the video, I was happy just to be there.</p>
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/longjingteafields.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 2: The Tea fields.
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/longjingteafieldsme.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 3: How majestic. 
+            </figcaption>
+    </figure>
+</div>
+<p>
 Next up was Shanghai, a city so international that I forgot I was even in China. I enjoyed all the tourist destinations (The bund, French concession, yu garden, Jing’an temple, etc.), ate soup dumplings galore, and got drinks of rooftops on multiple occasions. I happened to be in Shanghai during July 4th, and since Shanghai has a huge foreigner population, there were celebrations all over. My friend Max joined me in Hangzhou and Shanghai and he had a couple of friends living there that we met up with for barbecue and drinks. It was a welcomed experience to speak English and celebrate an American holiday, especially in a city that felt so Western.
+</p>
+<figure className="blogFigure">
+    <img src="../../blogimages/shanghaibund.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <figcaption className="blogCaption">
+        Image 4: Proof I went to Shanghai. 
+    </figcaption>
+</figure>
+<p>
+My time in Beijing was truly special. Max left to go back to Shenzhen, and I met up with my friend Ping from college who lives in Beijing and works for her dad’s musical instrument company. Upon arriving at her apartment, we went straight to her grandparent’s house for a homemade Beijing meal. It consisted of lots of dumplings, among other various dishes. Her grandparents were shocked and excited to have a foreigner in their home, and on top of asking me all sorts of questions, they showed me their wall of plates that they collected from their lifetime of travels.
 <br></br> 
 <br></br>
-My time in Beijing was truly special. Max left to go back to Shenzhen, and I met up with my friend Ping from college who lives in Beijing and works for her dad’s musical instrument company. Upon arriving at her apartment, we went straight to her grandparent’s house for a homemade Beijing meal. It consisted of lots of dumplings, among other various dishes. Her grandparents were shocked and excited to have a foreigner in their home, and other than asking me all sorts of questions, they showed me their wall of plates that they collected from their travels.
-<br></br> 
-<br></br>
-I did a lot of the main toast attractions alone since Ping was getting ready for a trip back to the US. Tiananmen Square, The Forbidden City, The Summer Palace, etc. were all interesting and would have felt traditional and authentic had there not been swarms of tourists everywhere. I now really understand what people say when they say that there are lots of people in China. She did, however, hike the Great Wall with me, which was a spectacular sight. People definitely hype it up a lot but I think it deserves all the praise it gets. When you’re up there you get a real sense for how vast and impressive a structure it really is. Before we hiked the Great Wall, Ping took me around the musical instrument factory that she works at. It was really cool to see both how string instruments get made from scratch, and how a Chinese factory operates.
-<br></br> 
-<br></br>
-Ping is a big foodie, so for every meal, she made sure we ordered all the authentic Beijing dishes and it was all delicious. The big highlight in the food department, of course, the Peking duck we had. She also volunteers in a farm-to-table cafe owned by a Taiwanese-American woman and her husband, so I got to eat lunch there as well. While the bagel and lox I had there don’t rival what you get in NY, it was still a real treat and a nostalgic taste of home.
-<br></br> 
-<br></br>
-I did a quick pit stop for a day back in Shenzhen to do laundry and rest for a moment before flying back up to meet Will in Chongqing. I should have just gone straight to Chongqing and saved myself a flight but whatever, hindsight is 20/20. The next 10 days Will and I traveled together throughout Sichuan including Chongqing (a major city) but also three rural towns called Leshan, Emeishan, and Xichang. With our last time together Will and I wanted to find the “real” China since living in Shenzhen and even traveling in the major cities can be a very different experience. 
+I visited a lot of the main tourist attractions alone since Ping was getting ready for a trip back to the US. Tiananmen Square, The Forbidden City, The Summer Palace, etc. were all interesting and would have felt traditional and authentic had there not been swarms of tourists everywhere. I now really understand what people say when they say that there are lots of people in China. She did, however, hike the Great Wall with me, which was a spectacular sight. People definitely hype it up a lot but I think it deserves all the praise it gets. When you’re up there you get a real sense for how vast and impressive a structure it really is. Before we hiked the Great Wall, Ping took me around the musical instrument factory that she works at. It was really cool to see both how string instruments get made from scratch, and how a Chinese factory operates.</p>
+<figure className="blogFigure">
+            <img src="../../blogimages/greatwall.jpeg" alt="wall" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 5: A wall. 
+            </figcaption>
+</figure>
+<p>
+Ping is a big foodie, so for every meal she made sure we ordered all the authentic Beijing dishes and it was all delicious. The big highlight in the food department, of course, the Peking duck we had. She also volunteers in a farm-to-table cafe owned by a Taiwanese-American woman and her husband, so I got to eat lunch there as well. While the bagel and lox I had there don’t rival what you get in NY, it was still a real treat and a nostalgic taste of home.</p>
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/beijingbreakfast.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 6: A Beijing breakfast!
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/pingandduck.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 7: Ping! And Duck! 
+            </figcaption>
+    </figure>
+</div>
+<p>
+I did a quick pit stop for a day back in Shenzhen to do laundry and rest for a moment before flying back up to meet Will in Chongqing. I should have just gone straight to Chongqing and saved myself a flight and I feel really dumb that I didn't think to do so sooner but whatever, hindsight is 20/20. The next 10 days Will and I traveled together throughout Sichuan including Chongqing (a major city) but also three rural towns called Leshan, Emeishan, and Xichang. With our last time together Will and I wanted to find the “real” China since living in Shenzhen and even traveling in the major cities can be a very different experience. 
 <br></br> 
 <br></br>
 I can say we officially found the “real” China. It began with the 7-hour local train ride we took through the countryside cramped between a family of perhaps 20. The train was packed with people standing in the aisles and filled with people yelling, babies crying, and dead chickens staying silent. Over the next week, we got more stares, more finger points, and more photos taken of us than ever before. I firmly believe that I will be featured in multiple Chinese families Christmas cards next year, or whatever the Chinese equivalent of that is. 
-<br></br> 
-<br></br>
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/chongqing.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 8: The boys in Chongqing!
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/localtrain.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 9: Look how much space that baby has. Rude. 
+            </figcaption>
+    </figure>
+</div>
 Everything we ate was spicy, and I mean everything, especially the Chongqing hotpot we ate. One night we ate at a communist themed hotpot restaurant which on top of being spicy, was also a novel experience. Waiters were dressed up in Mao-era uniforms, and there were communist posters surrounding the room on the walls.
 <br></br> 
 <br></br>
-When we arrived in Xichang, a town whose claim to fame is a lake, out hotel that we booked simply didn’t exist. Luckily we talked to some guy on the street who helped us find a new hotel down the road. We spent our last day in Xichang mostly recovering from all the traveling we had done, but also biking 40 kilometers around Qionghai lake. It was actually really beautiful and it’s definitely not on the tourist circuit so, to anyone traveling to China in the future: if you want to avoid tourists and people in general, I recommend checking out Xichang and its lake.
-<br></br> 
-<br></br>
+When we arrived in Xichang, a town whose claim to fame is a lake, our hotel that we booked simply didn’t exist. Like, we booked it in advance and when we arrived at the address, it wasn't there. Luckily we talked to some guy on the street who helped us find a new hotel down the road. We spent our last day in Xichang mostly recovering from all the traveling we had done, but also biking 40 kilometers around Qionghai lake. It was actually really beautiful and it’s definitely not on the tourist circuit so, to anyone traveling to China in the future: if you want to avoid tourists and people in general, I recommend checking out Xichang and its lake.
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/communisthotpot.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 10: The Tea fields.
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/qionghailake.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 11: How majestic. 
+            </figcaption>
+    </figure>
+</div>
 Well, that’s it! Will left to go back to Seattle a couple of days ago, leaving me to fend for myself. People have been asking me if I feel sad to be leaving China, and like most annoying answers my answer is “yes and no”. I’m sad to be leaving a place that I lived in for a year, a place that I called home and had countless eye-opening experiences in. At the same time, I feel ready to move on to the next thing. I came to China in the first place to get out of my comfort zone, to try something new, to travel, and to pick up some Chinese. After 367 days living in China, I am happy to announce that I escaped from my zone of comfort, tried more new things than I can remember, traveled too much, and kind of learned some Chinese? Compared to Will my Chinese is trash, but I am satisfied with the basic conversational abilities I did pick up.
 <br></br> 
 <br></br>
@@ -1204,45 +1293,132 @@ You’re all probably wondering why I spent so much time in Japan in the first p
 Alright, now I’ll tell you all about some of the highlights from my travels.
 <br></br> 
 <br></br>
-One of the more surprising parts of my trip was how much I enjoyed Kumamoto, a city in Kyushu with a population of about 700,000. It was a last-minute decision after leaving Nagasaki to see one more city before heading up to Hiroshima, and I’m glad I did it. I found Kumamoto to be one of the most hospitable places of my entire trip, most likely because the city doesn’t see a lot of tourism. One evening the hostel I was staying in hosted a Somen night. Somen is a Japanese cuisine/event where you put noodles down a slide with running water and then catch them at the end with chopsticks. Then you dip the noodles into a cold soup before eating them. I don’t know if you gave the previous sentence much thought, but I’ll reiterate that you have to catch noodles sliding down a slide at top speeds with chopsticks. Luckily I had been doing chopstick exercises every night before going to sleep so I was prepared. 
+One of the more surprising parts of my trip was how much I enjoyed Kumamoto, a city in Kyushu with a population of about 700,000. It was a last-minute decision after leaving Nagasaki to see one more city before heading up to Hiroshima, and I’m glad I did it. I found Kumamoto to be one of the most hospitable places of my entire trip, most likely because the city doesn’t see a lot of tourism. 
+<br></br>
+<br></br>
+One evening the hostel I was staying in hosted a Somen night. Somen is a Japanese cuisine/event where you put noodles down a slide with running water and then catch them at the end with chopsticks. Then you dip the noodles into a cold soup before eating them. I don’t know if you gave the previous sentence much thought, but I’ll reiterate that you have to catch noodles sliding down a slide at top speeds with chopsticks. Luckily I had been doing chopstick exercises every night before going to sleep so I was prepared. 
 <br></br> 
 <br></br>
 That night I met the hostel owner’s friend Yuko who was learning English and was infatuated with me, probably because I was the only non-Japanese person there. After dinner, she took me into the downtown area and brought me to a local shochu bar. Shochu is a Japanese spirit, similar to sake but actually way more consumed in Japan. It’s highly popular specifically in Kumamoto and other Kyushu cities. Yuko had me try multiple different shochus, and when we left also gave me a list of Japanese foods to try throughout my travels. Included on that list was horse, a delicacy in Kumamoto, so the following night I tried horse carpaccio and was pleasantly surprised by how tasty and lean it was.
-<br></br> 
-<br></br>
+</p>
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/shochu.jpeg" alt="Shochu" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 1: Shochu.
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/horsecarpaccio.jpeg" alt="Horse" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 2: Neigh. 
+            </figcaption>
+    </figure>
+</div>
+<p>
 After Kumamoto, I traveled to Hiroshima, a city infamous for the atomic bombing during WW2. While I would have visited Hiroshima anyway, I also planned my trip so that I would visit during the peace memorial ceremony on August 6th, the 74th anniversary of the bombing. In the morning there was an hour-long memorial service where government officials, including prime minister Shinzo Abe, gave speeches. There was a moment of silence on the exact minute the bomb dropped, and afterward, they released 100 white doves into the air. I was surprised by the number of tourists that were there. I initially was self-conscious about being an American at the event, but it turns out the majority of people there were from abroad anyway. During the day I walked around the city and visited the atomic bomb museum, which contained stories from survivors of the bombing amongst recovered artifacts and history. It was pretty emotional, as you can imagine.
 <br></br> 
 <br></br>
-That night was part two of the ceremony, a lantern lighting event where people create their lanterns and send them down the river together. It was a moment I had been dreaming about unknowingly for years, as I have always loved lanterns, especially when they float on rivers. I sat on the river bank for a couple of hours watching the sunset as thousands of people crowded around in anticipation. When it got dark and people started to release lanterns into the river, I decided to join in. On each side of the paper I wrote the word “peace” in the four languages that I “know" (English, Spanish, Chinese, and Japanese), and once I lit the candle inside I sent it down the river. Watching it float next to hundreds of other colorful lanterns was a pretty special moment. I stayed and watched for a bit, tried to get the perfect Instagram photo like everyone else was, and eventually called it a night.
-<br></br> 
-<br></br>
+That night was part two of the ceremony, a lantern lighting event where people create their lanterns and send them down the river together. It was a moment I had been dreaming about unknowingly for years, as I have always loved lanterns, especially when they float on rivers. I sat on the river bank for a couple of hours watching the sunset as thousands of people crowded around in anticipation. When it got dark and people started to release lanterns into the river, I decided to join in. On each side of the paper I wrote the word “peace” in the four languages that I “know" (English, Spanish, Chinese, and Japanese), and once I lit the candle inside I sent it down the river. Watching it float next to hundreds of other colorful lanterns was a pretty special moment. I stayed and watched for a bit, tried to get the perfect Instagram photo like everyone else was, and eventually called it a night. </p>
+
+    <figure className="blogFigure">
+            <img src="../../blogimages/hiroshimapeacememorial.jpeg" alt="Peace" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 3: Lanterns.
+            </figcaption>
+    </figure>
+    
+<p>
 A few days later into my trip my friend Bob from high school joined me for 10 days. He was on Summer break as well as he is a music teacher in Ohio. The first few days we spent in Osaka exploring the city. We ate excellent street food, visited various shrines, stumbled upon a Yugioh card tournament in a card shop, and tried our luck at Japan’s most ubiquitous arcade game, Pachinko. 
 <br></br> 
 <br></br>
-Pachinko parlors can be found all over Japan, and contain hundreds of mechanical devices that people sit at and gamble away their money in exchange for the opportunity to win non-cash prizes. Logically it didn’t make sense to me, but Bob and I wanted to try it anyway to see what all the hype was about. The first thing we noticed when walking in one of the parlors was how loud it was. There were hundreds of machines all lined up, each blasting music and sound effects. Lots of the people playing inside were wearing earplugs; I wish we had got the memo. We had no idea how to play the machines so we told one of the attendants that we wanted to play, and he gave us an instruction manual. Even though it had English instructions, we still couldn’t figure out how to play or what the strategy was. It was sort of like pinball, in that you shoot small metallic balls into the main arena, but then you just watch them fall and if they fall in the right place, you get more balls to shoot. I guess if you’re really good you amass metallic balls over time that eventually you can trade in for sweet prizes like stuffed animals or a box of tissues. After 10 or so minutes of “playing” and once the machine started to beep angrily at us, we decided to leave. Needless to say, we did not win any prizes.
-<br></br> 
-<br></br>
+Pachinko parlors can be found all over Japan, and contain hundreds of mechanical devices that people sit at and gamble away their money in exchange for the opportunity to win non-cash prizes. Logically it didn’t make sense to me, but Bob and I wanted to try it anyway to see what all the hype was about. The first thing we noticed when walking in one of the parlors was how loud it was. There were hundreds of machines all lined up, each blasting music and sound effects. Lots of the people playing inside were wearing earplugs; I wish we had got the memo. We had no idea how to play the machines so we told one of the attendants that we wanted to play, and he gave us an instruction manual. Even though it had English instructions, we still couldn’t figure out how to play or what the strategy was. It was sort of like pinball, in that you shoot small metallic balls into the main arena, but then you just watch them fall and if they fall in the right place, you get more balls to shoot. I guess if you’re really good you amass metallic balls over time that eventually you can trade in for sweet prizes like stuffed animals or a box of tissues. After 10 or so minutes of “playing” and once the machine started to beep angrily at us, we decided to leave. Needless to say, we did not win any prizes.</p>
+
+    <figure className="blogFigure">
+            <img src="../../blogimages/pachinkoparlor.jpeg" alt="Pachinko" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 4: Pachinko.
+            </figcaption>
+    </figure>
+   
+<p>
 The next couple days we spent hiking the Kumano Kodo pilgrimage trail in Wakayama prefecture. We spent two days and two nights on the trail, sleeping in traditional Japanese guesthouses on the route. The guesthouses were small, with 3-4 rooms and tatami mats, private onsen baths, and fresh meals. Some of my favorite meals all trip actually came from the guesthouses. For example, on one night we had a home-cooked meal of steamed duck and mushrooms, tofu boiled in natural onsen water, a whole boiled fish, and my favorite dish of the night, deer sashimi.
 <br></br> 
 <br></br>
-The trails themselves were beautiful, with shrines popping up every so often. We got a passport at the beginning of the trail to collect stamps at all the major shrines along the way. Unfortunately, it rained on and off during both days so the passport got pretty wet, causing all the stamps to blend together. On top of the rain, Bob and I were carrying all of our belongings on our backs with 4 liters of water each, so we were sweating up a storm. On the first day after just the first kilometer, which to my defense was all steep incline, my clothes were dripping as if I had just jumped in a pool. Luckily the two-day hike went by pretty smoothly, although I did experience my very first leech on the second day. We were taking one of many breaks when I felt a sharp pain on my ankle, and when I looked down there was a leech on my leg right above my sock. Luckily for me and unluckily for him, after 10 seconds or so of pulling I eventually managed to remove him and toss him into the bushes. I spent the remainder of the hike hoping that I would turn into “Leech Man” in spider-man like fashion, but my dreams never came true.
-<br></br> 
-<br></br>
+The trails themselves were beautiful, with shrines popping up every so often. We got a passport at the beginning of the trail to collect stamps at all the major shrines along the way. Unfortunately, it rained on and off during both days so the passport got pretty wet, causing all the stamps to blend together. On top of the rain, Bob and I were carrying all of our belongings on our backs with 4 liters of water each, so we were sweating up a storm. On the first day after just the first kilometer, which to my defense was all steep incline, my clothes were dripping as if I had just jumped in a pool. Luckily the two-day hike went by pretty smoothly, although I did experience my very first leech on the second day. We were taking one of many breaks when I felt a sharp pain on my ankle, and when I looked down there was a leech on my leg right above my sock. Luckily for me and unluckily for him, after 10 seconds or so of pulling I eventually managed to remove him and toss him into the bushes. I spent the remainder of the hike hoping that I would turn into “Leech Man” in spider-man like fashion, but my dreams never came true. </p>
+<div style={{
+        display: "flex",
+        justifyContent: "space-evenly"
+        
+    }}>
+    <figure className="blogFigure">
+            <img src="../../blogimages/kumanokodohike2.jpeg" alt="Tea" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 5: A boy and some trees.
+            </figcaption>
+    </figure>
+    <figure className="blogFigure">
+            <img src="../../blogimages/kumanokodohikekm1.jpeg" alt="Tea and me" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 6: Sitting in a pool of sweat after 1 km. 
+            </figcaption>
+    </figure>
+</div>
+<p>
 After a 4-hour windy bus-ride through the mountains, we reached our next destination, Nara. Nara is famous for its wild deer park, where you can see and feed hundreds of deer. We bought some crackers and walked around feeding them. In true Japanese fashion before eating the crackers, the deer would bow their heads at you as if to say “thank you for the meal”. That night also happened to be the last night of the Nara Tokae Lantern Festival. Throughout the entire deer park, there were thousands of small lanterns lit up on the ground.
-<br></br> 
-<br></br>
+</p>
+    <figure className="blogFigure">
+            <img src="../../blogimages/naradeer.jpeg" alt="Deer" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 7: Best friends.
+            </figcaption>
+    </figure>
+    
+<p>
 Bob and I ended our trip in Kyoto, a city I had traveled to before but since there’s so much to see there, I had to go back. We toured different temples, walked around a bamboo forest, and went back to the Fushimi Inari shrine (the one with all the red gates). Bob had a family friend living in Kyoto so we visited her one evening and got a home-cooked meal! It also happened to be the night of a festival called Daimonji where they ignite massive bonfires on the mountains surrounding the city in the shape of Japanese characters. The idea behind the festival is that in the days leading up to the festival, called the Obon period, the souls of your ancestors come to visit. The fires are lit in the mountains on the final day of the Obon period to guide the souls of your ancestors back to heaven. We watched until the fires burned out and just like the souls, went to bed.
 <br></br> 
 <br></br>
-Bob left a few days later and I had two weeks left to myself to travel Hokkaido, Japan’s northern-most island. I spent most of my time walking around, eating all the seafood (squid, sea urchin, crab, eel, etc.), and doing day trips to small towns. One of my favorite northern Japanese dishes was called Jingisukan (pronounced like Genghis Khan) and is a Mongolian influenced barbecue of lamb and other vegetables. 
-<br></br> 
-<br></br>
-One evening in Sapporo I decided to hike up mount Moiwa, which is supposed to have one of the top night views from the top. It was only about an hour-long hike, but when I got to the top, there was fog completely blocking the view. Disappointed, I decided to take the cable car down since it was dark out however when I got to it, an attendant told me it was closed for repairs. She also told me that I wasn’t allowed to hike down in the dark because it was dangerous and that no public transportation comes up the mountain. With that, I was left with one option, which was to call a cab and pay $60 to get down. With my daily budget evaporated and my spirits in ruins, I settled for some 7/11 dinner and a drink at an anime-themed bar. The bar had about eight seats in it and the three employees inside were dressed up as some tv characters, I assumed.
-<br></br> 
-<br></br>
-My Japan experience ended with a few days out in rural Hokkaido. For two nights I stayed in a national park outside of the small town called Biei, which is famous for its nature. On one of the days, I rented a bike and rode through tons of farmland and flower fields. I’ll attach some photos so you can see. While the landscape was stunning, it was a lot of biking as all the landmarks I wanted to visit were 10 miles away from each other. I probably don’t need to do leg day at the gym for a few years now. The last destination on my bike day was at the famous Biei blue pond, which you might recognize because it was used as a default Mac desktop background for a while. I sat around the pond writing some poetry and marveled at the blue water as well as the floods of tourists coming and going. I’ll include some of the poems I wrote during my trip in this post. I think I ended up writing about 50 poems so if you want to read more of them, just send me a letter requesting them by carrier pigeon and I’ll e-mail them to you.
-<br></br> 
-<br></br>
+Bob left a few days later and I had two weeks left to myself to travel Hokkaido, Japan’s northern-most island. I spent most of my time walking around, eating all the seafood (squid, sea urchin, crab, eel, etc.), and doing day trips to small towns. One of my favorite northern Japanese dishes was called Jingisukan (pronounced like Genghis Khan) and is a Mongolian influenced barbecue of lamb and other vegetables. </p>
+
+    <figure className="blogFigure">
+            <img src="../../blogimages/seafoodbowl.jpeg" alt="Fish" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 8: Nothing like 7am raw seafood.
+            </figcaption>
+    </figure>
+<p>
+One evening in Sapporo I decided to hike up mount Moiwa, which is supposed to have one of the best night views from the top. It was only about an hour-long hike, but since it had rained during the day the trail was super muddy. Not to mention riddled with mosquitos. When I got to the top, there was fog completely blocking the view. Disappointed, I decided to take the cable car down since it was dark out however when I got to it, an attendant told me it was closed for repairs. She also told me that I wasn’t allowed to hike down in the dark because it was dangerous and that no public transportation comes up the mountain. With that, I was left with one option, which was to call a cab and pay $60 to get down. With my daily budget evaporated and my spirits in ruins, I settled for some 7/11 dinner and a drink at an anime-themed bar. The bar had about eight seats in it and the three employees inside were dressed up as some tv characters, I assumed.</p>
+    <figure className="blogFigure">
+            <img src="../../blogimages/sapporonightview.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <figcaption className="blogCaption">
+                Image 7: One of the best views in Japan.
+            </figcaption>
+    </figure>
+<p>
+My Japan experience ended with a few days out in rural Hokkaido. For two nights I stayed in a national park outside of the small town called Biei, which is famous for its nature. On one of the days, I rented a bike and rode through tons of farmland and flower fields. I’ll attach some photos so you can see. While the landscape was stunning, it was a lot of biking as all the landmarks I wanted to visit were 10 miles away from each other. I probably don’t need to do leg day at the gym for a few years now. The last destination on my bike day was at the famous Biei blue pond, which you might recognize because it was used as a default Mac desktop background for a while. I sat around the pond writing some poetry and marveled at the blue water as well as the floods of tourists coming and going. I think I ended up writing about 50 poems during my entire Japan trip so if you want to read them, you can check them out <a href = '/poems' className="blogLink">here</a>. </p>
+<figure className="blogFigure">
+    <img src="../../blogimages/flowers.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <figcaption className="blogCaption">
+        Image 9: Some flower.
+    </figcaption>
+</figure>
+<figure className="blogFigure">
+    <img src="../../blogimages/flowerfield.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <figcaption className="blogCaption">
+        Image 10: Some other flowers, 10 miles away.
+    </figcaption>
+</figure>
+<figure className="blogFigure">
+    <img src="../../blogimages/bluepond.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <figcaption className="blogCaption">
+        Image 11: Blue Pond.
+    </figcaption>
+</figure>
+<p>
 In my last day in rural Japan, I toured Tomita farm in a town called Furano. They’re famous for lavender fields, which I had missed by a few weeks, as well as their melons. I walked around the flower fields, ate some melon, and had delicious lavender ice cream, which was worth the lactose-induced stomach cramping.
 <br></br> 
 <br></br>

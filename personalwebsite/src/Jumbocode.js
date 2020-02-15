@@ -1,31 +1,10 @@
 import React from "react"
 import BlankSpace from "./components/BlankSpace"
+import Footer from "./components/Footer"
 
 function Jumbocode(){
     return (
         <div className="homeContainer">
-            {/* <div className="curtisImageContainer">
-                <figure>
-                    <img 
-                        src={"./images/albumcover.jpg"} 
-                        alt="album cover"
-                        className="curtisImage"
-                    />
-                    <figcaption className="imageCaption">
-                        This is our album cover.
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img 
-                        src={"./images/producers.jpeg"}
-                        alt="producers"
-                        className="curtisImage"
-                    /> 
-                    <figcaption className="imageCaption">
-                        My friend Will and me, the producers.
-                    </figcaption>
-                </figure>
-            </div> */}
             
             <BlankSpace/>
 
@@ -75,6 +54,7 @@ function Jumbocode(){
             </a>
             
             <BlankSpace/>
+            <Footer/>
 
         </div>
     )

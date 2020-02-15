@@ -1,5 +1,6 @@
 import React from "react"
 import BlankSpace from "./components/BlankSpace"
+import Footer from "./components/Footer"
 
 function Curtis(){
     return (
@@ -52,6 +53,7 @@ function Curtis(){
             </a>
             
             <BlankSpace/>
+            <Footer/>
 
         </div>
     )

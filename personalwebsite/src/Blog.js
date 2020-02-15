@@ -1,6 +1,7 @@
 import React from "react"
 import BlankSpace from "./components/BlankSpace"
 import Project from "./components/Project"
+import Footer from "./components/Footer"
 
 function Blog(){
     return (
@@ -15,7 +16,7 @@ function Blog(){
                 <Project title="Poems" page="/poems"/>
             </div>
             <BlankSpace />
-
+            <Footer/>
         </div>
     )
 }
