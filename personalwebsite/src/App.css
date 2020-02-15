@@ -3,6 +3,7 @@
   --color2: #e98074;
   --color3: #E85A4F;
   --color4: black;
+  --font: 'Noto Sans SC', sans-serif;
 }
 
 body {
@@ -22,10 +23,12 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: var(--font);
 }
 
 .title {
   color: var(--color1);
+  font-family: var(--font);
 }
 
 .headerelems {
@@ -38,11 +41,13 @@ html {
 
 .link {
   color: var(--color1);
+  font-family: var(--font);
 }
 
 /* unvisited link */
 .link:link {
   text-decoration: none;
+  font-family: var(--font);
 }
 
 
@@ -62,6 +67,7 @@ html {
   justify-content: space-between;
   width: 400px;
   padding-right: 10px;
+  font-family: var(--font);
   
 }
 
@@ -71,6 +77,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  font-family: var(--font);
 }
 .mainText {
   display: flex;
@@ -78,6 +85,7 @@ html {
   font-size: 60px;
   width: 70%;
   color: var(--color3);
+  font-family: var(--font);
 }
 
 .altText {
@@ -87,6 +95,7 @@ html {
   width: 80%;
   font-style: italic; 
   color: var(--color3);
+  font-family: var(--font);
 }
 
 .weather {
@@ -117,6 +126,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  font-family: var(--font);
   
 }
 
@@ -125,6 +135,7 @@ html {
   vertical-align:middle;
   color: var(--color2);
   text-decoration: none;
+  font-family: var(--font);
 
 }
 
@@ -295,6 +306,7 @@ html {
   height: 70px;
   justify-content: center;
   align-items: center;
+  font-family: var(--font);
 }
 .footer.div {
   display: flex;
@@ -305,6 +317,7 @@ html {
 .aboutContainer {
   display: flex;
   justify-content: space-around;
+  font-family: var(--font);
   
 }
 
@@ -324,6 +337,7 @@ html {
 .abouttext {
   width: 35%;
   font-size: 20px;
+  font-family: var(--font);
 }
 
 .jokebutton {
@@ -338,6 +352,7 @@ html {
   border: 2px solid black;
   transition-duration: 0.4s;
   margin-bottom: 10px;
+  font-family: var(--font);
 }
 .jokebutton:hover {
   background-color: var(--color1); 
@@ -354,6 +369,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+  font-family: var(--font);
 }
 
 .pageLink {
@@ -375,6 +391,7 @@ html {
   justify-content: space-around;
   background-image: url(images/cherryblossom.jpeg);
   background-size: 100%;
+  font-family: var(--font);
 }
 
 .poemHeader{
@@ -382,7 +399,7 @@ html {
   background-color: var(--color1);
   display: flex;
   justify-content: center;
-  
+  font-family: var(--font);
 }
 
 .topPoemText {
@@ -391,7 +408,7 @@ html {
   font-size: 60px;
   width: 70%;
   color: var(--color3);
-  
+  font-family: var(--font);
 }
 
 /*individual poem*/
@@ -422,6 +439,7 @@ html {
   font-size: 16px;
   border: 2px solid gray;
   transition-duration: 0.4s;
+  font-family: var(--font);
   
 }
 .spotifyButton:hover {
@@ -449,10 +467,12 @@ html {
   font-size: 25px;
   color: var(--color3);
   width: 80%;
+  font-family: var(--font);
 }
 
 .imageCaption {
   color: var(--color3);
+  font-family: var(--font);
 }
 
 /* jumbocode */
@@ -462,6 +482,7 @@ html {
   font-size: 40px;
   color: var(--color3);
   width: 80%;
+  font-family: var(--font);
 }
 
 .jcContainer {
@@ -491,6 +512,7 @@ html {
   align-items: center;
   align-content: space-between;
   height: 1000px;
+  font-family: var(--font);
 }
 
 .entryContainer {
@@ -501,6 +523,7 @@ html {
   text-decoration: none;
   color: var(--color1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: var(--font);
 }
 
 .entry {
@@ -510,6 +533,7 @@ html {
   padding-left: 10px;
   padding-right: 10px;
   height: 100%;
+  font-family: var(--font);
 }
 
 .journalContainer {
@@ -518,6 +542,7 @@ html {
   flex-direction: column;
   align-items: center;
   color: var(--color1);
+  font-family: var(--font);
 }
 
 .journalText {
@@ -532,7 +557,7 @@ html {
   padding-left: 70px;
   padding-right: 70px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  font-family: var(--font);
 }
 
 .journalTitle {
@@ -540,11 +565,13 @@ html {
   font-size: 60px;
   color: var(--color1);
   text-align: center; 
+  font-family: var(--font);
 }
 
 .journalContent {
   text-align: left;
   width: 90%;
+  font-family: var(--font);
 }
 
 .lineBreak {
@@ -558,7 +585,7 @@ html {
   justify-content: center;
   align-items: center;
   /* background-color: black; */
-
+  font-family: var(--font);
 }
 
 .blogFigure {
@@ -578,6 +605,7 @@ html {
 .blogCaption {
   font-size: 20px;
   text-align: left;
+  font-family: var(--font);
 }
 
 .blogLink {
@@ -591,4 +619,13 @@ html {
 
 .leftText {
   text-align: left;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
 }

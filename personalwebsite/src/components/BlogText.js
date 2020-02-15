@@ -316,7 +316,7 @@ Here is the first update email about my life in China. This update is being sent
 			This type of scene happened in each one of my classes on the first day. I went home, completely overwhelmed and defeated. I doubted my choice in becoming a teacher. Maybe I had reached too far out of my comfort zone. I didn’t know what to do with myself, so I wrote a 'pros and cons list’, something I hadn’t done since deciding on whether I wanted to move to China or not. The highlights of which were as follows:
             </p>
             
-			<ul style={{backgroundColor: "black"}}> Pros:
+			<ul> Pros:
             <br></br>
             <br></br>
 			    <li>I had a pretty easy commute</li>
@@ -324,7 +324,7 @@ Here is the first update email about my life in China. This update is being sent
 			    <li>I had some support from other foreign teachers at my company (though I didn’t want to rely on them too much)</li>
 			</ul>
 
-			<ul style={{backgroundColor: "black"}}> Cons:
+			<ul> Cons:
             <br></br>
             <br></br>
 			    <li>I have no teaching experience</li>
@@ -500,7 +500,7 @@ Here is the first update email about my life in China. This update is being sent
         Throughout the dinner I said very few words, but had a great time tasting all the different dishes that were brought out. It definitely made me want to improve my Chinese though. The parents would be having a conversation with Will about something like the discrepancies between STEM education in the US and China, and then after 15 minutes or so they would feel the urge to include me. They would turn to me and ask a question like “How old are you?” or, “do you like China?”. And I would look to Will to help translate the words I didn’t know, and then respond with something like “I am 23” or “Yes, I like eating in China”. Not my proudest moments. The family took us out on another occasion just a week later, this time their daughter, who I connected with most on our last dinner since neither of us participated in the grown ups conversation, didn’t come. Instead they brought one of their daughter's teachers. We went to a great Thai restaurant, but as the night went on it became clear that this family wasn’t just trying to make us feel at home in China, but rather wanted to hire us as teachers in their new STEM education company they were starting. I played a very small role in the conversation again, I let Will handle navigating their questions while I savored the pineapple fried rice and coconut water. </p>
             <div style={{
                                 display: "flex",
-                                justifyContent: "space-between"
+                                justifyContent: "space-evenly"
                             
                             }}>
                 <figure className="blogFigure">
@@ -618,7 +618,7 @@ We ended our time together by taking the high speed rail up to a city called Gui
 Our taxi dropped us off at West Street, a famous tourist street in Yangshuo that can get pretty crowded at night. It’s filled with restaurants and stores selling all sorts of things such as jewelry, beef jerky, and clothing. The best moment of the night happened just after dinner. We had left the restaurant and walked for perhaps five minutes when my mom realized that we had forgotten a bag back inside. I decided I’d run back to get it and meet them at the top of the street. After picking up the bag though, I was stopped by a 6 or 7-year old girl in the street. She said “hello” to me and asked if I had a minute to spare. I told her of course I did, as teaching has now made me way more affectionate/welcoming towards children. She then handed me an envelope and said “Merry Christmas and Happy New Year!”. Her dad came over then and asked if he could take a photo of us, and I obliged. They then said thank you and wished me a happy new year again and went on their way. I was so taken aback that someone at that age would approach a stranger, who doesn’t speak their language, just to wish them well AND give them a homemade holiday card. The card read, My dear friend, we wish you Merry Christmas and Happy New Year! -Kiki”. Best gift ever. My only regret is not asking them to send me the photo. </p>
 
 <figure className="blogFigure">
-    <img src="../../blogimages/holidaycard.jpeg" alt="Holiday Card" height="400em" width="400em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/holidaycard.jpeg" alt="Holiday Card" height="400em" width="400em" className="blogImage rotateimg90"/> 
     <figcaption className="blogCaption">Image 5: Happy Holidays Kiki!
     </figcaption>
 
@@ -678,7 +678,7 @@ TLDR; Went to Guangzhou and tried to see as much of it as I could in one day. Me
 			The next morning was the morning of our big trip. We drove our bikes 80 miles North, driving the infamous 762 winding curves through beautiful mountain views and quaint villages until we arrived at a hippy village called Pai. Along the way we took multiple stops to sample the local dishes of the towns and check out any and every sign that claimed to lead to a waterfall. The drive took about four hours due to our numerous stops, and once we arrived filled me with relief as no major accidents happened. None of us were experienced motorbike drivers and to take them for a multi-hour drive across a country on a dangerous road didn’t seem like the safest idea at the time. I don’t like spoiling stories but in case you were wondering, we made it back without any injuries as well. </p>
 
 			<figure className="blogFigure">
-				<img src="../../blogimages/thaibike.jpeg" alt="Thai Bike" height="400em" width="400em" class = "rotateimg90" className="blogImage"/> 
+				<img src="../../blogimages/thaibike.jpeg" alt="Thai Bike" height="400em" width="400em"className="blogImage rotateimg90"/> 
 				<figcaption className="blogCaption">Image 2: Ol' Bessy.
 				</figcaption>
 			</figure>
@@ -809,7 +809,7 @@ Back in early March Will and I had the pleasure of taking our friend from colleg
 The following week flew by with the anticipation of taking a bullet train five hours North to see Colin, Brett, and his family and soon enough there I was in Wuhan. Wuhan is one of the biggest cities you probably have never heard of. It’s in central China and boasts a population of 12 million people. I only had from Friday night to Sunday afternoon to explore the city so I definitely didn’t get to see it all, but I had a great time just being with friends. We walked around a plum/cherry blossom park right as they were starting to bloom, sampled the Wuhan famous hot dry noodles, and explored a massive wholesale market where you could find anything, and thousands of them. I personally bought a couple pairs of boxers as I was running low and couldn’t resist the incredible deal. </p> 
 	
 			<figure className="blogFigure">
-				<img src="../../blogimages/wuhannoodles.jpeg" alt="Noodles" height="275em" width="280em" class = "rotateimg90" className="blogImage"/> 
+				<img src="../../blogimages/wuhannoodles.jpeg" alt="Noodles" height="275em" width="280em" className="blogImage rotateimg90"/> 
 				<figcaption className="blogCaption">Image 1: Hot dry noodles.
 				</figcaption>
 			</figure>
@@ -975,7 +975,7 @@ We woke up early the next morning, mostly because of the poor sleeping condition
 We rested for a couple hours there and started talking with a Chinese tour group from Shenzhen who were all petroleum engineers. There was a 4-year old boy (not a petroleum engineer yet but rather one of their sons) who kept shooting Will and me with a plastic bottle masquerading as a rifle. I faked my death maybe 100 times that evening just to appease him. More and more people came to the beach so Will and I decided to hike a bit further on to an even more remote beach and setup camp there. When we reached the beach, we were warmly welcomed by a herd of cows basking in the Spring sun. I guess it really was remote. We ate dinner at the campsite, walked around the beach at night, and sustained no fewer than 50 mosquito bites before heading to bed. </p>
 
 			<figure className="blogFigure">
-				<img src="../../blogimages/cows.jpeg" alt="cows" height="305em" width="280em" class = "rotateimg90" className="blogImage"/> 
+				<img src="../../blogimages/cows.jpeg" alt="cows" height="305em" width="280em" className="blogImage rotateimg90"/> 
 				<figcaption className="blogCaption">Image 5: Cows.
 				</figcaption>
 			</figure>
@@ -1044,7 +1044,7 @@ Stella picked me up at the airport late at night, as I arrived earlier than Max,
 <br></br>
 The next morning we got a big Sichuan lunch and walked around the downtown area before I started feeling off. Luckily I was able to eat at least one meal. For the remainder of the trip, I was stuck in bed, taking pain killers and drinking gallons of water. I vaguely remember seeing Stella’s apartment, meeting her mom (and her cat) and being fed spicy tofu and greens that were deemed not spicy by the locals. I left Chengdu having not really experienced it, and Will met me in Hong Kong to help me visit a doctor, as I was super sick at the time. As always, Will comes to my rescue. I was sick in bed for 5 more days in Shenzhen, missing school but not being too upset about it. </p>
 <figure className="blogFigure">
-    <img src="../../blogimages/sickinchengdu.jpeg" alt="Sick" height="475em" width="280em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/sickinchengdu.jpeg" alt="Sick" height="475em" width="280em"  className="blogImage"/> 
     <figcaption className="blogCaption">Image 1: Sick Selfie!
     </figcaption>
 </figure>
@@ -1054,7 +1054,7 @@ The past couple of months I’ve been in Shenzhen, I’ve tried to do some nuanc
 <br></br>
 She asked me for my passport, which made me wonder why she needed it, but luckily I had it on me. It turns out you needed to use your passport number as a password to access the computers, but I also imagine that they were monitoring everything I was doing and if I searched for something deemed sensitive to the Chinese government, they would know my identity. After successfully getting on the computer, I realized I had no idea what I actually wanted to do. I think I just wanted to experience the vibe. Everything was in Chinese as to be expected and while I eventually figured out how to navigate to the games selection through trial and error, I needed a Chinese ID to create accounts for every game. I was out of luck. I ended up just sitting and watching all the guys around me play their games while inhaling all their second-hand smoke. It was dope. </p>
 <figure className="blogFigure">
-    <img src="../../blogimages/gamingcafe.jpeg" alt="Gaming Cafe" height="475em" width="280em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/gamingcafe.jpeg" alt="Gaming Cafe" height="475em" width="280em"  className="blogImage"/> 
     <figcaption className="blogCaption">Image 2: Not pictured: second hand smoke
     </figcaption>
 </figure>
@@ -1070,7 +1070,7 @@ As we only have one month left living in Shenzhen, Will and I decided to spend o
 <br></br>
 We started off the weekend with a morning hike of Suicide Cliff, a new hike for us. While the name is meant to spark fear in the hearts of potential climbers, it wasn’t as dangerous as we had anticipated. Having said that, it was an arduous hike that involved us having to swim through overgrown bushes while stepping in mud and attracting bugs seemingly from the entire country. On one occasion a stick bug fell from a tree onto my shoulder and refused to let go of me. I appreciated the sentiment, but I really wasn’t looking for anything serious at the time and eventually convinced him to go back into the wilderness.</p>
 <figure className="blogFigure">
-    <img src="../../blogimages/suicidecliff.jpeg" alt="Suicide Cliff" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/suicidecliff.jpeg" alt="Suicide Cliff" height="375em" width="280em"  className="blogImage"/> 
     <figcaption className="blogCaption">Image 3: Top of the cliff, covered in mud and insect bites.
     </figcaption>
 </figure>
@@ -1086,12 +1086,12 @@ That night we went up to Victoria Peak to see the iconic skyline one last time. 
         
     }}>
     <figure className="blogFigure">
-        <img src="../../blogimages/lastvictoriapeak.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+        <img src="../../blogimages/lastvictoriapeak.jpeg" alt="Victoria Peak" height="375em" width="280em"  className="blogImage"/> 
         <figcaption className="blogCaption">Image 4: Victoria Peak. Truly Nostalgic.
         </figcaption>
     </figure>
     <figure className="blogFigure">
-        <img src="../../blogimages/fukientea.jpeg" alt="Victoria Peak" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+        <img src="../../blogimages/fukientea.jpeg" alt="Victoria Peak" height="375em" width="280em"  className="blogImage"/> 
         <figcaption className="blogCaption">Image 5: Fukien Tea.
         </figcaption>
     </figure>
@@ -1108,7 +1108,7 @@ At the time of writing this update, I only have 3 more weeks of teaching left. S
 <br></br>
 Having said all of this, the one aspect that makes this departure a bitter-sweet one is the bond I have created with many of my students. I teach 1000 students, so I can’t say that I know all of my students or even know the names of most of them, but there is a handful that I feel I have connected with. These students run to my room before class, grab my hand and walk me to their classrooms. They always participate and try to speak English as best as they can. They give me snacks whenever they have them, draw me pictures, write me letters, create origami swans for me, and tell me I am their favorite teacher. This past week I taught a lesson on inventions and had students create their own inventions. In my classes there were multiple students whose inventions were ‘robot Daniels’, robots that were exactly like me but could stay and teach them in my place when I leave to go back home. I don’t think I’ll ever be met with such excitement and happiness when I walk into work in the morning as I do teaching here. Maybe I’ll ask my future coworkers to scream and give me high-fives and snacks every morning but that seems like a tall order. </p>
 <figure className="blogFigure">
-    <img src="../../blogimages/finalstudents.jpeg" alt="Victoria Peak" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/finalstudents.jpeg" alt="Victoria Peak" height="375em" width="380em"  className="blogImage"/> 
     <figcaption className="blogCaption">Image 6: Goodbye Screamers.
     </figcaption>
 </figure>
@@ -1151,7 +1151,7 @@ In my last few days before flying out to Northern China, I took up a part-time j
 One of my goals in China was to play a game of Mahjong, and I finally got to do it on one of my final nights. One of my friends invited both Will and me and a bunch of her Chinese friends to her apartment for a final hotpot dinner and Mahjong night. We learned all the basic rules and then played a few rounds. Mahjong is a game for four players who take turns drawing tiles and trying to make 3-of-a-kind, or 3-in-a-row, or basic pairs with them. You might recognize it if you’ve seen the recent Hollywood blockbuster ‘Crazy Rich Asians’. Much to my liking and much to my host and her friends disliking, I somehow was able to win 2 of the 3 rounds that we played. Big shoutout to Sena for allowing me to realize one of my Chinese dreams!
 </p>
 <figure className="blogFigure">
-        <img src="../../blogimages/mahjongchampion.jpeg" alt="Mahjong" height="375em" width="480em" class = "rotateimg90" className="blogImage"/> 
+        <img src="../../blogimages/mahjongchampion.jpeg" alt="Mahjong" height="375em" width="480em"  className="blogImage"/> 
         <figcaption className="blogCaption">Image 1: American champion, Chinese haircut.
         </figcaption>
 </figure>
@@ -1163,13 +1163,13 @@ The past three weeks I’ve been traveling throughout China non-stop, seeing mos
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/longjingteafields.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/longjingteafields.jpeg" alt="Tea" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 2: The Tea fields.
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/longjingteafieldsme.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/longjingteafieldsme.jpeg" alt="Tea and me" height="375em" width="380em" className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 3: How majestic. 
             </figcaption>
@@ -1179,7 +1179,7 @@ The past three weeks I’ve been traveling throughout China non-stop, seeing mos
 Next up was Shanghai, a city so international that I forgot I was even in China. I enjoyed all the tourist destinations (The bund, French concession, yu garden, Jing’an temple, etc.), ate soup dumplings galore, and got drinks of rooftops on multiple occasions. I happened to be in Shanghai during July 4th, and since Shanghai has a huge foreigner population, there were celebrations all over. My friend Max joined me in Hangzhou and Shanghai and he had a couple of friends living there that we met up with for barbecue and drinks. It was a welcomed experience to speak English and celebrate an American holiday, especially in a city that felt so Western.
 </p>
 <figure className="blogFigure">
-    <img src="../../blogimages/shanghaibund.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/shanghaibund.jpeg" alt="Tea and me" height="375em" width="380em"  className="blogImage"/> 
     <figcaption className="blogCaption">
         Image 4: Proof I went to Shanghai. 
     </figcaption>
@@ -1190,7 +1190,7 @@ My time in Beijing was truly special. Max left to go back to Shenzhen, and I met
 <br></br>
 I visited a lot of the main tourist attractions alone since Ping was getting ready for a trip back to the US. Tiananmen Square, The Forbidden City, The Summer Palace, etc. were all interesting and would have felt traditional and authentic had there not been swarms of tourists everywhere. I now really understand what people say when they say that there are lots of people in China. She did, however, hike the Great Wall with me, which was a spectacular sight. People definitely hype it up a lot but I think it deserves all the praise it gets. When you’re up there you get a real sense for how vast and impressive a structure it really is. Before we hiked the Great Wall, Ping took me around the musical instrument factory that she works at. It was really cool to see both how string instruments get made from scratch, and how a Chinese factory operates.</p>
 <figure className="blogFigure">
-            <img src="../../blogimages/greatwall.jpeg" alt="wall" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/greatwall.jpeg" alt="wall" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 5: A wall. 
             </figcaption>
@@ -1203,13 +1203,13 @@ Ping is a big foodie, so for every meal she made sure we ordered all the authent
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/beijingbreakfast.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/beijingbreakfast.jpeg" alt="Tea" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 6: A Beijing breakfast!
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/pingandduck.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/pingandduck.jpeg" alt="Tea and me" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 7: Ping! And Duck! 
             </figcaption>
@@ -1226,13 +1226,13 @@ I can say we officially found the “real” China. It began with the 7-hour loc
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/chongqing.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/chongqing.jpeg" alt="Tea" height="375em" width="380em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 8: The boys in Chongqing!
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/localtrain.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/localtrain.jpeg" alt="Tea and me" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 9: Look how much space that baby has. Rude. 
             </figcaption>
@@ -1248,15 +1248,15 @@ When we arrived in Xichang, a town whose claim to fame is a lake, our hotel that
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/communisthotpot.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/communisthotpot.jpeg" alt="Tea" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
-                Image 10: The Tea fields.
+                Image 10: Communism at the dinner table.
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/qionghailake.jpeg" alt="Tea and me" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/qionghailake.jpeg" alt="Tea and me" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
-                Image 11: How majestic. 
+                Image 11: Qionghai lake views. 
             </figcaption>
     </figure>
 </div>
@@ -1307,13 +1307,13 @@ That night I met the hostel owner’s friend Yuko who was learning English and w
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/shochu.jpeg" alt="Shochu" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/shochu.jpeg" alt="Shochu" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 1: Shochu.
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/horsecarpaccio.jpeg" alt="Horse" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/horsecarpaccio.jpeg" alt="Horse" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 2: Neigh. 
             </figcaption>
@@ -1326,7 +1326,7 @@ After Kumamoto, I traveled to Hiroshima, a city infamous for the atomic bombing 
 That night was part two of the ceremony, a lantern lighting event where people create their lanterns and send them down the river together. It was a moment I had been dreaming about unknowingly for years, as I have always loved lanterns, especially when they float on rivers. I sat on the river bank for a couple of hours watching the sunset as thousands of people crowded around in anticipation. When it got dark and people started to release lanterns into the river, I decided to join in. On each side of the paper I wrote the word “peace” in the four languages that I “know" (English, Spanish, Chinese, and Japanese), and once I lit the candle inside I sent it down the river. Watching it float next to hundreds of other colorful lanterns was a pretty special moment. I stayed and watched for a bit, tried to get the perfect Instagram photo like everyone else was, and eventually called it a night. </p>
 
     <figure className="blogFigure">
-            <img src="../../blogimages/hiroshimapeacememorial.jpeg" alt="Peace" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/hiroshimapeacememorial.jpeg" alt="Peace" height="375em" width="380em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 3: Lanterns.
             </figcaption>
@@ -1339,7 +1339,7 @@ A few days later into my trip my friend Bob from high school joined me for 10 da
 Pachinko parlors can be found all over Japan, and contain hundreds of mechanical devices that people sit at and gamble away their money in exchange for the opportunity to win non-cash prizes. Logically it didn’t make sense to me, but Bob and I wanted to try it anyway to see what all the hype was about. The first thing we noticed when walking in one of the parlors was how loud it was. There were hundreds of machines all lined up, each blasting music and sound effects. Lots of the people playing inside were wearing earplugs; I wish we had got the memo. We had no idea how to play the machines so we told one of the attendants that we wanted to play, and he gave us an instruction manual. Even though it had English instructions, we still couldn’t figure out how to play or what the strategy was. It was sort of like pinball, in that you shoot small metallic balls into the main arena, but then you just watch them fall and if they fall in the right place, you get more balls to shoot. I guess if you’re really good you amass metallic balls over time that eventually you can trade in for sweet prizes like stuffed animals or a box of tissues. After 10 or so minutes of “playing” and once the machine started to beep angrily at us, we decided to leave. Needless to say, we did not win any prizes.</p>
 
     <figure className="blogFigure">
-            <img src="../../blogimages/pachinkoparlor.jpeg" alt="Pachinko" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/pachinkoparlor.jpeg" alt="Pachinko" height="375em" width="380em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 4: Pachinko.
             </figcaption>
@@ -1356,13 +1356,13 @@ The trails themselves were beautiful, with shrines popping up every so often. We
         
     }}>
     <figure className="blogFigure">
-            <img src="../../blogimages/kumanokodohike2.jpeg" alt="Tea" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/kumanokodohike2.jpeg" alt="Tea" height="375em" width="280em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 5: A boy and some trees.
             </figcaption>
     </figure>
     <figure className="blogFigure">
-            <img src="../../blogimages/kumanokodohikekm1.jpeg" alt="Tea and me" height="375em" width="280em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/kumanokodohikekm1.jpeg" alt="Tea and me" height="375em" width="280em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 6: Sitting in a pool of sweat after 1 km. 
             </figcaption>
@@ -1372,7 +1372,7 @@ The trails themselves were beautiful, with shrines popping up every so often. We
 After a 4-hour windy bus-ride through the mountains, we reached our next destination, Nara. Nara is famous for its wild deer park, where you can see and feed hundreds of deer. We bought some crackers and walked around feeding them. In true Japanese fashion before eating the crackers, the deer would bow their heads at you as if to say “thank you for the meal”. That night also happened to be the last night of the Nara Tokae Lantern Festival. Throughout the entire deer park, there were thousands of small lanterns lit up on the ground.
 </p>
     <figure className="blogFigure">
-            <img src="../../blogimages/naradeer.jpeg" alt="Deer" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/naradeer.jpeg" alt="Deer" height="375em" width="380em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 7: Best friends.
             </figcaption>
@@ -1385,7 +1385,7 @@ Bob and I ended our trip in Kyoto, a city I had traveled to before but since the
 Bob left a few days later and I had two weeks left to myself to travel Hokkaido, Japan’s northern-most island. I spent most of my time walking around, eating all the seafood (squid, sea urchin, crab, eel, etc.), and doing day trips to small towns. One of my favorite northern Japanese dishes was called Jingisukan (pronounced like Genghis Khan) and is a Mongolian influenced barbecue of lamb and other vegetables. </p>
 
     <figure className="blogFigure">
-            <img src="../../blogimages/seafoodbowl.jpeg" alt="Fish" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/seafoodbowl.jpeg" alt="Fish" height="375em" width="380em" className="blogImage rotateimg90"/> 
             <figcaption className="blogCaption">
                 Image 8: Nothing like 7am raw seafood.
             </figcaption>
@@ -1393,27 +1393,28 @@ Bob left a few days later and I had two weeks left to myself to travel Hokkaido,
 <p>
 One evening in Sapporo I decided to hike up mount Moiwa, which is supposed to have one of the best night views from the top. It was only about an hour-long hike, but since it had rained during the day the trail was super muddy. Not to mention riddled with mosquitos. When I got to the top, there was fog completely blocking the view. Disappointed, I decided to take the cable car down since it was dark out however when I got to it, an attendant told me it was closed for repairs. She also told me that I wasn’t allowed to hike down in the dark because it was dangerous and that no public transportation comes up the mountain. With that, I was left with one option, which was to call a cab and pay $60 to get down. With my daily budget evaporated and my spirits in ruins, I settled for some 7/11 dinner and a drink at an anime-themed bar. The bar had about eight seats in it and the three employees inside were dressed up as some tv characters, I assumed.</p>
     <figure className="blogFigure">
-            <img src="../../blogimages/sapporonightview.jpeg" alt="Tea" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+            <img src="../../blogimages/sapporonightview.jpeg" alt="Tea" height="375em" width="380em"  className="blogImage"/> 
             <figcaption className="blogCaption">
                 Image 7: One of the best views in Japan.
             </figcaption>
     </figure>
 <p>
 My Japan experience ended with a few days out in rural Hokkaido. For two nights I stayed in a national park outside of the small town called Biei, which is famous for its nature. On one of the days, I rented a bike and rode through tons of farmland and flower fields. I’ll attach some photos so you can see. While the landscape was stunning, it was a lot of biking as all the landmarks I wanted to visit were 10 miles away from each other. I probably don’t need to do leg day at the gym for a few years now. The last destination on my bike day was at the famous Biei blue pond, which you might recognize because it was used as a default Mac desktop background for a while. I sat around the pond writing some poetry and marveled at the blue water as well as the floods of tourists coming and going. I think I ended up writing about 50 poems during my entire Japan trip so if you want to read them, you can check them out <a href = '/poems' className="blogLink">here</a>. </p>
+
 <figure className="blogFigure">
-    <img src="../../blogimages/flowers.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/flowers.jpeg" alt="Flowers" height="375em" width="380em" className="blogImage rotateimg90"/> 
     <figcaption className="blogCaption">
         Image 9: Some flower.
     </figcaption>
 </figure>
 <figure className="blogFigure">
-    <img src="../../blogimages/flowerfield.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/flowerfield.jpeg" alt="Flowers" height="375em" width="380em"  className="blogImage"/> 
     <figcaption className="blogCaption">
         Image 10: Some other flowers, 10 miles away.
     </figcaption>
 </figure>
 <figure className="blogFigure">
-    <img src="../../blogimages/bluepond.jpeg" alt="Flowers" height="375em" width="380em" class = "rotateimg90" className="blogImage"/> 
+    <img src="../../blogimages/bluepond.jpeg" alt="Flowers" height="375em" width="380em"  className="blogImage rotateimg90"/> 
     <figcaption className="blogCaption">
         Image 11: Blue Pond.
     </figcaption>
