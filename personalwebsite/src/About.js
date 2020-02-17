@@ -10,7 +10,7 @@ function About() {
       <AboutText />
       
        <figure className="aboutFigure"> 
-          <img className="aboutImage" src="Daniel2.jpg" alt="A pic of me should be here..."/>
+          <img className="aboutImage" src={"./images/daniel2.jpg"} alt="A pic of me should be here..."/>
           <figcaption>
             A few years ago, before my hairline began to recede.
           </figcaption>

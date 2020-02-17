@@ -24,6 +24,7 @@ html {
   justify-content: space-between;
   align-items: center;
   font-family: var(--font);
+  width: 100%;
 }
 
 .title {
@@ -78,6 +79,7 @@ html {
   align-items: center;
   justify-content: space-around;
   font-family: var(--font);
+  width: 100%;
 }
 .mainText {
   display: flex;
