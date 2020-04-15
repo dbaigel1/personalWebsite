@@ -2,11 +2,12 @@ import React from "react"
 
 function HeaderLink(props){
     return (
-        <div>
+        <div onClick = {props.click}>
             <a  href={props.link} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="link"
+                
             > 
                 {props.text} 
             </a>

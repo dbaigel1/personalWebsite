@@ -12,7 +12,7 @@ function Project(props) {
 
     useEffect(()=>{
         props.page ? setExternal(false) : setExternal(true)     
-    },[])
+    },[props.page])
 
     useEffect(() => {
         external ? setTarget("_blank") : setTarget("")
@@ -25,9 +25,9 @@ function Project(props) {
     function mouseLeave() {
         setHovering(false)
     }
+
     return (
-        <Link 
-            to={external ? props.link : props.page}
+        <Link to={external ? props.link : props.page ? props.page : "/"}
             style={{
                 display: "block"
             }} 

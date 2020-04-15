@@ -6,6 +6,7 @@
   --font: 'Noto Sans SC', sans-serif;
 }
 
+
 body {
   background-color: var(--color1);
 }
@@ -20,11 +21,24 @@ html {
 
 .header {
   background-color: var(--color2);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-family: var(--font);
   width: 100%;
+  text-align: center;
+  height: 12vh;
+
+}
+
+.headerTitle {
+  width: 1100px;
+  /* background-color: blue;  */
+  display: inline-block;
+  
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
 }
 
 .title {
@@ -71,6 +85,7 @@ html {
   font-family: var(--font);
   
 }
+
 
 /* home page */
 .homeContainer {
@@ -586,7 +601,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: black; */
   font-family: var(--font);
 }
 
@@ -630,4 +644,70 @@ html {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 
+}
+
+#toggle {
+  display: none;
+}
+
+#toggleLabel {
+  display: none;
+}
+
+#smallTitle {
+  display: none
+}
+
+.menu {
+  display: none;
+  width: 100%;
+  text-align: center;
+  background-color: orange;
+}
+.menu a{
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid var(--color2);
+}
+
+@media (max-width: 1100px) {
+  .header {
+    width: 100%;
+  }
+  .headerTitle {
+    display: none;
+  }
+  #smallTitle{
+    display: flex;
+    color: var(--color1);
+    margin-right: 10px;
+
+  }
+
+
+  .smallView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #toggleLabel {
+    display: block;
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 30px;
+    color: var(--color1)
+  }
+
+  /* #toggle:checked + .menu{ */
+  #toggle:checked ~ .menu {  
+    display: block;
+    background-color: var(--color3);
+    font-size: 20px;
+    width: 30%;
+    z-index: 10;
+    position: absolute;
+    margin-top: 150px;
+  } 
 }

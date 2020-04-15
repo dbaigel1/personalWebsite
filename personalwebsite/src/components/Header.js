@@ -18,7 +18,10 @@ import Journal from "./Journal"
 import BlogText from "./BlogText"
 import ScrollToTop from "./ScrollToTop"
 
-
+const uncheck = () => {
+    let toggle = document.getElementById('toggle')
+    toggle.checked = !toggle.checked
+}
 
 function Header() {
 
@@ -26,7 +29,46 @@ function Header() {
         <Router>
             <ScrollToTop />
             <div className="header">
-                <div className="headerelems">
+                <div className="smallView">
+                    <label id ="toggleLabel" htmlFor="toggle">&#9776;</label>
+                    <input id="toggle" type="checkbox"></input>
+                    <div className="menu">
+                    <Link to="/" onClick={uncheck} className="link">home</Link>
+                    
+                    <Link to="/about" onClick={uncheck} className="link">about</Link>
+                    
+                    <Link to="/blog" onClick={uncheck} className="link">blog</Link>
+                    
+                    <Link to="/Resume2020.pdf" target="_blank" rel="noopener noreferrer" onClick={uncheck} className="link">resume</Link>
+                    
+                    <HeaderLink 
+                        link="https://www.linkedin.com/in/daniel-baigel-98723588/"
+                        text="linkedin"
+                        click={uncheck}
+                        
+                    />
+                    <HeaderLink
+                        link="https://github.com/dbaigel1"
+                        text="github"
+                        click={uncheck}
+                        
+                    />
+                    <HeaderLink
+                        link="mailto: dbaigel1@gmail.com"
+                        text="email"
+                        click={uncheck}
+                        
+                    />
+
+                </div>
+                    <h1 id="smallTitle">Daniel</h1>
+                </div>
+                
+                <div className="headerTitle">
+                    
+                    <div className="headerItems">
+                    <div className="group1">
+                    <div className="headerelems">
                 
                     
                     <Link to="/" className="link">home</Link>
@@ -39,29 +81,35 @@ function Header() {
                     
                 
                 </div>
+                </div>
                  
-
+                <div className="group2">
                 <h1 className="title">Daniel</h1>
+                </div>
 
+                <div className="group3">
                 <div className="headerlinks">
                     <HeaderLink 
                         //source="linkedin.png" 
                         link="https://www.linkedin.com/in/daniel-baigel-98723588/"
-                        text="Linkedin"
+                        text="linkedin"
                         
                     />
                     <HeaderLink
                         //source="linkedin.png"
                         link="https://github.com/dbaigel1"
-                        text="Github"
+                        text="github"
                         
                     />
                     <HeaderLink
                         //source="linkedin.png"
                         link="mailto: dbaigel1@gmail.com"
-                        text="Email"
+                        text="email"
                         
                     />
+                </div>
+                </div>
+                </div>
                 </div>
             </div>
             <Switch>

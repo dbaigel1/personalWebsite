@@ -3,6 +3,13 @@ import Scroll from "./components/Scroll"
 import Project from "./components/Project"
 import BlankSpace from "./components/BlankSpace"
 import Footer from "./components/Footer"
+import ReactGA from 'react-ga'
+
+const trackingId = "UA-55899614-2"
+ReactGA.initialize(trackingId)
+ReactGA.pageview('/homepage')
+
+
 
 function Home(){
     
