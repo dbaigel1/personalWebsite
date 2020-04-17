@@ -1443,7 +1443,7 @@ Baigs
         </div>
     }
     else {
-        html = "cannot find blog entry"
+        html = <div>"cannot find blog entry"</div>
     }
     return (
         <div>

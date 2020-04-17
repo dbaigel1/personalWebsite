@@ -7,13 +7,13 @@ function Journal(props) {
     return (
         <div>
             <BackButton/>
+            <p className="imageNotice">If you are viewing on mobile or tablet images from my trip won't appear. Please use a desktop device for the full experience.</p>
         
             <div className="journalContainer">
-                 {/* TODO EDIT THIS FOR SIZING JOURNAL TEXT AND LEFT ALIGN IT*/}
                 <div className="journalText">
                 <h1 className="journalTitle">{props.title}</h1>
                 <hr className="lineBreak"/>
-                <p className="journalContent">{props.content}</p>
+                <div className="journalContent">{props.content}</div>
                 </div>
                 
             </div>
